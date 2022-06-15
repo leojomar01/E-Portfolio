@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+  font-family: Fantasy;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.toggle {
+  width: 50px;
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.toggle input {
+  visibility: hidden;
+}
+
+.toggle .switch {
+  position: absolute;
+  width: 30px;
+  height: 15px;
+}
+
+.toggle .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.toggle .slider:before {
+  position: absolute;
+  content: "";
+  height: 13px;
+  width: 13px;
+  left: 1px;
+  bottom: 1px;
+  background-color: #fff700;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.toggle input:checked + .slider {
+  background-color: #000000;
+}
+
+.toggle input:checked + .slider:before {
+  -webkit-transform: translateX(13px);
+          transform: translateX(13px);
+  background-color: white;
+}
+
+.toggle .slider.round {
+  border-radius: 34px;
+}
+
+.toggle .slider.round:before {
+  border-radius: 50%;
+}
+
+.lightTheme {
+  background-color: #120E1A;
+}
+
+.lightTheme header {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.lightTheme header nav {
+  z-index: 5;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  background-color: black;
+  -webkit-transition: top 0.3s;
+  transition: top 0.3s;
+  -webkit-box-shadow: #343337 0.1rem 0.1rem;
+          box-shadow: #343337 0.1rem 0.1rem;
+}
+
+.lightTheme header nav a {
+  font-size: 2rem;
+  float: left;
+  margin: .7rem;
+  color: #c4c4c4;
+  text-decoration: none;
+}
+
+.lightTheme header nav a:hover {
+  color: #343337;
+}
+
+.lightTheme main > div {
+  height: 100vh;
+  margin-top: 10vh;
+  padding-top: 20vh;
+}
+
+.lightTheme main .welcome {
+  display: -ms-grid;
+  display: grid;
+  width: 100%;
+}
+
+.lightTheme main .welcome .greet {
+  -ms-grid-column-align: center;
+      justify-self: center;
+  height: 150px;
+  border-radius: 20px;
+  background-color: #343337;
+  padding: 1rem;
+  border: 2px solid black;
+  -webkit-box-shadow: inset 1px 1px 10px;
+          box-shadow: inset 1px 1px 10px;
+  -webkit-box-shadow: #343337 1px 1px 10px;
+          box-shadow: #343337 1px 1px 10px;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+}
+
+.lightTheme main .welcome .greet h1 {
+  color: #cbcbcb;
+}
+
+.lightTheme main .about {
+  border-top: 1px solid #343337;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.lightTheme main .about h1 {
+  color: #c4c4c4;
+}
+
+.lightTheme main .projects {
+  border-top: 2px solid #343337;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: auto;
+}
+
+.lightTheme main .projects .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.lightTheme main .projects .card {
+  width: 300px;
+  height: 400px;
+  background-color: transparent;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  border-top: 3px solid rgba(255, 255, 255, 0.178);
+  border-left: 2px solid rgba(255, 255, 255, 0.178);
+  overflow: hidden;
+  -webkit-box-shadow: inset 2px 2px 10px;
+          box-shadow: inset 2px 2px 10px;
+}
+
+.lightTheme main .projects .card h2 {
+  font-size: 3rem;
+  position: absolute;
+  margin: 20px 0 0 10px;
+}
+
+.lightTheme main .projects .card .content {
+  width: 100%;
+  height: 100%;
+  display: -ms-grid;
+  display: grid;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 20px;
+  padding: 50px;
+  color: #c4c4c4;
+}
+
+.lightTheme main .projects .card .content .image {
+  width: 250px;
+  height: 200px;
+  background-color: red;
+  border-radius: 20px;
+}
+
+.lightTheme main .projects .card .content .link {
+  -ms-grid-column-align: center;
+      justify-self: center;
+  width: 100px;
+  height: 2rem;
+  background-color: #000000;
+  border-radius: 25px;
+}
+
+.lightTheme main .projects .card .content .link a {
+  color: #c4c4c4;
+  text-decoration: none;
+}
+
+.lightTheme main .projects .card .content {
+  -webkit-transform: translateY(110px);
+          transform: translateY(110px);
+  opacity: 0;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.lightTheme main .projects .card:hover .content {
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+  opacity: 1;
+}
+
+.lightTheme main .projects h1 {
+  color: #c4c4c4;
+}
+
+.lightTheme main .contact {
+  border-top: 1px solid #343337;
+  display: -ms-grid;
+  display: grid;
+}
+
+.lightTheme main .contact h1 {
+  -ms-grid-column-align: center;
+      justify-self: center;
+  color: #c4c4c4;
+}
+
+.lightTheme main .contact .link {
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+
+.lightTheme main .contact .link a {
+  margin: 20px;
+  font-size: 3rem;
+  color: #c4c4c4;
+}
+
+.lightTheme main .contact .link a:hover {
+  color: #c4c4c4;
+}
