@@ -65,11 +65,17 @@ html{
                 background-color: #343337;
                 padding: 1rem;
                 border: 2px solid black;
+                border-top: 3px solid rgba(255, 255, 255, 0.178);
+                border-left: 2px solid rgba(255, 255, 255, 0.178);
                 box-shadow: inset 1px 1px 10px;
                 box-shadow: #343337 1px 1px 10px;
-                backdrop-filter: blur(5px);
+                backdrop-filter: blur(25px);
                 display: grid;
+                opacity: .9;
 
+                &:hover{
+                    cursor: default;
+                }
                 h1{
                     color: #cbcbcb;
                     justify-self: center;
@@ -114,8 +120,13 @@ html{
                     position: absolute;
                     margin: 20px 0 0 10px;
                     color: $font;
+                    transition: 2.5s;
+
                 }
-                
+                &:hover h2{
+                    opacity: .5;
+                    color: #343337;
+                }
                 .content{
                     width: 100%;
                     height: 100%;
@@ -141,7 +152,6 @@ html{
                     }
                     .link{
                         margin-top: 1rem;
-
                         justify-self: center;
                         border-radius: 20px;
                         display: grid;
@@ -152,7 +162,15 @@ html{
                             color:$font;
                             text-decoration: none;
                             border: 1px solid;
+                            transition: .5s;
+
+                            &:hover{
+                                background-color: white;
+                                color: #3A3845;
+                            }
                         }
+                        
+                       
                     }
                 }
             }

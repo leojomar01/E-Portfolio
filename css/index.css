@@ -71,14 +71,21 @@ html {
   background-color: #343337;
   padding: 1rem;
   border: 2px solid black;
+  border-top: 3px solid rgba(255, 255, 255, 0.178);
+  border-left: 2px solid rgba(255, 255, 255, 0.178);
   -webkit-box-shadow: inset 1px 1px 10px;
           box-shadow: inset 1px 1px 10px;
   -webkit-box-shadow: #343337 1px 1px 10px;
           box-shadow: #343337 1px 1px 10px;
-  -webkit-backdrop-filter: blur(5px);
-          backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(25px);
+          backdrop-filter: blur(25px);
   display: -ms-grid;
   display: grid;
+  opacity: .9;
+}
+
+.lightTheme main .welcome .greet:hover {
+  cursor: default;
 }
 
 .lightTheme main .welcome .greet h1 {
@@ -139,6 +146,13 @@ html {
   position: absolute;
   margin: 20px 0 0 10px;
   color: #826F66;
+  -webkit-transition: 2.5s;
+  transition: 2.5s;
+}
+
+.lightTheme main .projects .card:hover h2 {
+  opacity: .5;
+  color: #343337;
 }
 
 .lightTheme main .projects .card .content {
@@ -185,6 +199,13 @@ html {
   color: #826F66;
   text-decoration: none;
   border: 1px solid;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.lightTheme main .projects .card .content .link a:hover {
+  background-color: white;
+  color: #3A3845;
 }
 
 .lightTheme main .projects .card .content {
