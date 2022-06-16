@@ -8,13 +8,13 @@
     top:0;
     bottom: 0;
     width: 100%;
-    height: 120vh;
+    height: 100%;
     overflow: hidden;
     
     $x:1;
     @while $x<=15 {
         .shape#{$x}{
-            $size:random(80)+20+px;
+            $size:random(10)+5+vh;
             $posLeft:random(100);
             $delay:random(70)-40+s;
             $duration:random(50)+10+s;
@@ -41,7 +41,7 @@
     $x:1;
     @while $x<=15 {
         .shape0#{$x}{
-            $size:random(80)+20+px;
+            $size:random(10)+5+vh;
             $posLeft:random(100);
             $delay:random(70)-40+s;
             $duration:random(50)+10+s;
@@ -69,16 +69,16 @@
 
 
 .BGanimation2{
+    margin-top:-20vh;
     position: absolute;
     width: 100%;
-    height: 100%;
     overflow: hidden;
     $x:1;
     @while $x<=30 {
         .shape#{$x}{
-            $size:random(80)+20+px;
+            $size:random(10)+5+vh;
             $posLeft:random(100);
-            $delay:random(70)-40+s;
+            $delay:random(70)-50+s;
             $duration:random(50)+10+s;
 
             animation: animate linear infinite;
@@ -91,7 +91,6 @@
             animation-delay: $delay;
             animation-duration: $duration;
             bottom: -150px;
-            border-radius: 50%;
             transition: 5s;
         }
         $x:$x+1;
@@ -108,7 +107,7 @@
     }
 
     100%{
-        transform: translateY(-1000px) rotate(720deg);
+        transform: translateY(-250vh) rotate(720deg);
         opacity: 0;
     }
 

@@ -6,6 +6,8 @@ $bg2:#C69B7B;
 *{
     margin: 0;
     font-family:Fantasy;
+    font-size:2vh;
+    box-sizing: border-box;
 }
 html{
     scroll-behavior: smooth;
@@ -16,44 +18,13 @@ html{
     background-color:$bg;
 
 
-    header{
-        display: grid;
-        justify-content: end;
-        nav{
-            z-index: 5;
-            position: fixed;
-            top: 0;
-            width: 100%;
-            height: 10vh;
-            display: flex;
-            justify-content: end;
-            background-color: $bg2;
-            transition: top 0.3s;
-            box-shadow: $line .1rem .1rem;
-
-            
-           a{
-            font-size: 2rem;
-            float: left;
-            margin: .7rem;
-            color: $font;
-            text-decoration: none;
-            transition: .3s;
-
-            &:hover{
-                color: $line;
-            }
-           }
-        }
-    }
+    
     main{
         >div{
-            margin-top: 10vh;
-            padding-top:  20vh;
-            padding-bottom:  20vh;
-
-
+            min-height:100vh;
+            padding-top: 20vh;
         }
+        
         .welcome{
             display: grid;
             width: 100%;
@@ -61,15 +32,17 @@ html{
 
             .greet{
                 justify-self: center;
-                height: 150px;
-                border-radius: 20px;
+                align-self: center;
+                height: 30vh;
+                width:30vw;
+                border-radius: 1rem;
                 background-color: #343337;
                 padding: 1rem;
-                border: 2px solid black;
-                border-top: 3px solid rgba(255, 255, 255, 0.178);
-                border-left: 2px solid rgba(255, 255, 255, 0.178);
-                box-shadow: inset 1px 1px 10px;
-                box-shadow: #343337 1px 1px 10px;
+                border: .2rem solid black;
+                border-top: .2rem solid rgba(255, 255, 255, 0.178);
+                border-left: .2rem solid rgba(255, 255, 255, 0.178);
+                box-shadow: inset white 1rem 2rem 1rem;
+                box-shadow: #343337 .2rem .2rem 1rem;
                 backdrop-filter: blur(50px);
                 display: grid;
                 opacity: .9;
@@ -85,47 +58,80 @@ html{
            
         }
         .about{
-            border-top:  1px solid $line;
-            display: flex;
-            justify-content: center;
+            border-top:  .2rem solid $line;
+            display: grid;
             height: 100vh;
             h1{
+                justify-self: center;
                 color: $font;
+            }
+            .skill{
+                justify-self: center;
+                width: 90vw;
+                height: 60vh;
+                background-color: transparent;
+                backdrop-filter: blur(5px);
+                border-top: 3px solid rgba(255, 255, 255, 0.178);
+                border-left: 2px solid rgba(255, 255, 255, 0.178);
+                overflow: hidden;
+                box-shadow: inset white .2rem .2rem .5rem;
+                padding: 1rem;
+                transition: 1s;
+                border-radius: .3rem;
+                padding: 5rem;
+
+
+                .list{
+                 
+                    &:hover{
+                        cursor: default;
+                    }
+                }
             }
         }
         .projects{
             border-top:  2px solid $line;
             display: grid;
             justify-content: center;
-            height: auto;
+            height: 200vh;
+            width: 100%;
 
+            .BGanimation2{
+                height:200vh;
+            }
             .container{
                 display: flex;
-                gap: 30px;
-                margin-bottom: 20px;
+                gap: 3rem;
+                margin-bottom: 2rem;
+                
             }
 
             .card{
-                width: 300px;
-                height: 400px;
+                width: 23vw;
+                height: 60vh;
                 background-color: transparent;
                 backdrop-filter: blur(5px);
                 border-top: 3px solid rgba(255, 255, 255, 0.178);
                 border-left: 2px solid rgba(255, 255, 255, 0.178);
                 overflow: hidden;
-                box-shadow: inset white 2px 2px 5px;
+                box-shadow: inset white .2rem .2rem .5rem;
                 padding: 1rem;
+                transition: 1s;
+
+                &:hover{
+                    transform: scale(1.1);
+
+                }
 
                 h2{
-                    font-size: 4rem;
                     position: absolute;
                     margin: 20px 0 0 10px;
                     color: $font;
-                    transition: 2.5s;
+                    transition: 2s;
 
                 }
                 &:hover h2{
-                    opacity: .5;
+                    opacity: .9;
                     color: #343337;
                 }
                 .content{
@@ -134,9 +140,9 @@ html{
                     display: grid;
                     text-align: center;
                     justify-content: center;
-                    margin-bottom: 20px;
-                    padding: 50px;
+                    padding: 5rem;
                     
+                   
                     .image{
                         width:250px;
                         height: 200px;
@@ -160,7 +166,7 @@ html{
                             margin-bottom: 1rem;
                             width: 5rem;
                             height:1.5rem;
-                            color:$font;
+                            color:$line;
                             text-decoration: none;
                             border: 1px solid;
                             transition: .5s;
@@ -200,8 +206,8 @@ html{
             .link{
                 justify-self: center;
                 a{
-                    margin: 20px;
-                    font-size: 3rem;
+                    margin: 2rem;
+                    font-size: 20rem;
                     color: $font;
                     transition:  .5s;
 

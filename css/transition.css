@@ -1,0 +1,25 @@
+.section {
+  opacity: 0;
+  -webkit-transition: 2s all ease;
+  transition: 2s all ease;
+}
+
+.section.active {
+  opacity: 1;
+}
+
+.BGanimation2 {
+  opacity: 0;
+}
+
+.section.active .BGanimation2 div {
+  border-radius: 50%;
+}
+
+.section.active .BGanimation2 {
+  opacity: 1;
+}
+
+.projects.active .card h2 {
+  font-size: 10vh;
+}

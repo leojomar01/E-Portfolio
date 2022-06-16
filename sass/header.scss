@@ -1,0 +1,40 @@
+$line:#F7CCAC;
+$font:#826F66;
+$bg:#3A3845;
+$bg2:#C69B7B;
+
+
+.lightTheme{
+    header{
+        display: grid;
+        justify-content: end;
+        nav{
+            z-index: 5;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            height: 10vh;
+            display: flex;
+            justify-content: end;
+            background-color: $bg2;
+            transition: top 0.3s;
+            // box-shadow: $line .1rem .1rem 1rem;
+
+    
+            
+           a{
+            font-size: 2rem;
+            float: left;
+            margin: .7rem;
+            color: $font;
+            text-decoration: none;
+            transition: .3s;
+    
+            &:hover{
+                color: $line;
+            }
+           }
+        }
+    }
+    
+}
