@@ -1,0 +1,52 @@
+.welcome{
+    width: 100%;
+    height: 100vh;
+}
+
+.BGanimation{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    width: 100%;
+    height: 120vh;
+    overflow: hidden;
+    
+    $x:1;
+    @while $x<=50 {
+        .shape#{$x}{
+            $size:random(80)+20+px;
+            $posLeft:random(100);
+            $delay:random(60)-30+s;
+            $duration:random(50)+10+s;
+
+            animation: animate linear infinite;
+            position: absolute;
+            display: block;
+            width: $size;
+            height: $size;
+            left:$posLeft*1%;
+            background: #d3d3d3;
+            animation-delay: $delay;
+            animation-duration: $duration;
+            bottom: -150px;
+            border-radius: 10%;
+            
+        }
+        $x:$x+1;
+    }
+}
+@keyframes animate {
+
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+    }
+
+    100%{
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+    }
+
+}
+   
+    

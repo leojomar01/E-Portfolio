@@ -1,6 +1,7 @@
-$font:#c4c4c4;
-$Line:#343337;
-$bg:#120E1A;
+$line:#F7CCAC;
+$font:#826F66;
+$bg:#3A3845;
+$bg2:#C69B7B;
 
 *{
     margin: 0;
@@ -9,59 +10,6 @@ $bg:#120E1A;
 html{
     scroll-behavior: smooth;
     
-}
-
-
-
-.toggle{
-    width: 50px;
-    display: grid;
-    justify-items: center;
-    align-items: center;
-    input{
-        visibility: hidden;
-    }
-    .switch{
-        position: absolute;
-        width: 30px;
-        height: 15px;
-    }
-    .slider {
-        position: absolute;
-        cursor: pointer;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-color: rgb(255, 255, 255);
-        transition: .4s;
-      }
-      .slider:before {
-        position: absolute;
-        content: "";
-        height: 13px;
-        width: 13px;
-        left: 1px;
-        bottom: 1px;
-        background-color: rgb(255, 247, 0);
-        transition: .4s;
-      }
-      input:checked + .slider {
-        background-color: #000000;
-      }
-      
-      input:checked + .slider:before {
-        transform: translateX(13px);
-        background-color: rgb(255, 255, 255);
-
-      }
-      .slider.round {
-        border-radius: 34px;
-      }
-      
-      .slider.round:before {
-        border-radius: 50%;
-      }
 }
 
 .lightTheme{
@@ -79,9 +27,9 @@ html{
             height: 10vh;
             display: flex;
             justify-content: end;
-            background-color: black;
+            background-color: $bg2;
             transition: top 0.3s;
-            box-shadow: $Line .1rem .1rem;
+            box-shadow: $line .1rem .1rem;
 
             
            a{
@@ -92,22 +40,24 @@ html{
             text-decoration: none;
 
             &:hover{
-                color: $Line;
+                color: $line;
             }
            }
         }
     }
     main{
         >div{
-            height:100vh;
-            
             margin-top: 10vh;
             padding-top:  20vh;
+            padding-bottom:  20vh;
+
 
         }
         .welcome{
             display: grid;
             width: 100%;
+            height:100vh;
+
             .greet{
                 justify-self: center;
                 height: 150px;
@@ -118,23 +68,26 @@ html{
                 box-shadow: inset 1px 1px 10px;
                 box-shadow: #343337 1px 1px 10px;
                 backdrop-filter: blur(5px);
+                display: grid;
 
                 h1{
                     color: #cbcbcb;
+                    justify-self: center;
                 }
             }
            
         }
         .about{
-            border-top:  1px solid $Line;
+            border-top:  1px solid $line;
             display: flex;
             justify-content: center;
+            height: 100vh;
             h1{
                 color: $font;
             }
         }
         .projects{
-            border-top:  2px solid $Line;
+            border-top:  2px solid $line;
             display: grid;
             justify-content: center;
             height: auto;
@@ -153,12 +106,14 @@ html{
                 border-top: 3px solid rgba(255, 255, 255, 0.178);
                 border-left: 2px solid rgba(255, 255, 255, 0.178);
                 overflow: hidden;
-                box-shadow: inset 2px 2px 10px;
+                box-shadow: inset white 2px 2px 5px;
+                padding: 1rem;
 
                 h2{
-                    font-size: 3rem;
+                    font-size: 4rem;
                     position: absolute;
                     margin: 20px 0 0 10px;
+                    color: $font;
                 }
                 
                 .content{
@@ -169,24 +124,34 @@ html{
                     justify-content: center;
                     margin-bottom: 20px;
                     padding: 50px;
-                    color: #c4c4c4;
                     
                     .image{
                         width:250px;
                         height: 200px;
-                        background-color: red;
                         border-radius: 20px;
+
+                        img{
+                            width: 100%;
+                            height: 100%;
+                            box-shadow: inset white 2px 2px 5px;
+                            box-shadow: white 1px 1px 5px;
+
+                            
+                        }
                     }
                     .link{
-                        justify-self: center;
-                        width: 100px;
-                        height:2rem;
-                        background-color:#000000;
-                        border-radius: 25px;
+                        margin-top: 1rem;
 
+                        justify-self: center;
+                        border-radius: 20px;
+                        display: grid;
                         a{
+                            margin-bottom: 1rem;
+                            width: 5rem;
+                            height:1.5rem;
                             color:$font;
                             text-decoration: none;
+                            border: 1px solid;
                         }
                     }
                 }
@@ -205,12 +170,14 @@ html{
             }
         }
         .contact{
-            border-top:  1px solid $Line;
+            border-top:  1px solid $line;
             display: grid;
             h1{
                 justify-self: center;
                 color: $font;
             }
+           
+
             .link{
                 justify-self: center;
                 a{
@@ -219,7 +186,7 @@ html{
                     color: $font;
 
                     &:hover{
-                        color: $font;
+                        color: $line;
                     }
                 }
             }
