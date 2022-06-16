@@ -17,14 +17,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 63px;
-  height: 63px;
-  left: 78%;
+  width: 62px;
+  height: 62px;
+  left: 32%;
   background: #d3d3d3;
-  -webkit-animation-delay: 0s;
-          animation-delay: 0s;
-  -webkit-animation-duration: 28s;
-          animation-duration: 28s;
+  -webkit-animation-delay: 30s;
+          animation-delay: 30s;
+  -webkit-animation-duration: 49s;
+          animation-duration: 49s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 2s;
@@ -32,7 +32,7 @@
 }
 
 .BGanimation .shape1:hover {
-  left: 88%;
+  left: 42%;
 }
 
 .BGanimation .shape2 {
@@ -40,14 +40,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 41px;
-  height: 41px;
-  left: 76%;
+  width: 100px;
+  height: 100px;
+  left: 59%;
   background: #d3d3d3;
-  -webkit-animation-delay: 20s;
-          animation-delay: 20s;
-  -webkit-animation-duration: 60s;
-          animation-duration: 60s;
+  -webkit-animation-delay: -36s;
+          animation-delay: -36s;
+  -webkit-animation-duration: 51s;
+          animation-duration: 51s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 2s;
@@ -55,7 +55,7 @@
 }
 
 .BGanimation .shape2:hover {
-  left: 86%;
+  left: 69%;
 }
 
 .BGanimation .shape3 {
@@ -63,12 +63,12 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 61px;
-  height: 61px;
-  left: 41%;
+  width: 92px;
+  height: 92px;
+  left: 21%;
   background: #d3d3d3;
-  -webkit-animation-delay: 25s;
-          animation-delay: 25s;
+  -webkit-animation-delay: -37s;
+          animation-delay: -37s;
   -webkit-animation-duration: 46s;
           animation-duration: 46s;
   bottom: -150px;
@@ -78,7 +78,7 @@
 }
 
 .BGanimation .shape3:hover {
-  left: 51%;
+  left: 31%;
 }
 
 .BGanimation .shape4 {
@@ -86,14 +86,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 34px;
-  height: 34px;
-  left: 84%;
+  width: 49px;
+  height: 49px;
+  left: 54%;
   background: #d3d3d3;
-  -webkit-animation-delay: 25s;
-          animation-delay: 25s;
-  -webkit-animation-duration: 46s;
-          animation-duration: 46s;
+  -webkit-animation-delay: -19s;
+          animation-delay: -19s;
+  -webkit-animation-duration: 25s;
+          animation-duration: 25s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 2s;
@@ -101,7 +101,7 @@
 }
 
 .BGanimation .shape4:hover {
-  left: 94%;
+  left: 64%;
 }
 
 .BGanimation .shape5 {
@@ -109,14 +109,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 22px;
-  height: 22px;
-  left: 59%;
+  width: 74px;
+  height: 74px;
+  left: 21%;
   background: #d3d3d3;
-  -webkit-animation-delay: -13s;
-          animation-delay: -13s;
-  -webkit-animation-duration: 54s;
-          animation-duration: 54s;
+  -webkit-animation-delay: -4s;
+          animation-delay: -4s;
+  -webkit-animation-duration: 47s;
+          animation-duration: 47s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 2s;
@@ -124,7 +124,7 @@
 }
 
 .BGanimation .shape5:hover {
-  left: 69%;
+  left: 31%;
 }
 
 .BGanimation .shape6 {
@@ -132,14 +132,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 28px;
-  height: 28px;
-  left: 4%;
+  width: 48px;
+  height: 48px;
+  left: 76%;
   background: #d3d3d3;
-  -webkit-animation-delay: -33s;
-          animation-delay: -33s;
-  -webkit-animation-duration: 36s;
-          animation-duration: 36s;
+  -webkit-animation-delay: -38s;
+          animation-delay: -38s;
+  -webkit-animation-duration: 56s;
+          animation-duration: 56s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 2s;
@@ -147,7 +147,7 @@
 }
 
 .BGanimation .shape6:hover {
-  left: 14%;
+  left: 86%;
 }
 
 .BGanimation .shape7 {
@@ -155,14 +155,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 51px;
-  height: 51px;
-  left: 88%;
+  width: 70px;
+  height: 70px;
+  left: 96%;
   background: #d3d3d3;
-  -webkit-animation-delay: -21s;
-          animation-delay: -21s;
-  -webkit-animation-duration: 30s;
-          animation-duration: 30s;
+  -webkit-animation-delay: 11s;
+          animation-delay: 11s;
+  -webkit-animation-duration: 18s;
+          animation-duration: 18s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 2s;
@@ -170,7 +170,7 @@
 }
 
 .BGanimation .shape7:hover {
-  left: 98%;
+  left: 106%;
 }
 
 .BGanimation .shape8 {
@@ -178,14 +178,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 50px;
-  height: 50px;
-  left: 4%;
+  width: 93px;
+  height: 93px;
+  left: 39%;
   background: #d3d3d3;
-  -webkit-animation-delay: 19s;
-          animation-delay: 19s;
-  -webkit-animation-duration: 34s;
-          animation-duration: 34s;
+  -webkit-animation-delay: -34s;
+          animation-delay: -34s;
+  -webkit-animation-duration: 14s;
+          animation-duration: 14s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 2s;
@@ -193,7 +193,7 @@
 }
 
 .BGanimation .shape8:hover {
-  left: 14%;
+  left: 49%;
 }
 
 .BGanimation .shape9 {
@@ -203,12 +203,12 @@
   display: block;
   width: 71px;
   height: 71px;
-  left: 31%;
+  left: 8%;
   background: #d3d3d3;
-  -webkit-animation-delay: -4s;
-          animation-delay: -4s;
-  -webkit-animation-duration: 58s;
-          animation-duration: 58s;
+  -webkit-animation-delay: 7s;
+          animation-delay: 7s;
+  -webkit-animation-duration: 33s;
+          animation-duration: 33s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 2s;
@@ -216,7 +216,7 @@
 }
 
 .BGanimation .shape9:hover {
-  left: 41%;
+  left: 18%;
 }
 
 .BGanimation .shape10 {
@@ -224,14 +224,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 44px;
-  height: 44px;
-  left: 25%;
+  width: 98px;
+  height: 98px;
+  left: 3%;
   background: #d3d3d3;
-  -webkit-animation-delay: -3s;
-          animation-delay: -3s;
-  -webkit-animation-duration: 13s;
-          animation-duration: 13s;
+  -webkit-animation-delay: 30s;
+          animation-delay: 30s;
+  -webkit-animation-duration: 42s;
+          animation-duration: 42s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 2s;
@@ -239,7 +239,7 @@
 }
 
 .BGanimation .shape10:hover {
-  left: 35%;
+  left: 13%;
 }
 
 .BGanimation .shape11 {
@@ -247,14 +247,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 21px;
-  height: 21px;
-  left: 73%;
+  width: 85px;
+  height: 85px;
+  left: 18%;
   background: #d3d3d3;
-  -webkit-animation-delay: 15s;
-          animation-delay: 15s;
-  -webkit-animation-duration: 32s;
-          animation-duration: 32s;
+  -webkit-animation-delay: -2s;
+          animation-delay: -2s;
+  -webkit-animation-duration: 25s;
+          animation-duration: 25s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 2s;
@@ -262,7 +262,7 @@
 }
 
 .BGanimation .shape11:hover {
-  left: 83%;
+  left: 28%;
 }
 
 .BGanimation .shape12 {
@@ -272,33 +272,10 @@
   display: block;
   width: 35px;
   height: 35px;
-  left: 42%;
+  left: 35%;
   background: #d3d3d3;
-  -webkit-animation-delay: 4s;
-          animation-delay: 4s;
-  -webkit-animation-duration: 23s;
-          animation-duration: 23s;
-  bottom: -150px;
-  border-radius: 10%;
-  -webkit-transition: 2s;
-  transition: 2s;
-}
-
-.BGanimation .shape12:hover {
-  left: 52%;
-}
-
-.BGanimation .shape13 {
-  -webkit-animation: animate linear infinite;
-          animation: animate linear infinite;
-  position: absolute;
-  display: block;
-  width: 77px;
-  height: 77px;
-  left: 44%;
-  background: #d3d3d3;
-  -webkit-animation-delay: 21s;
-          animation-delay: 21s;
+  -webkit-animation-delay: -23s;
+          animation-delay: -23s;
   -webkit-animation-duration: 55s;
           animation-duration: 55s;
   bottom: -150px;
@@ -307,8 +284,31 @@
   transition: 2s;
 }
 
+.BGanimation .shape12:hover {
+  left: 45%;
+}
+
+.BGanimation .shape13 {
+  -webkit-animation: animate linear infinite;
+          animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 95px;
+  height: 95px;
+  left: 87%;
+  background: #d3d3d3;
+  -webkit-animation-delay: -20s;
+          animation-delay: -20s;
+  -webkit-animation-duration: 53s;
+          animation-duration: 53s;
+  bottom: -150px;
+  border-radius: 10%;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
 .BGanimation .shape13:hover {
-  left: 54%;
+  left: 97%;
 }
 
 .BGanimation .shape14 {
@@ -316,14 +316,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 92px;
-  height: 92px;
-  left: 65%;
+  width: 37px;
+  height: 37px;
+  left: 95%;
   background: #d3d3d3;
-  -webkit-animation-delay: -25s;
-          animation-delay: -25s;
-  -webkit-animation-duration: 15s;
-          animation-duration: 15s;
+  -webkit-animation-delay: 24s;
+          animation-delay: 24s;
+  -webkit-animation-duration: 52s;
+          animation-duration: 52s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 2s;
@@ -331,7 +331,7 @@
 }
 
 .BGanimation .shape14:hover {
-  left: 75%;
+  left: 105%;
 }
 
 .BGanimation .shape15 {
@@ -339,14 +339,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 65px;
-  height: 65px;
-  left: 64%;
+  width: 24px;
+  height: 24px;
+  left: 78%;
   background: #d3d3d3;
-  -webkit-animation-delay: 19s;
-          animation-delay: 19s;
-  -webkit-animation-duration: 49s;
-          animation-duration: 49s;
+  -webkit-animation-delay: 16s;
+          animation-delay: 16s;
+  -webkit-animation-duration: 14s;
+          animation-duration: 14s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 2s;
@@ -354,7 +354,7 @@
 }
 
 .BGanimation .shape15:hover {
-  left: 74%;
+  left: 88%;
 }
 
 .BGanimation .shape01 {
@@ -362,14 +362,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 78px;
-  height: 78px;
-  left: 20%;
+  width: 50px;
+  height: 50px;
+  left: 61%;
   background: #d3d3d3;
-  -webkit-animation-delay: 26s;
-          animation-delay: 26s;
-  -webkit-animation-duration: 48s;
-          animation-duration: 48s;
+  -webkit-animation-delay: -29s;
+          animation-delay: -29s;
+  -webkit-animation-duration: 20s;
+          animation-duration: 20s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 5s;
@@ -377,7 +377,7 @@
 }
 
 .BGanimation .shape01:hover {
-  left: 10%;
+  left: 51%;
 }
 
 .BGanimation .shape02 {
@@ -385,12 +385,12 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 49px;
-  height: 49px;
-  left: 89%;
+  width: 98px;
+  height: 98px;
+  left: 42%;
   background: #d3d3d3;
-  -webkit-animation-delay: -27s;
-          animation-delay: -27s;
+  -webkit-animation-delay: -9s;
+          animation-delay: -9s;
   -webkit-animation-duration: 55s;
           animation-duration: 55s;
   bottom: -150px;
@@ -400,7 +400,7 @@
 }
 
 .BGanimation .shape02:hover {
-  left: 79%;
+  left: 32%;
 }
 
 .BGanimation .shape03 {
@@ -408,14 +408,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 91px;
-  height: 91px;
-  left: 41%;
+  width: 39px;
+  height: 39px;
+  left: 60%;
   background: #d3d3d3;
-  -webkit-animation-delay: -22s;
-          animation-delay: -22s;
-  -webkit-animation-duration: 37s;
-          animation-duration: 37s;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+  -webkit-animation-duration: 20s;
+          animation-duration: 20s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 5s;
@@ -423,7 +423,7 @@
 }
 
 .BGanimation .shape03:hover {
-  left: 31%;
+  left: 50%;
 }
 
 .BGanimation .shape04 {
@@ -431,14 +431,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 32px;
-  height: 32px;
-  left: 5%;
+  width: 34px;
+  height: 34px;
+  left: 83%;
   background: #d3d3d3;
-  -webkit-animation-delay: -39s;
-          animation-delay: -39s;
-  -webkit-animation-duration: 13s;
-          animation-duration: 13s;
+  -webkit-animation-delay: -18s;
+          animation-delay: -18s;
+  -webkit-animation-duration: 42s;
+          animation-duration: 42s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 5s;
@@ -446,7 +446,7 @@
 }
 
 .BGanimation .shape04:hover {
-  left: -5%;
+  left: 73%;
 }
 
 .BGanimation .shape05 {
@@ -454,14 +454,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 59px;
-  height: 59px;
-  left: 71%;
+  width: 43px;
+  height: 43px;
+  left: 27%;
   background: #d3d3d3;
-  -webkit-animation-delay: 5s;
-          animation-delay: 5s;
-  -webkit-animation-duration: 24s;
-          animation-duration: 24s;
+  -webkit-animation-delay: -29s;
+          animation-delay: -29s;
+  -webkit-animation-duration: 34s;
+          animation-duration: 34s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 5s;
@@ -469,7 +469,7 @@
 }
 
 .BGanimation .shape05:hover {
-  left: 61%;
+  left: 17%;
 }
 
 .BGanimation .shape06 {
@@ -477,14 +477,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 76px;
-  height: 76px;
-  left: 53%;
+  width: 84px;
+  height: 84px;
+  left: 57%;
   background: #d3d3d3;
-  -webkit-animation-delay: -34s;
-          animation-delay: -34s;
-  -webkit-animation-duration: 40s;
-          animation-duration: 40s;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+  -webkit-animation-duration: 54s;
+          animation-duration: 54s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 5s;
@@ -492,7 +492,7 @@
 }
 
 .BGanimation .shape06:hover {
-  left: 43%;
+  left: 47%;
 }
 
 .BGanimation .shape07 {
@@ -500,14 +500,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 71px;
-  height: 71px;
-  left: 47%;
+  width: 82px;
+  height: 82px;
+  left: 92%;
   background: #d3d3d3;
-  -webkit-animation-delay: 0s;
-          animation-delay: 0s;
-  -webkit-animation-duration: 52s;
-          animation-duration: 52s;
+  -webkit-animation-delay: -19s;
+          animation-delay: -19s;
+  -webkit-animation-duration: 28s;
+          animation-duration: 28s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 5s;
@@ -515,7 +515,7 @@
 }
 
 .BGanimation .shape07:hover {
-  left: 37%;
+  left: 82%;
 }
 
 .BGanimation .shape08 {
@@ -523,14 +523,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 69px;
-  height: 69px;
-  left: 5%;
+  width: 99px;
+  height: 99px;
+  left: 32%;
   background: #d3d3d3;
-  -webkit-animation-delay: 6s;
-          animation-delay: 6s;
-  -webkit-animation-duration: 20s;
-          animation-duration: 20s;
+  -webkit-animation-delay: 19s;
+          animation-delay: 19s;
+  -webkit-animation-duration: 21s;
+          animation-duration: 21s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 5s;
@@ -538,7 +538,7 @@
 }
 
 .BGanimation .shape08:hover {
-  left: -5%;
+  left: 22%;
 }
 
 .BGanimation .shape09 {
@@ -546,150 +546,12 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 68px;
-  height: 68px;
-  left: 29%;
-  background: #d3d3d3;
-  -webkit-animation-delay: 12s;
-          animation-delay: 12s;
-  -webkit-animation-duration: 12s;
-          animation-duration: 12s;
-  bottom: -150px;
-  border-radius: 10%;
-  -webkit-transition: 5s;
-  transition: 5s;
-}
-
-.BGanimation .shape09:hover {
-  left: 19%;
-}
-
-.BGanimation .shape010 {
-  -webkit-animation: animate linear infinite;
-          animation: animate linear infinite;
-  position: absolute;
-  display: block;
-  width: 86px;
-  height: 86px;
-  left: 19%;
-  background: #d3d3d3;
-  -webkit-animation-delay: -20s;
-          animation-delay: -20s;
-  -webkit-animation-duration: 14s;
-          animation-duration: 14s;
-  bottom: -150px;
-  border-radius: 10%;
-  -webkit-transition: 5s;
-  transition: 5s;
-}
-
-.BGanimation .shape010:hover {
-  left: 9%;
-}
-
-.BGanimation .shape011 {
-  -webkit-animation: animate linear infinite;
-          animation: animate linear infinite;
-  position: absolute;
-  display: block;
-  width: 40px;
-  height: 40px;
-  left: 88%;
-  background: #d3d3d3;
-  -webkit-animation-delay: 9s;
-          animation-delay: 9s;
-  -webkit-animation-duration: 17s;
-          animation-duration: 17s;
-  bottom: -150px;
-  border-radius: 10%;
-  -webkit-transition: 5s;
-  transition: 5s;
-}
-
-.BGanimation .shape011:hover {
-  left: 78%;
-}
-
-.BGanimation .shape012 {
-  -webkit-animation: animate linear infinite;
-          animation: animate linear infinite;
-  position: absolute;
-  display: block;
-  width: 51px;
-  height: 51px;
-  left: 75%;
-  background: #d3d3d3;
-  -webkit-animation-delay: 23s;
-          animation-delay: 23s;
-  -webkit-animation-duration: 19s;
-          animation-duration: 19s;
-  bottom: -150px;
-  border-radius: 10%;
-  -webkit-transition: 5s;
-  transition: 5s;
-}
-
-.BGanimation .shape012:hover {
-  left: 65%;
-}
-
-.BGanimation .shape013 {
-  -webkit-animation: animate linear infinite;
-          animation: animate linear infinite;
-  position: absolute;
-  display: block;
-  width: 85px;
-  height: 85px;
+  width: 31px;
+  height: 31px;
   left: 80%;
   background: #d3d3d3;
-  -webkit-animation-delay: -20s;
-          animation-delay: -20s;
-  -webkit-animation-duration: 13s;
-          animation-duration: 13s;
-  bottom: -150px;
-  border-radius: 10%;
-  -webkit-transition: 5s;
-  transition: 5s;
-}
-
-.BGanimation .shape013:hover {
-  left: 70%;
-}
-
-.BGanimation .shape014 {
-  -webkit-animation: animate linear infinite;
-          animation: animate linear infinite;
-  position: absolute;
-  display: block;
-  width: 68px;
-  height: 68px;
-  left: 51%;
-  background: #d3d3d3;
-  -webkit-animation-delay: -36s;
-          animation-delay: -36s;
-  -webkit-animation-duration: 20s;
-          animation-duration: 20s;
-  bottom: -150px;
-  border-radius: 10%;
-  -webkit-transition: 5s;
-  transition: 5s;
-}
-
-.BGanimation .shape014:hover {
-  left: 41%;
-}
-
-.BGanimation .shape015 {
-  -webkit-animation: animate linear infinite;
-          animation: animate linear infinite;
-  position: absolute;
-  display: block;
-  width: 27px;
-  height: 27px;
-  left: 84%;
-  background: #d3d3d3;
-  -webkit-animation-delay: -18s;
-          animation-delay: -18s;
+  -webkit-animation-delay: -13s;
+          animation-delay: -13s;
   -webkit-animation-duration: 31s;
           animation-duration: 31s;
   bottom: -150px;
@@ -698,8 +560,146 @@
   transition: 5s;
 }
 
+.BGanimation .shape09:hover {
+  left: 70%;
+}
+
+.BGanimation .shape010 {
+  -webkit-animation: animate linear infinite;
+          animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 91px;
+  height: 91px;
+  left: 98%;
+  background: #d3d3d3;
+  -webkit-animation-delay: -9s;
+          animation-delay: -9s;
+  -webkit-animation-duration: 60s;
+          animation-duration: 60s;
+  bottom: -150px;
+  border-radius: 10%;
+  -webkit-transition: 5s;
+  transition: 5s;
+}
+
+.BGanimation .shape010:hover {
+  left: 88%;
+}
+
+.BGanimation .shape011 {
+  -webkit-animation: animate linear infinite;
+          animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 52px;
+  height: 52px;
+  left: 89%;
+  background: #d3d3d3;
+  -webkit-animation-delay: 12s;
+          animation-delay: 12s;
+  -webkit-animation-duration: 44s;
+          animation-duration: 44s;
+  bottom: -150px;
+  border-radius: 10%;
+  -webkit-transition: 5s;
+  transition: 5s;
+}
+
+.BGanimation .shape011:hover {
+  left: 79%;
+}
+
+.BGanimation .shape012 {
+  -webkit-animation: animate linear infinite;
+          animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 97px;
+  height: 97px;
+  left: 37%;
+  background: #d3d3d3;
+  -webkit-animation-delay: -23s;
+          animation-delay: -23s;
+  -webkit-animation-duration: 39s;
+          animation-duration: 39s;
+  bottom: -150px;
+  border-radius: 10%;
+  -webkit-transition: 5s;
+  transition: 5s;
+}
+
+.BGanimation .shape012:hover {
+  left: 27%;
+}
+
+.BGanimation .shape013 {
+  -webkit-animation: animate linear infinite;
+          animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 89px;
+  height: 89px;
+  left: 17%;
+  background: #d3d3d3;
+  -webkit-animation-delay: -19s;
+          animation-delay: -19s;
+  -webkit-animation-duration: 40s;
+          animation-duration: 40s;
+  bottom: -150px;
+  border-radius: 10%;
+  -webkit-transition: 5s;
+  transition: 5s;
+}
+
+.BGanimation .shape013:hover {
+  left: 7%;
+}
+
+.BGanimation .shape014 {
+  -webkit-animation: animate linear infinite;
+          animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 91px;
+  height: 91px;
+  left: 79%;
+  background: #d3d3d3;
+  -webkit-animation-delay: 15s;
+          animation-delay: 15s;
+  -webkit-animation-duration: 19s;
+          animation-duration: 19s;
+  bottom: -150px;
+  border-radius: 10%;
+  -webkit-transition: 5s;
+  transition: 5s;
+}
+
+.BGanimation .shape014:hover {
+  left: 69%;
+}
+
+.BGanimation .shape015 {
+  -webkit-animation: animate linear infinite;
+          animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 67px;
+  height: 67px;
+  left: 16%;
+  background: #d3d3d3;
+  -webkit-animation-delay: -3s;
+          animation-delay: -3s;
+  -webkit-animation-duration: 53s;
+          animation-duration: 53s;
+  bottom: -150px;
+  border-radius: 10%;
+  -webkit-transition: 5s;
+  transition: 5s;
+}
+
 .BGanimation .shape015:hover {
-  left: 74%;
+  left: 6%;
 }
 
 .BGanimation2 {
@@ -714,14 +714,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 68px;
-  height: 68px;
-  left: 65%;
+  width: 29px;
+  height: 29px;
+  left: 11%;
   background: #000000;
-  -webkit-animation-delay: -6s;
-          animation-delay: -6s;
-  -webkit-animation-duration: 40s;
-          animation-duration: 40s;
+  -webkit-animation-delay: -3s;
+          animation-delay: -3s;
+  -webkit-animation-duration: 31s;
+          animation-duration: 31s;
   bottom: -150px;
   border-radius: 50%;
   -webkit-transition: 5s;
@@ -733,14 +733,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 87px;
-  height: 87px;
-  left: 24%;
+  width: 60px;
+  height: 60px;
+  left: 66%;
   background: #000000;
-  -webkit-animation-delay: 8s;
-          animation-delay: 8s;
-  -webkit-animation-duration: 18s;
-          animation-duration: 18s;
+  -webkit-animation-delay: 6s;
+          animation-delay: 6s;
+  -webkit-animation-duration: 56s;
+          animation-duration: 56s;
   bottom: -150px;
   border-radius: 50%;
   -webkit-transition: 5s;
@@ -752,14 +752,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 65px;
-  height: 65px;
-  left: 5%;
+  width: 68px;
+  height: 68px;
+  left: 17%;
   background: #000000;
-  -webkit-animation-delay: -22s;
-          animation-delay: -22s;
-  -webkit-animation-duration: 40s;
-          animation-duration: 40s;
+  -webkit-animation-delay: -7s;
+          animation-delay: -7s;
+  -webkit-animation-duration: 15s;
+          animation-duration: 15s;
   bottom: -150px;
   border-radius: 50%;
   -webkit-transition: 5s;
@@ -771,14 +771,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 83px;
-  height: 83px;
-  left: 30%;
+  width: 21px;
+  height: 21px;
+  left: 16%;
   background: #000000;
-  -webkit-animation-delay: 25s;
-          animation-delay: 25s;
-  -webkit-animation-duration: 59s;
-          animation-duration: 59s;
+  -webkit-animation-delay: -13s;
+          animation-delay: -13s;
+  -webkit-animation-duration: 32s;
+          animation-duration: 32s;
   bottom: -150px;
   border-radius: 50%;
   -webkit-transition: 5s;
@@ -790,14 +790,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 28px;
-  height: 28px;
-  left: 99%;
+  width: 53px;
+  height: 53px;
+  left: 57%;
   background: #000000;
-  -webkit-animation-delay: -29s;
-          animation-delay: -29s;
-  -webkit-animation-duration: 17s;
-          animation-duration: 17s;
+  -webkit-animation-delay: 22s;
+          animation-delay: 22s;
+  -webkit-animation-duration: 26s;
+          animation-duration: 26s;
   bottom: -150px;
   border-radius: 50%;
   -webkit-transition: 5s;
@@ -809,14 +809,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 22px;
-  height: 22px;
-  left: 67%;
+  width: 76px;
+  height: 76px;
+  left: 13%;
   background: #000000;
-  -webkit-animation-delay: -34s;
-          animation-delay: -34s;
-  -webkit-animation-duration: 44s;
-          animation-duration: 44s;
+  -webkit-animation-delay: -14s;
+          animation-delay: -14s;
+  -webkit-animation-duration: 60s;
+          animation-duration: 60s;
   bottom: -150px;
   border-radius: 50%;
   -webkit-transition: 5s;
@@ -828,14 +828,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 23px;
-  height: 23px;
-  left: 28%;
+  width: 67px;
+  height: 67px;
+  left: 92%;
   background: #000000;
-  -webkit-animation-delay: -26s;
-          animation-delay: -26s;
-  -webkit-animation-duration: 28s;
-          animation-duration: 28s;
+  -webkit-animation-delay: -13s;
+          animation-delay: -13s;
+  -webkit-animation-duration: 23s;
+          animation-duration: 23s;
   bottom: -150px;
   border-radius: 50%;
   -webkit-transition: 5s;
@@ -847,14 +847,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 74px;
-  height: 74px;
-  left: 38%;
+  width: 27px;
+  height: 27px;
+  left: 71%;
   background: #000000;
-  -webkit-animation-delay: -4s;
-          animation-delay: -4s;
-  -webkit-animation-duration: 25s;
-          animation-duration: 25s;
+  -webkit-animation-delay: -16s;
+          animation-delay: -16s;
+  -webkit-animation-duration: 18s;
+          animation-duration: 18s;
   bottom: -150px;
   border-radius: 50%;
   -webkit-transition: 5s;
@@ -866,14 +866,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 28px;
-  height: 28px;
-  left: 81%;
+  width: 30px;
+  height: 30px;
+  left: 65%;
   background: #000000;
-  -webkit-animation-delay: -12s;
-          animation-delay: -12s;
-  -webkit-animation-duration: 44s;
-          animation-duration: 44s;
+  -webkit-animation-delay: -22s;
+          animation-delay: -22s;
+  -webkit-animation-duration: 28s;
+          animation-duration: 28s;
   bottom: -150px;
   border-radius: 50%;
   -webkit-transition: 5s;
@@ -885,14 +885,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 67px;
-  height: 67px;
-  left: 16%;
+  width: 60px;
+  height: 60px;
+  left: 35%;
   background: #000000;
-  -webkit-animation-delay: -22s;
-          animation-delay: -22s;
-  -webkit-animation-duration: 16s;
-          animation-duration: 16s;
+  -webkit-animation-delay: -14s;
+          animation-delay: -14s;
+  -webkit-animation-duration: 11s;
+          animation-duration: 11s;
   bottom: -150px;
   border-radius: 50%;
   -webkit-transition: 5s;
@@ -904,14 +904,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 60px;
-  height: 60px;
-  left: 19%;
+  width: 24px;
+  height: 24px;
+  left: 80%;
   background: #000000;
-  -webkit-animation-delay: -18s;
-          animation-delay: -18s;
-  -webkit-animation-duration: 54s;
-          animation-duration: 54s;
+  -webkit-animation-delay: 24s;
+          animation-delay: 24s;
+  -webkit-animation-duration: 30s;
+          animation-duration: 30s;
   bottom: -150px;
   border-radius: 50%;
   -webkit-transition: 5s;
@@ -923,14 +923,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 71px;
-  height: 71px;
-  left: 23%;
+  width: 82px;
+  height: 82px;
+  left: 70%;
   background: #000000;
-  -webkit-animation-delay: 17s;
-          animation-delay: 17s;
-  -webkit-animation-duration: 26s;
-          animation-duration: 26s;
+  -webkit-animation-delay: -23s;
+          animation-delay: -23s;
+  -webkit-animation-duration: 20s;
+          animation-duration: 20s;
   bottom: -150px;
   border-radius: 50%;
   -webkit-transition: 5s;
@@ -942,12 +942,12 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 79px;
-  height: 79px;
-  left: 34%;
+  width: 39px;
+  height: 39px;
+  left: 35%;
   background: #000000;
-  -webkit-animation-delay: -36s;
-          animation-delay: -36s;
+  -webkit-animation-delay: -17s;
+          animation-delay: -17s;
   -webkit-animation-duration: 27s;
           animation-duration: 27s;
   bottom: -150px;
@@ -961,14 +961,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 58px;
-  height: 58px;
-  left: 19%;
+  width: 67px;
+  height: 67px;
+  left: 51%;
   background: #000000;
-  -webkit-animation-delay: -26s;
-          animation-delay: -26s;
-  -webkit-animation-duration: 22s;
-          animation-duration: 22s;
+  -webkit-animation-delay: 7s;
+          animation-delay: 7s;
+  -webkit-animation-duration: 53s;
+          animation-duration: 53s;
   bottom: -150px;
   border-radius: 50%;
   -webkit-transition: 5s;
@@ -980,14 +980,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 39px;
-  height: 39px;
-  left: 41%;
+  width: 21px;
+  height: 21px;
+  left: 2%;
   background: #000000;
-  -webkit-animation-delay: 14s;
-          animation-delay: 14s;
-  -webkit-animation-duration: 24s;
-          animation-duration: 24s;
+  -webkit-animation-delay: -29s;
+          animation-delay: -29s;
+  -webkit-animation-duration: 17s;
+          animation-duration: 17s;
   bottom: -150px;
   border-radius: 50%;
   -webkit-transition: 5s;
@@ -999,14 +999,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 40px;
-  height: 40px;
-  left: 95%;
+  width: 30px;
+  height: 30px;
+  left: 43%;
   background: #000000;
-  -webkit-animation-delay: -22s;
-          animation-delay: -22s;
-  -webkit-animation-duration: 23s;
-          animation-duration: 23s;
+  -webkit-animation-delay: 8s;
+          animation-delay: 8s;
+  -webkit-animation-duration: 14s;
+          animation-duration: 14s;
   bottom: -150px;
   border-radius: 50%;
   -webkit-transition: 5s;
@@ -1018,14 +1018,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 26px;
-  height: 26px;
-  left: 11%;
+  width: 38px;
+  height: 38px;
+  left: 35%;
   background: #000000;
-  -webkit-animation-delay: 7s;
-          animation-delay: 7s;
-  -webkit-animation-duration: 42s;
-          animation-duration: 42s;
+  -webkit-animation-delay: -11s;
+          animation-delay: -11s;
+  -webkit-animation-duration: 53s;
+          animation-duration: 53s;
   bottom: -150px;
   border-radius: 50%;
   -webkit-transition: 5s;
@@ -1037,14 +1037,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 21px;
-  height: 21px;
-  left: 41%;
+  width: 76px;
+  height: 76px;
+  left: 100%;
   background: #000000;
-  -webkit-animation-delay: -7s;
-          animation-delay: -7s;
-  -webkit-animation-duration: 37s;
-          animation-duration: 37s;
+  -webkit-animation-delay: -29s;
+          animation-delay: -29s;
+  -webkit-animation-duration: 26s;
+          animation-duration: 26s;
   bottom: -150px;
   border-radius: 50%;
   -webkit-transition: 5s;
@@ -1056,12 +1056,12 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 90px;
-  height: 90px;
-  left: 50%;
+  width: 50px;
+  height: 50px;
+  left: 45%;
   background: #000000;
-  -webkit-animation-delay: -33s;
-          animation-delay: -33s;
+  -webkit-animation-delay: -7s;
+          animation-delay: -7s;
   -webkit-animation-duration: 45s;
           animation-duration: 45s;
   bottom: -150px;
@@ -1075,14 +1075,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 43px;
-  height: 43px;
-  left: 39%;
+  width: 55px;
+  height: 55px;
+  left: 67%;
   background: #000000;
-  -webkit-animation-delay: -23s;
-          animation-delay: -23s;
-  -webkit-animation-duration: 46s;
-          animation-duration: 46s;
+  -webkit-animation-delay: 10s;
+          animation-delay: 10s;
+  -webkit-animation-duration: 27s;
+          animation-duration: 27s;
   bottom: -150px;
   border-radius: 50%;
   -webkit-transition: 5s;
@@ -1094,14 +1094,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 41px;
-  height: 41px;
-  left: 41%;
+  width: 27px;
+  height: 27px;
+  left: 39%;
   background: #000000;
-  -webkit-animation-delay: 16s;
-          animation-delay: 16s;
-  -webkit-animation-duration: 22s;
-          animation-duration: 22s;
+  -webkit-animation-delay: 24s;
+          animation-delay: 24s;
+  -webkit-animation-duration: 17s;
+          animation-duration: 17s;
   bottom: -150px;
   border-radius: 50%;
   -webkit-transition: 5s;
@@ -1113,14 +1113,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 21px;
-  height: 21px;
-  left: 13%;
+  width: 82px;
+  height: 82px;
+  left: 23%;
   background: #000000;
-  -webkit-animation-delay: -20s;
-          animation-delay: -20s;
-  -webkit-animation-duration: 50s;
-          animation-duration: 50s;
+  -webkit-animation-delay: -19s;
+          animation-delay: -19s;
+  -webkit-animation-duration: 19s;
+          animation-duration: 19s;
   bottom: -150px;
   border-radius: 50%;
   -webkit-transition: 5s;
@@ -1132,14 +1132,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 26px;
-  height: 26px;
-  left: 50%;
+  width: 81px;
+  height: 81px;
+  left: 26%;
   background: #000000;
-  -webkit-animation-delay: -16s;
-          animation-delay: -16s;
-  -webkit-animation-duration: 39s;
-          animation-duration: 39s;
+  -webkit-animation-delay: -17s;
+          animation-delay: -17s;
+  -webkit-animation-duration: 21s;
+          animation-duration: 21s;
   bottom: -150px;
   border-radius: 50%;
   -webkit-transition: 5s;
@@ -1151,14 +1151,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 98px;
-  height: 98px;
-  left: 91%;
+  width: 31px;
+  height: 31px;
+  left: 4%;
   background: #000000;
-  -webkit-animation-delay: -1s;
-          animation-delay: -1s;
-  -webkit-animation-duration: 45s;
-          animation-duration: 45s;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-duration: 33s;
+          animation-duration: 33s;
   bottom: -150px;
   border-radius: 50%;
   -webkit-transition: 5s;
@@ -1170,14 +1170,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 84px;
-  height: 84px;
-  left: 21%;
+  width: 58px;
+  height: 58px;
+  left: 67%;
   background: #000000;
-  -webkit-animation-delay: -2s;
-          animation-delay: -2s;
-  -webkit-animation-duration: 51s;
-          animation-duration: 51s;
+  -webkit-animation-delay: 13s;
+          animation-delay: 13s;
+  -webkit-animation-duration: 47s;
+          animation-duration: 47s;
   bottom: -150px;
   border-radius: 50%;
   -webkit-transition: 5s;
@@ -1189,14 +1189,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 28px;
-  height: 28px;
-  left: 21%;
+  width: 32px;
+  height: 32px;
+  left: 48%;
   background: #000000;
-  -webkit-animation-delay: 8s;
-          animation-delay: 8s;
-  -webkit-animation-duration: 21s;
-          animation-duration: 21s;
+  -webkit-animation-delay: 14s;
+          animation-delay: 14s;
+  -webkit-animation-duration: 36s;
+          animation-duration: 36s;
   bottom: -150px;
   border-radius: 50%;
   -webkit-transition: 5s;
@@ -1208,14 +1208,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 92px;
-  height: 92px;
-  left: 25%;
+  width: 51px;
+  height: 51px;
+  left: 89%;
   background: #000000;
-  -webkit-animation-delay: -38s;
-          animation-delay: -38s;
-  -webkit-animation-duration: 59s;
-          animation-duration: 59s;
+  -webkit-animation-delay: -22s;
+          animation-delay: -22s;
+  -webkit-animation-duration: 31s;
+          animation-duration: 31s;
   bottom: -150px;
   border-radius: 50%;
   -webkit-transition: 5s;
@@ -1227,14 +1227,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 49px;
-  height: 49px;
-  left: 22%;
+  width: 98px;
+  height: 98px;
+  left: 47%;
   background: #000000;
-  -webkit-animation-delay: 6s;
-          animation-delay: 6s;
-  -webkit-animation-duration: 26s;
-          animation-duration: 26s;
+  -webkit-animation-delay: -9s;
+          animation-delay: -9s;
+  -webkit-animation-duration: 14s;
+          animation-duration: 14s;
   bottom: -150px;
   border-radius: 50%;
   -webkit-transition: 5s;
@@ -1246,14 +1246,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 72px;
-  height: 72px;
+  width: 43px;
+  height: 43px;
   left: 82%;
   background: #000000;
-  -webkit-animation-delay: -35s;
-          animation-delay: -35s;
-  -webkit-animation-duration: 16s;
-          animation-duration: 16s;
+  -webkit-animation-delay: -14s;
+          animation-delay: -14s;
+  -webkit-animation-duration: 35s;
+          animation-duration: 35s;
   bottom: -150px;
   border-radius: 50%;
   -webkit-transition: 5s;
@@ -1265,14 +1265,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 38px;
-  height: 38px;
-  left: 41%;
+  width: 65px;
+  height: 65px;
+  left: 80%;
   background: #000000;
-  -webkit-animation-delay: 26s;
-          animation-delay: 26s;
-  -webkit-animation-duration: 35s;
-          animation-duration: 35s;
+  -webkit-animation-delay: -4s;
+          animation-delay: -4s;
+  -webkit-animation-duration: 53s;
+          animation-duration: 53s;
   bottom: -150px;
   border-radius: 50%;
   -webkit-transition: 5s;

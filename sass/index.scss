@@ -38,6 +38,7 @@ html{
             margin: .7rem;
             color: $font;
             text-decoration: none;
+            transition: .3s;
 
             &:hover{
                 color: $line;
@@ -69,7 +70,7 @@ html{
                 border-left: 2px solid rgba(255, 255, 255, 0.178);
                 box-shadow: inset 1px 1px 10px;
                 box-shadow: #343337 1px 1px 10px;
-                backdrop-filter: blur(25px);
+                backdrop-filter: blur(50px);
                 display: grid;
                 opacity: .9;
 
@@ -202,12 +203,15 @@ html{
                     margin: 20px;
                     font-size: 3rem;
                     color: $font;
+                    transition:  .5s;
 
                     &:hover{
                         color: $line;
                     }
                 }
+            
             }
+
             
         }
     }

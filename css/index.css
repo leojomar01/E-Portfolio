@@ -44,6 +44,8 @@ html {
   margin: .7rem;
   color: #826F66;
   text-decoration: none;
+  -webkit-transition: .3s;
+  transition: .3s;
 }
 
 .lightTheme header nav a:hover {
@@ -77,8 +79,8 @@ html {
           box-shadow: inset 1px 1px 10px;
   -webkit-box-shadow: #343337 1px 1px 10px;
           box-shadow: #343337 1px 1px 10px;
-  -webkit-backdrop-filter: blur(25px);
-          backdrop-filter: blur(25px);
+  -webkit-backdrop-filter: blur(50px);
+          backdrop-filter: blur(50px);
   display: -ms-grid;
   display: grid;
   opacity: .9;
@@ -247,6 +249,8 @@ html {
   margin: 20px;
   font-size: 3rem;
   color: #826F66;
+  -webkit-transition: .5s;
+  transition: .5s;
 }
 
 .lightTheme main .contact .link a:hover {
