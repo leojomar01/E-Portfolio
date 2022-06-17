@@ -1,9 +1,6 @@
 .lightTheme header {
   display: -ms-grid;
   display: grid;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
 }
 
 .lightTheme header nav {
@@ -15,24 +12,34 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   background-color: #C69B7B;
   -webkit-transition: top 0.3s;
   transition: top 0.3s;
 }
 
-.lightTheme header nav a {
+.lightTheme header nav .logo {
+  height: 10vh;
+  z-index: 10;
+  padding: .3rem;
+}
+
+.lightTheme header nav .logo img {
+  height: 100%;
+}
+
+.lightTheme header nav .link {
   font-size: 2rem;
   float: left;
   margin: .7rem;
-  color: #826F66;
+  color: #3A3845;
   text-decoration: none;
   -webkit-transition: .3s;
   transition: .3s;
 }
 
-.lightTheme header nav a:hover {
+.lightTheme header nav .link:hover {
   color: #F7CCAC;
 }

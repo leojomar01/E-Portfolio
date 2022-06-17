@@ -4,6 +4,7 @@
   font-size: 2vh;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  color: #826F66;
 }
 
 html {
@@ -67,34 +68,52 @@ html {
   height: 100vh;
 }
 
+.lightTheme main .about div {
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+
 .lightTheme main .about h1 {
   -ms-grid-column-align: center;
       justify-self: center;
   color: #826F66;
 }
 
-.lightTheme main .about .skill {
-  -ms-grid-column-align: center;
-      justify-self: center;
-  width: 90vw;
-  height: 60vh;
+.lightTheme main .about .skills {
   background-color: transparent;
   -webkit-backdrop-filter: blur(5px);
           backdrop-filter: blur(5px);
-  border-top: 3px solid rgba(255, 255, 255, 0.178);
-  border-left: 2px solid rgba(255, 255, 255, 0.178);
-  overflow: hidden;
-  -webkit-box-shadow: inset white .2rem .2rem .5rem;
-          box-shadow: inset white .2rem .2rem .5rem;
-  padding: 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.178);
+  border-left: 1px solid rgba(255, 255, 255, 0.178);
+  -webkit-box-shadow: inset white .1rem .1rem .2rem;
+          box-shadow: inset white .1rem .1rem .2rem;
   -webkit-transition: 1s;
   transition: 1s;
   border-radius: .3rem;
-  padding: 5rem;
+  padding: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 1rem;
+  height: auto;
+  width: 50vw;
 }
 
-.lightTheme main .about .skill .list:hover {
-  cursor: default;
+.lightTheme main .about .skills h3 {
+  color: #826F66;
+}
+
+.lightTheme main .about .skills p {
+  color: #C69B7B;
+  border: 0.1rem #C69B7B solid;
+  font-size: 1.5rem;
+  height: 3rem;
+  padding: .3rem;
 }
 
 .lightTheme main .projects {
@@ -228,12 +247,23 @@ html {
   border-top: 1px solid #F7CCAC;
   display: -ms-grid;
   display: grid;
+  padding: 5rem;
 }
 
 .lightTheme main .contact h1 {
   -ms-grid-column-align: center;
       justify-self: center;
   color: #826F66;
+}
+
+.lightTheme main .contact .message {
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+
+.lightTheme main .contact .message h4 {
+  color: #826F66;
+  font-size: 2rem;
 }
 
 .lightTheme main .contact .link {
@@ -243,10 +273,13 @@ html {
 
 .lightTheme main .contact .link a {
   margin: 2rem;
-  font-size: 20rem;
   color: #826F66;
   -webkit-transition: .5s;
   transition: .5s;
+}
+
+.lightTheme main .contact .link a i {
+  font-size: 5rem;
 }
 
 .lightTheme main .contact .link a:hover {

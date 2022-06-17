@@ -1,10 +1,10 @@
-.section {
+.hide {
   opacity: 0;
-  -webkit-transition: 2s all ease;
-  transition: 2s all ease;
+  -webkit-transition: 1s all ease;
+  transition: 1s all ease;
 }
 
-.section.active {
+.hide.active {
   opacity: 1;
 }
 
@@ -12,11 +12,11 @@
   opacity: 0;
 }
 
-.section.active .BGanimation2 div {
+.hide.active .BGanimation2 div {
   border-radius: 50%;
 }
 
-.section.active .BGanimation2 {
+.hide.active .BGanimation2 {
   opacity: 1;
 }
 

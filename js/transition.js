@@ -1,5 +1,5 @@
 function reveal() {
-    var reveals = document.querySelectorAll(".section");
+    var reveals = document.querySelectorAll(".hide");
     for (var i = 0; i < reveals.length; i++) {
       var windowHeight = window.innerHeight;
       var elementTop = reveals[i].getBoundingClientRect().top;

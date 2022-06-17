@@ -8,17 +8,14 @@ $bg2:#C69B7B;
     font-family:Fantasy;
     font-size:2vh;
     box-sizing: border-box;
+    color: $font;
 }
 html{
     scroll-behavior: smooth;
-    
 }
 
 .lightTheme{
     background-color:$bg;
-
-
-    
     main{
         >div{
             min-height:100vh;
@@ -61,31 +58,38 @@ html{
             border-top:  .2rem solid $line;
             display: grid;
             height: 100vh;
+            div{
+                justify-self: center;
+            }
             h1{
                 justify-self: center;
                 color: $font;
             }
-            .skill{
-                justify-self: center;
-                width: 90vw;
-                height: 60vh;
+            .skills{
                 background-color: transparent;
                 backdrop-filter: blur(5px);
-                border-top: 3px solid rgba(255, 255, 255, 0.178);
-                border-left: 2px solid rgba(255, 255, 255, 0.178);
-                overflow: hidden;
-                box-shadow: inset white .2rem .2rem .5rem;
-                padding: 1rem;
+                border-top: 1px solid rgba(255, 255, 255, 0.178);
+                border-left: 1px solid rgba(255, 255, 255, 0.178);
+                box-shadow: inset white .1rem .1rem .2rem;
                 transition: 1s;
                 border-radius: .3rem;
-                padding: 5rem;
-
-
-                .list{
-                 
-                    &:hover{
-                        cursor: default;
-                    }
+                padding: 2rem;
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                gap: 1rem;
+                height: auto;
+                width: 50vw;
+                
+                h3{
+                    color: $font;
+                }
+                p{
+                    color: $bg2;
+                    border: .1rem $bg2 solid;
+                    font-size: 1.5rem;
+                    height: 3rem;
+                    padding:.3rem;
                 }
             }
         }
@@ -141,7 +145,6 @@ html{
                     text-align: center;
                     justify-content: center;
                     padding: 5rem;
-                    
                    
                     .image{
                         width:250px;
@@ -176,8 +179,6 @@ html{
                                 color: #3A3845;
                             }
                         }
-                        
-                       
                     }
                 }
             }
@@ -197,28 +198,32 @@ html{
         .contact{
             border-top:  1px solid $line;
             display: grid;
+            padding: 5rem;
             h1{
                 justify-self: center;
                 color: $font;
             }
-           
-
+            .message{
+                justify-self: center;
+                h4{
+                    color: $font;
+                    font-size: 2rem;
+                }
+            }
             .link{
                 justify-self: center;
                 a{
                     margin: 2rem;
-                    font-size: 20rem;
                     color: $font;
                     transition:  .5s;
-
+                    i{
+                        font-size: 5rem;
+                    }
                     &:hover{
                         color: $line;
                     }
                 }
-            
             }
-
-            
         }
     }
 }
