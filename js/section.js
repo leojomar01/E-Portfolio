@@ -3,6 +3,8 @@ class Slider{
         this.sections = document.querySelectorAll(options.section);
         this.nav = document.querySelector(options.dots);
         window.addEventListener('scroll',this.setStatus.bind(this));
+        this.nav.addEventListener('click', this.scrollTo.bind(this));
+
     }
 
     setStatus(){
@@ -26,6 +28,21 @@ class Slider{
             active.classList.remove('active')
         }
     }
+
+    scrollTo(e) {
+        const dots = Array.from(this.nav.children);
+        const windowHeight = window.innerHeight;
+    
+        dots.forEach((dot, i) => {
+          if (dot == e.target) {
+    
+            window.scrollTo({
+              top: windowHeight * i,
+              behavior: 'smooth',
+            });
+          }
+        });
+      }
 }
 
 
