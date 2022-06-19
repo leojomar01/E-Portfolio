@@ -8,39 +8,37 @@ $bg2:#C69B7B;
     header{
         display: grid;
         nav{
-            z-index: 5;
+            visibility: hidden;
+            z-index: 1;
             position: fixed;
-            top: 0;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
             width: 100%;
-            height: 10vh;
-            display: flex;
-            justify-content: space-between;
-            background-color: $bg2;
-            transition: top 0.3s;
-            // box-shadow: $line .1rem .1rem 1rem;
-            
-
-            .logo{
-                height: 10vh;
-                z-index: 10;
-                padding: .3rem;
-                img{
-                    height: 100%;
-                }
-            }
-           .link{
+            transition:0.3s;
+            background-color: #C69B7B;
+            top: 0;
+            a{
                 font-size: 2rem;
-                float: left;
-                margin: .7rem;
-                color: $bg;
                 text-decoration: none;
-                transition: .3s;
-        
+                padding: 10px;
+                color: $bg;
                 &:hover{
                     color: $line;
                 }
-           }
+            }
+            img{
+                height: 10vh;
+            }
+            .collapse{
+                justify-self: end;
+            }
+            button{
+                width: 10vw;
+                justify-self: end;
+                margin-right: 10px;
+            }
         }
     }
     
 }
+

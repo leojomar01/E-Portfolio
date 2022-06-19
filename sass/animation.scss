@@ -1,3 +1,5 @@
+$sizeUnit:1vh;
+
 .welcome{
     width: 100%;
     height: 100vh;
@@ -17,7 +19,7 @@
     $x:1;
     @while $x<=50 {
         .shape#{$x}{
-            $size:random(10)+5+vh;
+            $size:random(10)+5*$sizeUnit;
             $posLeft:random(100);
             $delay:random(70)-40+s;
             $duration:random(50)+10+s;
@@ -47,7 +49,7 @@
     $x:1;
     @while $x<=50 {
         .shape0#{$x}{
-            $size:random(10)+5+vh;
+            $size:random(10)+5*$sizeUnit;
             $posLeft:random(100);
             $delay:random(70)-40+s;
             $duration:random(50)+10+s;
@@ -55,8 +57,7 @@
             animation: animate linear infinite;
             position: absolute;
             display: block;
-            width: $size;
-            height: $size;
+            
             left:$posLeft*1%;
             background: #d3d3d3;
             animation-delay: $delay;
@@ -78,14 +79,14 @@
 
 
 .BGanimation2{
-    margin-top:-20vh;
+    margin-top:-13vh;
     position: absolute;
     width: 100%;
     overflow: hidden;
     $x:1;
     @while $x<=30 {
         .shape#{$x}{
-            $size:random(10)+5+vh;
+            $size:random(10)+5*$sizeUnit;
             $posLeft:random(100);
             $delay:random(70)-50+s;
             $duration:random(50)+10+s;
@@ -121,5 +122,21 @@
     }
 
 }
-   
+
+@media screen and (max-width:450px) {
+    
+    
+    $sizeUnit:1px;
+    .projects{
+        .BGanimation{
+            div: {
+                width: 20px;
+                height: 20px
+            };
+        }
+    }
+
+    
+}
+
     

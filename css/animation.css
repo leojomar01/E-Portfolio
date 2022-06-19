@@ -21,14 +21,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 14vh;
-  height: 14vh;
-  left: 37%;
+  width: 6vh;
+  height: 6vh;
+  left: 76%;
   background: #d3d3d3;
-  -webkit-animation-delay: -13s;
-          animation-delay: -13s;
-  -webkit-animation-duration: 30s;
-          animation-duration: 30s;
+  -webkit-animation-delay: 23s;
+          animation-delay: 23s;
+  -webkit-animation-duration: 57s;
+          animation-duration: 57s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 2s;
@@ -36,7 +36,7 @@
 }
 
 .BGanimation .shape1:hover {
-  left: 47%;
+  left: 86%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -47,14 +47,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 8vh;
-  height: 8vh;
-  left: 41%;
+  width: 6vh;
+  height: 6vh;
+  left: 6%;
   background: #d3d3d3;
-  -webkit-animation-delay: -26s;
-          animation-delay: -26s;
-  -webkit-animation-duration: 21s;
-          animation-duration: 21s;
+  -webkit-animation-delay: -14s;
+          animation-delay: -14s;
+  -webkit-animation-duration: 45s;
+          animation-duration: 45s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 2s;
@@ -62,7 +62,7 @@
 }
 
 .BGanimation .shape2:hover {
-  left: 51%;
+  left: 16%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -73,14 +73,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 13vh;
-  height: 13vh;
-  left: 60%;
+  width: 6vh;
+  height: 6vh;
+  left: 29%;
   background: #d3d3d3;
-  -webkit-animation-delay: 13s;
-          animation-delay: 13s;
-  -webkit-animation-duration: 25s;
-          animation-duration: 25s;
+  -webkit-animation-delay: -8s;
+          animation-delay: -8s;
+  -webkit-animation-duration: 12s;
+          animation-duration: 12s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 2s;
@@ -88,7 +88,7 @@
 }
 
 .BGanimation .shape3:hover {
-  left: 70%;
+  left: 39%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -99,14 +99,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 8vh;
-  height: 8vh;
-  left: 7%;
+  width: 7vh;
+  height: 7vh;
+  left: 78%;
   background: #d3d3d3;
-  -webkit-animation-delay: 5s;
-          animation-delay: 5s;
-  -webkit-animation-duration: 54s;
-          animation-duration: 54s;
+  -webkit-animation-delay: -11s;
+          animation-delay: -11s;
+  -webkit-animation-duration: 44s;
+          animation-duration: 44s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 2s;
@@ -114,7 +114,7 @@
 }
 
 .BGanimation .shape4:hover {
-  left: 17%;
+  left: 88%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -125,14 +125,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 15vh;
-  height: 15vh;
-  left: 95%;
+  width: 13vh;
+  height: 13vh;
+  left: 6%;
   background: #d3d3d3;
-  -webkit-animation-delay: -6s;
-          animation-delay: -6s;
-  -webkit-animation-duration: 57s;
-          animation-duration: 57s;
+  -webkit-animation-delay: -8s;
+          animation-delay: -8s;
+  -webkit-animation-duration: 19s;
+          animation-duration: 19s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 2s;
@@ -140,7 +140,7 @@
 }
 
 .BGanimation .shape5:hover {
-  left: 105%;
+  left: 16%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -151,14 +151,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 12vh;
-  height: 12vh;
-  left: 41%;
+  width: 8vh;
+  height: 8vh;
+  left: 47%;
   background: #d3d3d3;
-  -webkit-animation-delay: -13s;
-          animation-delay: -13s;
-  -webkit-animation-duration: 20s;
-          animation-duration: 20s;
+  -webkit-animation-delay: 30s;
+          animation-delay: 30s;
+  -webkit-animation-duration: 49s;
+          animation-duration: 49s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 2s;
@@ -166,7 +166,7 @@
 }
 
 .BGanimation .shape6:hover {
-  left: 51%;
+  left: 57%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -177,14 +177,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 12vh;
-  height: 12vh;
-  left: 37%;
+  width: 11vh;
+  height: 11vh;
+  left: 29%;
   background: #d3d3d3;
-  -webkit-animation-delay: -31s;
-          animation-delay: -31s;
-  -webkit-animation-duration: 21s;
-          animation-duration: 21s;
+  -webkit-animation-delay: -12s;
+          animation-delay: -12s;
+  -webkit-animation-duration: 32s;
+          animation-duration: 32s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 2s;
@@ -192,7 +192,7 @@
 }
 
 .BGanimation .shape7:hover {
-  left: 47%;
+  left: 39%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -203,14 +203,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 6vh;
-  height: 6vh;
-  left: 91%;
+  width: 14vh;
+  height: 14vh;
+  left: 28%;
   background: #d3d3d3;
-  -webkit-animation-delay: 19s;
-          animation-delay: 19s;
-  -webkit-animation-duration: 35s;
-          animation-duration: 35s;
+  -webkit-animation-delay: -17s;
+          animation-delay: -17s;
+  -webkit-animation-duration: 34s;
+          animation-duration: 34s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 2s;
@@ -218,7 +218,7 @@
 }
 
 .BGanimation .shape8:hover {
-  left: 101%;
+  left: 38%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -229,14 +229,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 14vh;
-  height: 14vh;
-  left: 8%;
+  width: 13vh;
+  height: 13vh;
+  left: 80%;
   background: #d3d3d3;
-  -webkit-animation-delay: -38s;
-          animation-delay: -38s;
-  -webkit-animation-duration: 40s;
-          animation-duration: 40s;
+  -webkit-animation-delay: 10s;
+          animation-delay: 10s;
+  -webkit-animation-duration: 18s;
+          animation-duration: 18s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 2s;
@@ -244,7 +244,7 @@
 }
 
 .BGanimation .shape9:hover {
-  left: 18%;
+  left: 90%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -255,14 +255,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 13vh;
-  height: 13vh;
-  left: 24%;
+  width: 15vh;
+  height: 15vh;
+  left: 58%;
   background: #d3d3d3;
-  -webkit-animation-delay: -21s;
-          animation-delay: -21s;
-  -webkit-animation-duration: 59s;
-          animation-duration: 59s;
+  -webkit-animation-delay: 9s;
+          animation-delay: 9s;
+  -webkit-animation-duration: 49s;
+          animation-duration: 49s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 2s;
@@ -270,7 +270,7 @@
 }
 
 .BGanimation .shape10:hover {
-  left: 34%;
+  left: 68%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -283,12 +283,12 @@
   display: block;
   width: 12vh;
   height: 12vh;
-  left: 18%;
+  left: 55%;
   background: #d3d3d3;
-  -webkit-animation-delay: 15s;
-          animation-delay: 15s;
-  -webkit-animation-duration: 35s;
-          animation-duration: 35s;
+  -webkit-animation-delay: 6s;
+          animation-delay: 6s;
+  -webkit-animation-duration: 21s;
+          animation-duration: 21s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 2s;
@@ -296,7 +296,7 @@
 }
 
 .BGanimation .shape11:hover {
-  left: 28%;
+  left: 65%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -307,14 +307,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 10vh;
-  height: 10vh;
-  left: 49%;
+  width: 8vh;
+  height: 8vh;
+  left: 14%;
   background: #d3d3d3;
-  -webkit-animation-delay: 14s;
-          animation-delay: 14s;
-  -webkit-animation-duration: 23s;
-          animation-duration: 23s;
+  -webkit-animation-delay: -10s;
+          animation-delay: -10s;
+  -webkit-animation-duration: 41s;
+          animation-duration: 41s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 2s;
@@ -322,7 +322,7 @@
 }
 
 .BGanimation .shape12:hover {
-  left: 59%;
+  left: 24%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -333,14 +333,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 10vh;
-  height: 10vh;
+  width: 12vh;
+  height: 12vh;
   left: 39%;
   background: #d3d3d3;
-  -webkit-animation-delay: -18s;
-          animation-delay: -18s;
-  -webkit-animation-duration: 58s;
-          animation-duration: 58s;
+  -webkit-animation-delay: 21s;
+          animation-delay: 21s;
+  -webkit-animation-duration: 34s;
+          animation-duration: 34s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 2s;
@@ -359,14 +359,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 15vh;
-  height: 15vh;
-  left: 82%;
+  width: 10vh;
+  height: 10vh;
+  left: 42%;
   background: #d3d3d3;
-  -webkit-animation-delay: -37s;
-          animation-delay: -37s;
-  -webkit-animation-duration: 46s;
-          animation-duration: 46s;
+  -webkit-animation-delay: 12s;
+          animation-delay: 12s;
+  -webkit-animation-duration: 54s;
+          animation-duration: 54s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 2s;
@@ -374,7 +374,7 @@
 }
 
 .BGanimation .shape14:hover {
-  left: 92%;
+  left: 52%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -385,14 +385,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 15vh;
-  height: 15vh;
-  left: 40%;
+  width: 7vh;
+  height: 7vh;
+  left: 61%;
   background: #d3d3d3;
-  -webkit-animation-delay: -2s;
-          animation-delay: -2s;
-  -webkit-animation-duration: 47s;
-          animation-duration: 47s;
+  -webkit-animation-delay: -12s;
+          animation-delay: -12s;
+  -webkit-animation-duration: 44s;
+          animation-duration: 44s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 2s;
@@ -400,7 +400,7 @@
 }
 
 .BGanimation .shape15:hover {
-  left: 50%;
+  left: 71%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -411,14 +411,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 7vh;
-  height: 7vh;
-  left: 92%;
+  width: 6vh;
+  height: 6vh;
+  left: 9%;
   background: #d3d3d3;
-  -webkit-animation-delay: 21s;
-          animation-delay: 21s;
-  -webkit-animation-duration: 11s;
-          animation-duration: 11s;
+  -webkit-animation-delay: -30s;
+          animation-delay: -30s;
+  -webkit-animation-duration: 16s;
+          animation-duration: 16s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 2s;
@@ -426,7 +426,7 @@
 }
 
 .BGanimation .shape16:hover {
-  left: 102%;
+  left: 19%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -437,14 +437,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 8vh;
-  height: 8vh;
-  left: 68%;
+  width: 10vh;
+  height: 10vh;
+  left: 58%;
   background: #d3d3d3;
-  -webkit-animation-delay: -9s;
-          animation-delay: -9s;
-  -webkit-animation-duration: 49s;
-          animation-duration: 49s;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-duration: 35s;
+          animation-duration: 35s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 2s;
@@ -452,7 +452,7 @@
 }
 
 .BGanimation .shape17:hover {
-  left: 78%;
+  left: 68%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -463,14 +463,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 13vh;
-  height: 13vh;
-  left: 34%;
+  width: 8vh;
+  height: 8vh;
+  left: 82%;
   background: #d3d3d3;
-  -webkit-animation-delay: -33s;
-          animation-delay: -33s;
-  -webkit-animation-duration: 54s;
-          animation-duration: 54s;
+  -webkit-animation-delay: -24s;
+          animation-delay: -24s;
+  -webkit-animation-duration: 12s;
+          animation-duration: 12s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 2s;
@@ -478,7 +478,7 @@
 }
 
 .BGanimation .shape18:hover {
-  left: 44%;
+  left: 92%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -489,14 +489,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 14vh;
-  height: 14vh;
-  left: 14%;
+  width: 7vh;
+  height: 7vh;
+  left: 74%;
   background: #d3d3d3;
-  -webkit-animation-delay: -16s;
-          animation-delay: -16s;
-  -webkit-animation-duration: 51s;
-          animation-duration: 51s;
+  -webkit-animation-delay: -32s;
+          animation-delay: -32s;
+  -webkit-animation-duration: 16s;
+          animation-duration: 16s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 2s;
@@ -504,7 +504,7 @@
 }
 
 .BGanimation .shape19:hover {
-  left: 24%;
+  left: 84%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -515,14 +515,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 7vh;
-  height: 7vh;
-  left: 67%;
+  width: 14vh;
+  height: 14vh;
+  left: 57%;
   background: #d3d3d3;
-  -webkit-animation-delay: 22s;
-          animation-delay: 22s;
-  -webkit-animation-duration: 60s;
-          animation-duration: 60s;
+  -webkit-animation-delay: -36s;
+          animation-delay: -36s;
+  -webkit-animation-duration: 34s;
+          animation-duration: 34s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 2s;
@@ -530,7 +530,7 @@
 }
 
 .BGanimation .shape20:hover {
-  left: 77%;
+  left: 67%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -543,12 +543,12 @@
   display: block;
   width: 11vh;
   height: 11vh;
-  left: 77%;
+  left: 81%;
   background: #d3d3d3;
-  -webkit-animation-delay: -17s;
-          animation-delay: -17s;
-  -webkit-animation-duration: 18s;
-          animation-duration: 18s;
+  -webkit-animation-delay: 11s;
+          animation-delay: 11s;
+  -webkit-animation-duration: 17s;
+          animation-duration: 17s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 2s;
@@ -556,7 +556,7 @@
 }
 
 .BGanimation .shape21:hover {
-  left: 87%;
+  left: 91%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -567,14 +567,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 14vh;
-  height: 14vh;
-  left: 76%;
+  width: 13vh;
+  height: 13vh;
+  left: 3%;
   background: #d3d3d3;
-  -webkit-animation-delay: -27s;
-          animation-delay: -27s;
-  -webkit-animation-duration: 26s;
-          animation-duration: 26s;
+  -webkit-animation-delay: -37s;
+          animation-delay: -37s;
+  -webkit-animation-duration: 51s;
+          animation-duration: 51s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 2s;
@@ -582,7 +582,7 @@
 }
 
 .BGanimation .shape22:hover {
-  left: 86%;
+  left: 13%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -593,14 +593,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 12vh;
-  height: 12vh;
-  left: 91%;
+  width: 8vh;
+  height: 8vh;
+  left: 26%;
   background: #d3d3d3;
-  -webkit-animation-delay: 9s;
-          animation-delay: 9s;
-  -webkit-animation-duration: 19s;
-          animation-duration: 19s;
+  -webkit-animation-delay: 28s;
+          animation-delay: 28s;
+  -webkit-animation-duration: 14s;
+          animation-duration: 14s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 2s;
@@ -608,7 +608,7 @@
 }
 
 .BGanimation .shape23:hover {
-  left: 101%;
+  left: 36%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -619,14 +619,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 15vh;
-  height: 15vh;
-  left: 61%;
+  width: 8vh;
+  height: 8vh;
+  left: 77%;
   background: #d3d3d3;
-  -webkit-animation-delay: 13s;
-          animation-delay: 13s;
-  -webkit-animation-duration: 32s;
-          animation-duration: 32s;
+  -webkit-animation-delay: 19s;
+          animation-delay: 19s;
+  -webkit-animation-duration: 46s;
+          animation-duration: 46s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 2s;
@@ -634,7 +634,7 @@
 }
 
 .BGanimation .shape24:hover {
-  left: 71%;
+  left: 87%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -645,14 +645,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 12vh;
-  height: 12vh;
-  left: 7%;
+  width: 6vh;
+  height: 6vh;
+  left: 82%;
   background: #d3d3d3;
-  -webkit-animation-delay: -6s;
-          animation-delay: -6s;
-  -webkit-animation-duration: 14s;
-          animation-duration: 14s;
+  -webkit-animation-delay: -36s;
+          animation-delay: -36s;
+  -webkit-animation-duration: 43s;
+          animation-duration: 43s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 2s;
@@ -660,7 +660,7 @@
 }
 
 .BGanimation .shape25:hover {
-  left: 17%;
+  left: 92%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -673,12 +673,12 @@
   display: block;
   width: 12vh;
   height: 12vh;
-  left: 86%;
+  left: 93%;
   background: #d3d3d3;
-  -webkit-animation-delay: 26s;
-          animation-delay: 26s;
-  -webkit-animation-duration: 28s;
-          animation-duration: 28s;
+  -webkit-animation-delay: -10s;
+          animation-delay: -10s;
+  -webkit-animation-duration: 31s;
+          animation-duration: 31s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 2s;
@@ -686,7 +686,7 @@
 }
 
 .BGanimation .shape26:hover {
-  left: 96%;
+  left: 103%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -697,14 +697,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 11vh;
-  height: 11vh;
-  left: 35%;
+  width: 7vh;
+  height: 7vh;
+  left: 88%;
   background: #d3d3d3;
-  -webkit-animation-delay: 14s;
-          animation-delay: 14s;
-  -webkit-animation-duration: 57s;
-          animation-duration: 57s;
+  -webkit-animation-delay: 28s;
+          animation-delay: 28s;
+  -webkit-animation-duration: 11s;
+          animation-duration: 11s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 2s;
@@ -712,7 +712,7 @@
 }
 
 .BGanimation .shape27:hover {
-  left: 45%;
+  left: 98%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -723,14 +723,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 9vh;
-  height: 9vh;
-  left: 66%;
+  width: 6vh;
+  height: 6vh;
+  left: 25%;
   background: #d3d3d3;
-  -webkit-animation-delay: -10s;
-          animation-delay: -10s;
-  -webkit-animation-duration: 17s;
-          animation-duration: 17s;
+  -webkit-animation-delay: 18s;
+          animation-delay: 18s;
+  -webkit-animation-duration: 39s;
+          animation-duration: 39s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 2s;
@@ -738,7 +738,7 @@
 }
 
 .BGanimation .shape28:hover {
-  left: 76%;
+  left: 35%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -749,14 +749,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 11vh;
-  height: 11vh;
-  left: 99%;
+  width: 6vh;
+  height: 6vh;
+  left: 67%;
   background: #d3d3d3;
-  -webkit-animation-delay: 3s;
-          animation-delay: 3s;
-  -webkit-animation-duration: 25s;
-          animation-duration: 25s;
+  -webkit-animation-delay: 23s;
+          animation-delay: 23s;
+  -webkit-animation-duration: 49s;
+          animation-duration: 49s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 2s;
@@ -764,7 +764,7 @@
 }
 
 .BGanimation .shape29:hover {
-  left: 109%;
+  left: 77%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -775,14 +775,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 13vh;
-  height: 13vh;
-  left: 92%;
+  width: 15vh;
+  height: 15vh;
+  left: 27%;
   background: #d3d3d3;
-  -webkit-animation-delay: -16s;
-          animation-delay: -16s;
-  -webkit-animation-duration: 50s;
-          animation-duration: 50s;
+  -webkit-animation-delay: 14s;
+          animation-delay: 14s;
+  -webkit-animation-duration: 18s;
+          animation-duration: 18s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 2s;
@@ -790,7 +790,7 @@
 }
 
 .BGanimation .shape30:hover {
-  left: 102%;
+  left: 37%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -801,14 +801,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 6vh;
-  height: 6vh;
-  left: 100%;
+  width: 13vh;
+  height: 13vh;
+  left: 21%;
   background: #d3d3d3;
-  -webkit-animation-delay: -29s;
-          animation-delay: -29s;
-  -webkit-animation-duration: 19s;
-          animation-duration: 19s;
+  -webkit-animation-delay: -24s;
+          animation-delay: -24s;
+  -webkit-animation-duration: 41s;
+          animation-duration: 41s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 2s;
@@ -816,7 +816,7 @@
 }
 
 .BGanimation .shape31:hover {
-  left: 110%;
+  left: 31%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -827,14 +827,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 12vh;
-  height: 12vh;
-  left: 3%;
+  width: 6vh;
+  height: 6vh;
+  left: 28%;
   background: #d3d3d3;
-  -webkit-animation-delay: -8s;
-          animation-delay: -8s;
-  -webkit-animation-duration: 14s;
-          animation-duration: 14s;
+  -webkit-animation-delay: 21s;
+          animation-delay: 21s;
+  -webkit-animation-duration: 21s;
+          animation-duration: 21s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 2s;
@@ -842,7 +842,7 @@
 }
 
 .BGanimation .shape32:hover {
-  left: 13%;
+  left: 38%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -855,12 +855,12 @@
   display: block;
   width: 12vh;
   height: 12vh;
-  left: 44%;
+  left: 4%;
   background: #d3d3d3;
-  -webkit-animation-delay: -27s;
-          animation-delay: -27s;
-  -webkit-animation-duration: 34s;
-          animation-duration: 34s;
+  -webkit-animation-delay: 13s;
+          animation-delay: 13s;
+  -webkit-animation-duration: 37s;
+          animation-duration: 37s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 2s;
@@ -868,7 +868,7 @@
 }
 
 .BGanimation .shape33:hover {
-  left: 54%;
+  left: 14%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -879,14 +879,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 10vh;
-  height: 10vh;
-  left: 95%;
+  width: 12vh;
+  height: 12vh;
+  left: 9%;
   background: #d3d3d3;
-  -webkit-animation-delay: 25s;
-          animation-delay: 25s;
-  -webkit-animation-duration: 15s;
-          animation-duration: 15s;
+  -webkit-animation-delay: -33s;
+          animation-delay: -33s;
+  -webkit-animation-duration: 50s;
+          animation-duration: 50s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 2s;
@@ -894,7 +894,7 @@
 }
 
 .BGanimation .shape34:hover {
-  left: 105%;
+  left: 19%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -905,14 +905,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 6vh;
-  height: 6vh;
-  left: 49%;
+  width: 15vh;
+  height: 15vh;
+  left: 15%;
   background: #d3d3d3;
-  -webkit-animation-delay: -8s;
-          animation-delay: -8s;
-  -webkit-animation-duration: 56s;
-          animation-duration: 56s;
+  -webkit-animation-delay: 11s;
+          animation-delay: 11s;
+  -webkit-animation-duration: 21s;
+          animation-duration: 21s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 2s;
@@ -920,7 +920,7 @@
 }
 
 .BGanimation .shape35:hover {
-  left: 59%;
+  left: 25%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -931,14 +931,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 15vh;
-  height: 15vh;
-  left: 14%;
+  width: 9vh;
+  height: 9vh;
+  left: 57%;
   background: #d3d3d3;
-  -webkit-animation-delay: -30s;
-          animation-delay: -30s;
-  -webkit-animation-duration: 23s;
-          animation-duration: 23s;
+  -webkit-animation-delay: -4s;
+          animation-delay: -4s;
+  -webkit-animation-duration: 25s;
+          animation-duration: 25s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 2s;
@@ -946,7 +946,7 @@
 }
 
 .BGanimation .shape36:hover {
-  left: 24%;
+  left: 67%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -957,14 +957,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 7vh;
-  height: 7vh;
-  left: 85%;
+  width: 9vh;
+  height: 9vh;
+  left: 14%;
   background: #d3d3d3;
-  -webkit-animation-delay: 24s;
-          animation-delay: 24s;
-  -webkit-animation-duration: 53s;
-          animation-duration: 53s;
+  -webkit-animation-delay: 20s;
+          animation-delay: 20s;
+  -webkit-animation-duration: 22s;
+          animation-duration: 22s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 2s;
@@ -972,7 +972,7 @@
 }
 
 .BGanimation .shape37:hover {
-  left: 95%;
+  left: 24%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -983,14 +983,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 8vh;
-  height: 8vh;
-  left: 86%;
+  width: 11vh;
+  height: 11vh;
+  left: 97%;
   background: #d3d3d3;
-  -webkit-animation-delay: -19s;
-          animation-delay: -19s;
-  -webkit-animation-duration: 15s;
-          animation-duration: 15s;
+  -webkit-animation-delay: -38s;
+          animation-delay: -38s;
+  -webkit-animation-duration: 56s;
+          animation-duration: 56s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 2s;
@@ -998,7 +998,7 @@
 }
 
 .BGanimation .shape38:hover {
-  left: 96%;
+  left: 107%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -1009,14 +1009,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 8vh;
-  height: 8vh;
-  left: 73%;
+  width: 9vh;
+  height: 9vh;
+  left: 54%;
   background: #d3d3d3;
-  -webkit-animation-delay: 8s;
-          animation-delay: 8s;
-  -webkit-animation-duration: 46s;
-          animation-duration: 46s;
+  -webkit-animation-delay: -14s;
+          animation-delay: -14s;
+  -webkit-animation-duration: 50s;
+          animation-duration: 50s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 2s;
@@ -1024,7 +1024,7 @@
 }
 
 .BGanimation .shape39:hover {
-  left: 83%;
+  left: 64%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -1035,14 +1035,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 14vh;
-  height: 14vh;
-  left: 78%;
+  width: 13vh;
+  height: 13vh;
+  left: 42%;
   background: #d3d3d3;
-  -webkit-animation-delay: -7s;
-          animation-delay: -7s;
-  -webkit-animation-duration: 51s;
-          animation-duration: 51s;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+  -webkit-animation-duration: 22s;
+          animation-duration: 22s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 2s;
@@ -1050,7 +1050,7 @@
 }
 
 .BGanimation .shape40:hover {
-  left: 88%;
+  left: 52%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -1061,14 +1061,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 10vh;
-  height: 10vh;
-  left: 51%;
+  width: 13vh;
+  height: 13vh;
+  left: 44%;
   background: #d3d3d3;
-  -webkit-animation-delay: -4s;
-          animation-delay: -4s;
-  -webkit-animation-duration: 48s;
-          animation-duration: 48s;
+  -webkit-animation-delay: -14s;
+          animation-delay: -14s;
+  -webkit-animation-duration: 20s;
+          animation-duration: 20s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 2s;
@@ -1076,7 +1076,7 @@
 }
 
 .BGanimation .shape41:hover {
-  left: 61%;
+  left: 54%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -1087,14 +1087,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 15vh;
-  height: 15vh;
-  left: 96%;
+  width: 13vh;
+  height: 13vh;
+  left: 14%;
   background: #d3d3d3;
-  -webkit-animation-delay: -18s;
-          animation-delay: -18s;
-  -webkit-animation-duration: 52s;
-          animation-duration: 52s;
+  -webkit-animation-delay: -22s;
+          animation-delay: -22s;
+  -webkit-animation-duration: 26s;
+          animation-duration: 26s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 2s;
@@ -1102,7 +1102,7 @@
 }
 
 .BGanimation .shape42:hover {
-  left: 106%;
+  left: 24%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -1113,14 +1113,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 15vh;
-  height: 15vh;
-  left: 17%;
+  width: 13vh;
+  height: 13vh;
+  left: 5%;
   background: #d3d3d3;
-  -webkit-animation-delay: 11s;
-          animation-delay: 11s;
-  -webkit-animation-duration: 42s;
-          animation-duration: 42s;
+  -webkit-animation-delay: -17s;
+          animation-delay: -17s;
+  -webkit-animation-duration: 44s;
+          animation-duration: 44s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 2s;
@@ -1128,7 +1128,7 @@
 }
 
 .BGanimation .shape43:hover {
-  left: 27%;
+  left: 15%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -1139,14 +1139,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 6vh;
-  height: 6vh;
-  left: 60%;
+  width: 11vh;
+  height: 11vh;
+  left: 18%;
   background: #d3d3d3;
-  -webkit-animation-delay: 27s;
-          animation-delay: 27s;
-  -webkit-animation-duration: 34s;
-          animation-duration: 34s;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+  -webkit-animation-duration: 39s;
+          animation-duration: 39s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 2s;
@@ -1154,7 +1154,7 @@
 }
 
 .BGanimation .shape44:hover {
-  left: 70%;
+  left: 28%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -1165,14 +1165,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 12vh;
-  height: 12vh;
-  left: 73%;
+  width: 7vh;
+  height: 7vh;
+  left: 32%;
   background: #d3d3d3;
-  -webkit-animation-delay: 27s;
-          animation-delay: 27s;
-  -webkit-animation-duration: 28s;
-          animation-duration: 28s;
+  -webkit-animation-delay: -14s;
+          animation-delay: -14s;
+  -webkit-animation-duration: 15s;
+          animation-duration: 15s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 2s;
@@ -1180,7 +1180,7 @@
 }
 
 .BGanimation .shape45:hover {
-  left: 83%;
+  left: 42%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -1191,14 +1191,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 8vh;
-  height: 8vh;
-  left: 46%;
+  width: 15vh;
+  height: 15vh;
+  left: 58%;
   background: #d3d3d3;
-  -webkit-animation-delay: -12s;
-          animation-delay: -12s;
-  -webkit-animation-duration: 39s;
-          animation-duration: 39s;
+  -webkit-animation-delay: -22s;
+          animation-delay: -22s;
+  -webkit-animation-duration: 51s;
+          animation-duration: 51s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 2s;
@@ -1206,7 +1206,7 @@
 }
 
 .BGanimation .shape46:hover {
-  left: 56%;
+  left: 68%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -1217,14 +1217,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 11vh;
-  height: 11vh;
-  left: 13%;
+  width: 14vh;
+  height: 14vh;
+  left: 51%;
   background: #d3d3d3;
-  -webkit-animation-delay: 16s;
-          animation-delay: 16s;
-  -webkit-animation-duration: 35s;
-          animation-duration: 35s;
+  -webkit-animation-delay: -19s;
+          animation-delay: -19s;
+  -webkit-animation-duration: 17s;
+          animation-duration: 17s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 2s;
@@ -1232,7 +1232,7 @@
 }
 
 .BGanimation .shape47:hover {
-  left: 23%;
+  left: 61%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -1245,12 +1245,12 @@
   display: block;
   width: 13vh;
   height: 13vh;
-  left: 64%;
+  left: 93%;
   background: #d3d3d3;
-  -webkit-animation-delay: -15s;
-          animation-delay: -15s;
-  -webkit-animation-duration: 41s;
-          animation-duration: 41s;
+  -webkit-animation-delay: -23s;
+          animation-delay: -23s;
+  -webkit-animation-duration: 14s;
+          animation-duration: 14s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 2s;
@@ -1258,7 +1258,7 @@
 }
 
 .BGanimation .shape48:hover {
-  left: 74%;
+  left: 103%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -1269,14 +1269,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 11vh;
-  height: 11vh;
-  left: 17%;
+  width: 8vh;
+  height: 8vh;
+  left: 43%;
   background: #d3d3d3;
-  -webkit-animation-delay: 23s;
-          animation-delay: 23s;
-  -webkit-animation-duration: 44s;
-          animation-duration: 44s;
+  -webkit-animation-delay: -7s;
+          animation-delay: -7s;
+  -webkit-animation-duration: 45s;
+          animation-duration: 45s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 2s;
@@ -1284,7 +1284,7 @@
 }
 
 .BGanimation .shape49:hover {
-  left: 27%;
+  left: 53%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -1295,14 +1295,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 6vh;
-  height: 6vh;
-  left: 53%;
+  width: 11vh;
+  height: 11vh;
+  left: 1%;
   background: #d3d3d3;
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s;
-  -webkit-animation-duration: 51s;
-          animation-duration: 51s;
+  -webkit-animation-delay: 8s;
+          animation-delay: 8s;
+  -webkit-animation-duration: 15s;
+          animation-duration: 15s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 2s;
@@ -1310,7 +1310,7 @@
 }
 
 .BGanimation .shape50:hover {
-  left: 63%;
+  left: 11%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -1321,14 +1321,12 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 15vh;
-  height: 15vh;
-  left: 19%;
+  left: 35%;
   background: #d3d3d3;
-  -webkit-animation-delay: -16s;
-          animation-delay: -16s;
-  -webkit-animation-duration: 51s;
-          animation-duration: 51s;
+  -webkit-animation-delay: -19s;
+          animation-delay: -19s;
+  -webkit-animation-duration: 27s;
+          animation-duration: 27s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 5s;
@@ -1336,7 +1334,7 @@
 }
 
 .BGanimation .shape01:hover {
-  left: 9%;
+  left: 25%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -1347,14 +1345,12 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 15vh;
-  height: 15vh;
-  left: 2%;
+  left: 38%;
   background: #d3d3d3;
-  -webkit-animation-delay: -24s;
-          animation-delay: -24s;
-  -webkit-animation-duration: 41s;
-          animation-duration: 41s;
+  -webkit-animation-delay: -9s;
+          animation-delay: -9s;
+  -webkit-animation-duration: 23s;
+          animation-duration: 23s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 5s;
@@ -1362,7 +1358,7 @@
 }
 
 .BGanimation .shape02:hover {
-  left: -8%;
+  left: 28%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -1373,14 +1369,12 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 9vh;
-  height: 9vh;
-  left: 46%;
+  left: 98%;
   background: #d3d3d3;
-  -webkit-animation-delay: -30s;
-          animation-delay: -30s;
-  -webkit-animation-duration: 43s;
-          animation-duration: 43s;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-duration: 14s;
+          animation-duration: 14s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 5s;
@@ -1388,7 +1382,7 @@
 }
 
 .BGanimation .shape03:hover {
-  left: 36%;
+  left: 88%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -1399,14 +1393,12 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 11vh;
-  height: 11vh;
-  left: 94%;
+  left: 55%;
   background: #d3d3d3;
-  -webkit-animation-delay: 5s;
-          animation-delay: 5s;
-  -webkit-animation-duration: 55s;
-          animation-duration: 55s;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+  -webkit-animation-duration: 12s;
+          animation-duration: 12s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 5s;
@@ -1414,7 +1406,7 @@
 }
 
 .BGanimation .shape04:hover {
-  left: 84%;
+  left: 45%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -1425,12 +1417,10 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 15vh;
-  height: 15vh;
-  left: 86%;
+  left: 85%;
   background: #d3d3d3;
-  -webkit-animation-delay: 17s;
-          animation-delay: 17s;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
   -webkit-animation-duration: 41s;
           animation-duration: 41s;
   bottom: -150px;
@@ -1440,7 +1430,7 @@
 }
 
 .BGanimation .shape05:hover {
-  left: 76%;
+  left: 75%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -1451,14 +1441,12 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 14vh;
-  height: 14vh;
-  left: 81%;
+  left: 67%;
   background: #d3d3d3;
-  -webkit-animation-delay: -12s;
-          animation-delay: -12s;
-  -webkit-animation-duration: 30s;
-          animation-duration: 30s;
+  -webkit-animation-delay: -10s;
+          animation-delay: -10s;
+  -webkit-animation-duration: 21s;
+          animation-duration: 21s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 5s;
@@ -1466,7 +1454,7 @@
 }
 
 .BGanimation .shape06:hover {
-  left: 71%;
+  left: 57%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -1477,14 +1465,12 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 9vh;
-  height: 9vh;
-  left: 98%;
+  left: 89%;
   background: #d3d3d3;
-  -webkit-animation-delay: -22s;
-          animation-delay: -22s;
-  -webkit-animation-duration: 11s;
-          animation-duration: 11s;
+  -webkit-animation-delay: -3s;
+          animation-delay: -3s;
+  -webkit-animation-duration: 15s;
+          animation-duration: 15s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 5s;
@@ -1492,7 +1478,7 @@
 }
 
 .BGanimation .shape07:hover {
-  left: 88%;
+  left: 79%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -1503,14 +1489,12 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 15vh;
-  height: 15vh;
   left: 16%;
   background: #d3d3d3;
-  -webkit-animation-delay: 13s;
-          animation-delay: 13s;
-  -webkit-animation-duration: 40s;
-          animation-duration: 40s;
+  -webkit-animation-delay: -29s;
+          animation-delay: -29s;
+  -webkit-animation-duration: 11s;
+          animation-duration: 11s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 5s;
@@ -1529,14 +1513,12 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 13vh;
-  height: 13vh;
-  left: 90%;
+  left: 29%;
   background: #d3d3d3;
-  -webkit-animation-delay: 25s;
-          animation-delay: 25s;
-  -webkit-animation-duration: 43s;
-          animation-duration: 43s;
+  -webkit-animation-delay: -8s;
+          animation-delay: -8s;
+  -webkit-animation-duration: 14s;
+          animation-duration: 14s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 5s;
@@ -1544,7 +1526,7 @@
 }
 
 .BGanimation .shape09:hover {
-  left: 80%;
+  left: 19%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -1555,14 +1537,12 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 8vh;
-  height: 8vh;
-  left: 64%;
+  left: 97%;
   background: #d3d3d3;
-  -webkit-animation-delay: -30s;
-          animation-delay: -30s;
-  -webkit-animation-duration: 22s;
-          animation-duration: 22s;
+  -webkit-animation-delay: 28s;
+          animation-delay: 28s;
+  -webkit-animation-duration: 13s;
+          animation-duration: 13s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 5s;
@@ -1570,7 +1550,7 @@
 }
 
 .BGanimation .shape010:hover {
-  left: 54%;
+  left: 87%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -1581,14 +1561,12 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 8vh;
-  height: 8vh;
-  left: 48%;
+  left: 11%;
   background: #d3d3d3;
-  -webkit-animation-delay: 23s;
-          animation-delay: 23s;
-  -webkit-animation-duration: 26s;
-          animation-duration: 26s;
+  -webkit-animation-delay: -6s;
+          animation-delay: -6s;
+  -webkit-animation-duration: 50s;
+          animation-duration: 50s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 5s;
@@ -1596,7 +1574,7 @@
 }
 
 .BGanimation .shape011:hover {
-  left: 38%;
+  left: 1%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -1607,14 +1585,12 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 7vh;
-  height: 7vh;
-  left: 1%;
+  left: 98%;
   background: #d3d3d3;
-  -webkit-animation-delay: 16s;
-          animation-delay: 16s;
-  -webkit-animation-duration: 32s;
-          animation-duration: 32s;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+  -webkit-animation-duration: 45s;
+          animation-duration: 45s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 5s;
@@ -1622,7 +1598,7 @@
 }
 
 .BGanimation .shape012:hover {
-  left: -9%;
+  left: 88%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -1633,14 +1609,12 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 15vh;
-  height: 15vh;
-  left: 63%;
+  left: 76%;
   background: #d3d3d3;
-  -webkit-animation-delay: -35s;
-          animation-delay: -35s;
-  -webkit-animation-duration: 34s;
-          animation-duration: 34s;
+  -webkit-animation-delay: 16s;
+          animation-delay: 16s;
+  -webkit-animation-duration: 33s;
+          animation-duration: 33s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 5s;
@@ -1648,7 +1622,7 @@
 }
 
 .BGanimation .shape013:hover {
-  left: 53%;
+  left: 66%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -1659,14 +1633,12 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 12vh;
-  height: 12vh;
-  left: 38%;
+  left: 20%;
   background: #d3d3d3;
-  -webkit-animation-delay: -27s;
-          animation-delay: -27s;
-  -webkit-animation-duration: 58s;
-          animation-duration: 58s;
+  -webkit-animation-delay: 29s;
+          animation-delay: 29s;
+  -webkit-animation-duration: 24s;
+          animation-duration: 24s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 5s;
@@ -1674,7 +1646,7 @@
 }
 
 .BGanimation .shape014:hover {
-  left: 28%;
+  left: 10%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -1685,14 +1657,12 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 12vh;
-  height: 12vh;
-  left: 99%;
+  left: 67%;
   background: #d3d3d3;
-  -webkit-animation-delay: 14s;
-          animation-delay: 14s;
-  -webkit-animation-duration: 33s;
-          animation-duration: 33s;
+  -webkit-animation-delay: -36s;
+          animation-delay: -36s;
+  -webkit-animation-duration: 56s;
+          animation-duration: 56s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 5s;
@@ -1700,7 +1670,7 @@
 }
 
 .BGanimation .shape015:hover {
-  left: 89%;
+  left: 57%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -1711,14 +1681,12 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 15vh;
-  height: 15vh;
-  left: 93%;
+  left: 28%;
   background: #d3d3d3;
-  -webkit-animation-delay: 28s;
-          animation-delay: 28s;
-  -webkit-animation-duration: 50s;
-          animation-duration: 50s;
+  -webkit-animation-delay: -32s;
+          animation-delay: -32s;
+  -webkit-animation-duration: 42s;
+          animation-duration: 42s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 5s;
@@ -1726,7 +1694,7 @@
 }
 
 .BGanimation .shape016:hover {
-  left: 83%;
+  left: 18%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -1737,14 +1705,12 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 11vh;
-  height: 11vh;
-  left: 78%;
+  left: 36%;
   background: #d3d3d3;
-  -webkit-animation-delay: 15s;
-          animation-delay: 15s;
-  -webkit-animation-duration: 38s;
-          animation-duration: 38s;
+  -webkit-animation-delay: 8s;
+          animation-delay: 8s;
+  -webkit-animation-duration: 57s;
+          animation-duration: 57s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 5s;
@@ -1752,7 +1718,7 @@
 }
 
 .BGanimation .shape017:hover {
-  left: 68%;
+  left: 26%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -1763,14 +1729,12 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 6vh;
-  height: 6vh;
-  left: 15%;
+  left: 47%;
   background: #d3d3d3;
-  -webkit-animation-delay: -3s;
-          animation-delay: -3s;
-  -webkit-animation-duration: 60s;
-          animation-duration: 60s;
+  -webkit-animation-delay: -4s;
+          animation-delay: -4s;
+  -webkit-animation-duration: 56s;
+          animation-duration: 56s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 5s;
@@ -1778,7 +1742,7 @@
 }
 
 .BGanimation .shape018:hover {
-  left: 5%;
+  left: 37%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -1789,14 +1753,12 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 13vh;
-  height: 13vh;
-  left: 37%;
+  left: 38%;
   background: #d3d3d3;
-  -webkit-animation-delay: -39s;
-          animation-delay: -39s;
-  -webkit-animation-duration: 56s;
-          animation-duration: 56s;
+  -webkit-animation-delay: 22s;
+          animation-delay: 22s;
+  -webkit-animation-duration: 41s;
+          animation-duration: 41s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 5s;
@@ -1804,7 +1766,7 @@
 }
 
 .BGanimation .shape019:hover {
-  left: 27%;
+  left: 28%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -1815,14 +1777,12 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 14vh;
-  height: 14vh;
-  left: 54%;
+  left: 55%;
   background: #d3d3d3;
-  -webkit-animation-delay: 28s;
-          animation-delay: 28s;
-  -webkit-animation-duration: 27s;
-          animation-duration: 27s;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+  -webkit-animation-duration: 15s;
+          animation-duration: 15s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 5s;
@@ -1830,7 +1790,7 @@
 }
 
 .BGanimation .shape020:hover {
-  left: 44%;
+  left: 45%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -1841,14 +1801,12 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 10vh;
-  height: 10vh;
-  left: 5%;
+  left: 70%;
   background: #d3d3d3;
-  -webkit-animation-delay: 13s;
-          animation-delay: 13s;
-  -webkit-animation-duration: 50s;
-          animation-duration: 50s;
+  -webkit-animation-delay: 10s;
+          animation-delay: 10s;
+  -webkit-animation-duration: 46s;
+          animation-duration: 46s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 5s;
@@ -1856,7 +1814,7 @@
 }
 
 .BGanimation .shape021:hover {
-  left: -5%;
+  left: 60%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -1867,14 +1825,12 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 10vh;
-  height: 10vh;
-  left: 79%;
+  left: 18%;
   background: #d3d3d3;
-  -webkit-animation-delay: -31s;
-          animation-delay: -31s;
-  -webkit-animation-duration: 17s;
-          animation-duration: 17s;
+  -webkit-animation-delay: 24s;
+          animation-delay: 24s;
+  -webkit-animation-duration: 23s;
+          animation-duration: 23s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 5s;
@@ -1882,7 +1838,7 @@
 }
 
 .BGanimation .shape022:hover {
-  left: 69%;
+  left: 8%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -1893,14 +1849,12 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 12vh;
-  height: 12vh;
-  left: 53%;
+  left: 81%;
   background: #d3d3d3;
-  -webkit-animation-delay: -20s;
-          animation-delay: -20s;
-  -webkit-animation-duration: 49s;
-          animation-duration: 49s;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-duration: 33s;
+          animation-duration: 33s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 5s;
@@ -1908,7 +1862,7 @@
 }
 
 .BGanimation .shape023:hover {
-  left: 43%;
+  left: 71%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -1919,14 +1873,12 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 11vh;
-  height: 11vh;
-  left: 97%;
+  left: 60%;
   background: #d3d3d3;
-  -webkit-animation-delay: -31s;
-          animation-delay: -31s;
-  -webkit-animation-duration: 43s;
-          animation-duration: 43s;
+  -webkit-animation-delay: -8s;
+          animation-delay: -8s;
+  -webkit-animation-duration: 47s;
+          animation-duration: 47s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 5s;
@@ -1934,7 +1886,7 @@
 }
 
 .BGanimation .shape024:hover {
-  left: 87%;
+  left: 50%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -1945,14 +1897,12 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 7vh;
-  height: 7vh;
-  left: 1%;
+  left: 99%;
   background: #d3d3d3;
-  -webkit-animation-delay: 23s;
-          animation-delay: 23s;
-  -webkit-animation-duration: 49s;
-          animation-duration: 49s;
+  -webkit-animation-delay: -15s;
+          animation-delay: -15s;
+  -webkit-animation-duration: 23s;
+          animation-duration: 23s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 5s;
@@ -1960,7 +1910,7 @@
 }
 
 .BGanimation .shape025:hover {
-  left: -9%;
+  left: 89%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -1971,14 +1921,12 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 12vh;
-  height: 12vh;
-  left: 62%;
+  left: 39%;
   background: #d3d3d3;
-  -webkit-animation-delay: 23s;
-          animation-delay: 23s;
-  -webkit-animation-duration: 39s;
-          animation-duration: 39s;
+  -webkit-animation-delay: -22s;
+          animation-delay: -22s;
+  -webkit-animation-duration: 36s;
+          animation-duration: 36s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 5s;
@@ -1986,7 +1934,7 @@
 }
 
 .BGanimation .shape026:hover {
-  left: 52%;
+  left: 29%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -1997,14 +1945,12 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 11vh;
-  height: 11vh;
-  left: 60%;
+  left: 70%;
   background: #d3d3d3;
-  -webkit-animation-delay: -26s;
-          animation-delay: -26s;
-  -webkit-animation-duration: 36s;
-          animation-duration: 36s;
+  -webkit-animation-delay: -5s;
+          animation-delay: -5s;
+  -webkit-animation-duration: 47s;
+          animation-duration: 47s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 5s;
@@ -2012,7 +1958,7 @@
 }
 
 .BGanimation .shape027:hover {
-  left: 50%;
+  left: 60%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -2023,14 +1969,12 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 8vh;
-  height: 8vh;
-  left: 47%;
+  left: 34%;
   background: #d3d3d3;
-  -webkit-animation-delay: -15s;
-          animation-delay: -15s;
-  -webkit-animation-duration: 55s;
-          animation-duration: 55s;
+  -webkit-animation-delay: 23s;
+          animation-delay: 23s;
+  -webkit-animation-duration: 43s;
+          animation-duration: 43s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 5s;
@@ -2038,7 +1982,7 @@
 }
 
 .BGanimation .shape028:hover {
-  left: 37%;
+  left: 24%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -2049,14 +1993,12 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 7vh;
-  height: 7vh;
   left: 71%;
   background: #d3d3d3;
-  -webkit-animation-delay: -39s;
-          animation-delay: -39s;
-  -webkit-animation-duration: 20s;
-          animation-duration: 20s;
+  -webkit-animation-delay: -10s;
+          animation-delay: -10s;
+  -webkit-animation-duration: 18s;
+          animation-duration: 18s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 5s;
@@ -2075,14 +2017,12 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 15vh;
-  height: 15vh;
-  left: 2%;
+  left: 76%;
   background: #d3d3d3;
-  -webkit-animation-delay: -27s;
-          animation-delay: -27s;
-  -webkit-animation-duration: 53s;
-          animation-duration: 53s;
+  -webkit-animation-delay: 20s;
+          animation-delay: 20s;
+  -webkit-animation-duration: 31s;
+          animation-duration: 31s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 5s;
@@ -2090,7 +2030,7 @@
 }
 
 .BGanimation .shape030:hover {
-  left: -8%;
+  left: 66%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -2101,14 +2041,12 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 12vh;
-  height: 12vh;
-  left: 86%;
+  left: 24%;
   background: #d3d3d3;
-  -webkit-animation-delay: -21s;
-          animation-delay: -21s;
-  -webkit-animation-duration: 43s;
-          animation-duration: 43s;
+  -webkit-animation-delay: 28s;
+          animation-delay: 28s;
+  -webkit-animation-duration: 44s;
+          animation-duration: 44s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 5s;
@@ -2116,7 +2054,7 @@
 }
 
 .BGanimation .shape031:hover {
-  left: 76%;
+  left: 14%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -2127,14 +2065,12 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 9vh;
-  height: 9vh;
-  left: 87%;
+  left: 29%;
   background: #d3d3d3;
-  -webkit-animation-delay: -29s;
-          animation-delay: -29s;
-  -webkit-animation-duration: 19s;
-          animation-duration: 19s;
+  -webkit-animation-delay: -35s;
+          animation-delay: -35s;
+  -webkit-animation-duration: 58s;
+          animation-duration: 58s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 5s;
@@ -2142,7 +2078,7 @@
 }
 
 .BGanimation .shape032:hover {
-  left: 77%;
+  left: 19%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -2153,243 +2089,7 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 8vh;
-  height: 8vh;
-  left: 61%;
-  background: #d3d3d3;
-  -webkit-animation-delay: -38s;
-          animation-delay: -38s;
-  -webkit-animation-duration: 36s;
-          animation-duration: 36s;
-  bottom: -150px;
-  border-radius: 10%;
-  -webkit-transition: 5s;
-  transition: 5s;
-}
-
-.BGanimation .shape033:hover {
-  left: 51%;
-  -webkit-transition: 2s;
-  transition: 2s;
-  cursor: pointer;
-}
-
-.BGanimation .shape034 {
-  -webkit-animation: animate linear infinite;
-          animation: animate linear infinite;
-  position: absolute;
-  display: block;
-  width: 14vh;
-  height: 14vh;
   left: 97%;
-  background: #d3d3d3;
-  -webkit-animation-delay: -2s;
-          animation-delay: -2s;
-  -webkit-animation-duration: 35s;
-          animation-duration: 35s;
-  bottom: -150px;
-  border-radius: 10%;
-  -webkit-transition: 5s;
-  transition: 5s;
-}
-
-.BGanimation .shape034:hover {
-  left: 87%;
-  -webkit-transition: 2s;
-  transition: 2s;
-  cursor: pointer;
-}
-
-.BGanimation .shape035 {
-  -webkit-animation: animate linear infinite;
-          animation: animate linear infinite;
-  position: absolute;
-  display: block;
-  width: 11vh;
-  height: 11vh;
-  left: 55%;
-  background: #d3d3d3;
-  -webkit-animation-delay: -39s;
-          animation-delay: -39s;
-  -webkit-animation-duration: 11s;
-          animation-duration: 11s;
-  bottom: -150px;
-  border-radius: 10%;
-  -webkit-transition: 5s;
-  transition: 5s;
-}
-
-.BGanimation .shape035:hover {
-  left: 45%;
-  -webkit-transition: 2s;
-  transition: 2s;
-  cursor: pointer;
-}
-
-.BGanimation .shape036 {
-  -webkit-animation: animate linear infinite;
-          animation: animate linear infinite;
-  position: absolute;
-  display: block;
-  width: 6vh;
-  height: 6vh;
-  left: 76%;
-  background: #d3d3d3;
-  -webkit-animation-delay: 14s;
-          animation-delay: 14s;
-  -webkit-animation-duration: 40s;
-          animation-duration: 40s;
-  bottom: -150px;
-  border-radius: 10%;
-  -webkit-transition: 5s;
-  transition: 5s;
-}
-
-.BGanimation .shape036:hover {
-  left: 66%;
-  -webkit-transition: 2s;
-  transition: 2s;
-  cursor: pointer;
-}
-
-.BGanimation .shape037 {
-  -webkit-animation: animate linear infinite;
-          animation: animate linear infinite;
-  position: absolute;
-  display: block;
-  width: 10vh;
-  height: 10vh;
-  left: 48%;
-  background: #d3d3d3;
-  -webkit-animation-delay: -11s;
-          animation-delay: -11s;
-  -webkit-animation-duration: 27s;
-          animation-duration: 27s;
-  bottom: -150px;
-  border-radius: 10%;
-  -webkit-transition: 5s;
-  transition: 5s;
-}
-
-.BGanimation .shape037:hover {
-  left: 38%;
-  -webkit-transition: 2s;
-  transition: 2s;
-  cursor: pointer;
-}
-
-.BGanimation .shape038 {
-  -webkit-animation: animate linear infinite;
-          animation: animate linear infinite;
-  position: absolute;
-  display: block;
-  width: 15vh;
-  height: 15vh;
-  left: 82%;
-  background: #d3d3d3;
-  -webkit-animation-delay: -14s;
-          animation-delay: -14s;
-  -webkit-animation-duration: 44s;
-          animation-duration: 44s;
-  bottom: -150px;
-  border-radius: 10%;
-  -webkit-transition: 5s;
-  transition: 5s;
-}
-
-.BGanimation .shape038:hover {
-  left: 72%;
-  -webkit-transition: 2s;
-  transition: 2s;
-  cursor: pointer;
-}
-
-.BGanimation .shape039 {
-  -webkit-animation: animate linear infinite;
-          animation: animate linear infinite;
-  position: absolute;
-  display: block;
-  width: 12vh;
-  height: 12vh;
-  left: 4%;
-  background: #d3d3d3;
-  -webkit-animation-delay: 13s;
-          animation-delay: 13s;
-  -webkit-animation-duration: 18s;
-          animation-duration: 18s;
-  bottom: -150px;
-  border-radius: 10%;
-  -webkit-transition: 5s;
-  transition: 5s;
-}
-
-.BGanimation .shape039:hover {
-  left: -6%;
-  -webkit-transition: 2s;
-  transition: 2s;
-  cursor: pointer;
-}
-
-.BGanimation .shape040 {
-  -webkit-animation: animate linear infinite;
-          animation: animate linear infinite;
-  position: absolute;
-  display: block;
-  width: 11vh;
-  height: 11vh;
-  left: 72%;
-  background: #d3d3d3;
-  -webkit-animation-delay: -1s;
-          animation-delay: -1s;
-  -webkit-animation-duration: 55s;
-          animation-duration: 55s;
-  bottom: -150px;
-  border-radius: 10%;
-  -webkit-transition: 5s;
-  transition: 5s;
-}
-
-.BGanimation .shape040:hover {
-  left: 62%;
-  -webkit-transition: 2s;
-  transition: 2s;
-  cursor: pointer;
-}
-
-.BGanimation .shape041 {
-  -webkit-animation: animate linear infinite;
-          animation: animate linear infinite;
-  position: absolute;
-  display: block;
-  width: 7vh;
-  height: 7vh;
-  left: 41%;
-  background: #d3d3d3;
-  -webkit-animation-delay: 15s;
-          animation-delay: 15s;
-  -webkit-animation-duration: 37s;
-          animation-duration: 37s;
-  bottom: -150px;
-  border-radius: 10%;
-  -webkit-transition: 5s;
-  transition: 5s;
-}
-
-.BGanimation .shape041:hover {
-  left: 31%;
-  -webkit-transition: 2s;
-  transition: 2s;
-  cursor: pointer;
-}
-
-.BGanimation .shape042 {
-  -webkit-animation: animate linear infinite;
-          animation: animate linear infinite;
-  position: absolute;
-  display: block;
-  width: 6vh;
-  height: 6vh;
-  left: 85%;
   background: #d3d3d3;
   -webkit-animation-delay: -18s;
           animation-delay: -18s;
@@ -2401,8 +2101,224 @@
   transition: 5s;
 }
 
+.BGanimation .shape033:hover {
+  left: 87%;
+  -webkit-transition: 2s;
+  transition: 2s;
+  cursor: pointer;
+}
+
+.BGanimation .shape034 {
+  -webkit-animation: animate linear infinite;
+          animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  left: 1%;
+  background: #d3d3d3;
+  -webkit-animation-delay: 14s;
+          animation-delay: 14s;
+  -webkit-animation-duration: 17s;
+          animation-duration: 17s;
+  bottom: -150px;
+  border-radius: 10%;
+  -webkit-transition: 5s;
+  transition: 5s;
+}
+
+.BGanimation .shape034:hover {
+  left: -9%;
+  -webkit-transition: 2s;
+  transition: 2s;
+  cursor: pointer;
+}
+
+.BGanimation .shape035 {
+  -webkit-animation: animate linear infinite;
+          animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  left: 96%;
+  background: #d3d3d3;
+  -webkit-animation-delay: -22s;
+          animation-delay: -22s;
+  -webkit-animation-duration: 47s;
+          animation-duration: 47s;
+  bottom: -150px;
+  border-radius: 10%;
+  -webkit-transition: 5s;
+  transition: 5s;
+}
+
+.BGanimation .shape035:hover {
+  left: 86%;
+  -webkit-transition: 2s;
+  transition: 2s;
+  cursor: pointer;
+}
+
+.BGanimation .shape036 {
+  -webkit-animation: animate linear infinite;
+          animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  left: 84%;
+  background: #d3d3d3;
+  -webkit-animation-delay: -13s;
+          animation-delay: -13s;
+  -webkit-animation-duration: 58s;
+          animation-duration: 58s;
+  bottom: -150px;
+  border-radius: 10%;
+  -webkit-transition: 5s;
+  transition: 5s;
+}
+
+.BGanimation .shape036:hover {
+  left: 74%;
+  -webkit-transition: 2s;
+  transition: 2s;
+  cursor: pointer;
+}
+
+.BGanimation .shape037 {
+  -webkit-animation: animate linear infinite;
+          animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  left: 41%;
+  background: #d3d3d3;
+  -webkit-animation-delay: -4s;
+          animation-delay: -4s;
+  -webkit-animation-duration: 15s;
+          animation-duration: 15s;
+  bottom: -150px;
+  border-radius: 10%;
+  -webkit-transition: 5s;
+  transition: 5s;
+}
+
+.BGanimation .shape037:hover {
+  left: 31%;
+  -webkit-transition: 2s;
+  transition: 2s;
+  cursor: pointer;
+}
+
+.BGanimation .shape038 {
+  -webkit-animation: animate linear infinite;
+          animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  left: 44%;
+  background: #d3d3d3;
+  -webkit-animation-delay: 14s;
+          animation-delay: 14s;
+  -webkit-animation-duration: 57s;
+          animation-duration: 57s;
+  bottom: -150px;
+  border-radius: 10%;
+  -webkit-transition: 5s;
+  transition: 5s;
+}
+
+.BGanimation .shape038:hover {
+  left: 34%;
+  -webkit-transition: 2s;
+  transition: 2s;
+  cursor: pointer;
+}
+
+.BGanimation .shape039 {
+  -webkit-animation: animate linear infinite;
+          animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  left: 30%;
+  background: #d3d3d3;
+  -webkit-animation-delay: -8s;
+          animation-delay: -8s;
+  -webkit-animation-duration: 21s;
+          animation-duration: 21s;
+  bottom: -150px;
+  border-radius: 10%;
+  -webkit-transition: 5s;
+  transition: 5s;
+}
+
+.BGanimation .shape039:hover {
+  left: 20%;
+  -webkit-transition: 2s;
+  transition: 2s;
+  cursor: pointer;
+}
+
+.BGanimation .shape040 {
+  -webkit-animation: animate linear infinite;
+          animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  left: 98%;
+  background: #d3d3d3;
+  -webkit-animation-delay: -36s;
+          animation-delay: -36s;
+  -webkit-animation-duration: 31s;
+          animation-duration: 31s;
+  bottom: -150px;
+  border-radius: 10%;
+  -webkit-transition: 5s;
+  transition: 5s;
+}
+
+.BGanimation .shape040:hover {
+  left: 88%;
+  -webkit-transition: 2s;
+  transition: 2s;
+  cursor: pointer;
+}
+
+.BGanimation .shape041 {
+  -webkit-animation: animate linear infinite;
+          animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  left: 92%;
+  background: #d3d3d3;
+  -webkit-animation-delay: -28s;
+          animation-delay: -28s;
+  -webkit-animation-duration: 13s;
+          animation-duration: 13s;
+  bottom: -150px;
+  border-radius: 10%;
+  -webkit-transition: 5s;
+  transition: 5s;
+}
+
+.BGanimation .shape041:hover {
+  left: 82%;
+  -webkit-transition: 2s;
+  transition: 2s;
+  cursor: pointer;
+}
+
+.BGanimation .shape042 {
+  -webkit-animation: animate linear infinite;
+          animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  left: 42%;
+  background: #d3d3d3;
+  -webkit-animation-delay: 10s;
+          animation-delay: 10s;
+  -webkit-animation-duration: 40s;
+          animation-duration: 40s;
+  bottom: -150px;
+  border-radius: 10%;
+  -webkit-transition: 5s;
+  transition: 5s;
+}
+
 .BGanimation .shape042:hover {
-  left: 75%;
+  left: 32%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -2413,12 +2329,10 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 13vh;
-  height: 13vh;
-  left: 3%;
+  left: 37%;
   background: #d3d3d3;
-  -webkit-animation-delay: -9s;
-          animation-delay: -9s;
+  -webkit-animation-delay: -22s;
+          animation-delay: -22s;
   -webkit-animation-duration: 42s;
           animation-duration: 42s;
   bottom: -150px;
@@ -2428,7 +2342,7 @@
 }
 
 .BGanimation .shape043:hover {
-  left: -7%;
+  left: 27%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -2439,14 +2353,12 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 10vh;
-  height: 10vh;
-  left: 62%;
+  left: 21%;
   background: #d3d3d3;
-  -webkit-animation-delay: -19s;
-          animation-delay: -19s;
-  -webkit-animation-duration: 58s;
-          animation-duration: 58s;
+  -webkit-animation-delay: 14s;
+          animation-delay: 14s;
+  -webkit-animation-duration: 22s;
+          animation-duration: 22s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 5s;
@@ -2454,7 +2366,7 @@
 }
 
 .BGanimation .shape044:hover {
-  left: 52%;
+  left: 11%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -2465,14 +2377,12 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 11vh;
-  height: 11vh;
-  left: 43%;
+  left: 97%;
   background: #d3d3d3;
-  -webkit-animation-delay: 21s;
-          animation-delay: 21s;
-  -webkit-animation-duration: 23s;
-          animation-duration: 23s;
+  -webkit-animation-delay: -34s;
+          animation-delay: -34s;
+  -webkit-animation-duration: 38s;
+          animation-duration: 38s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 5s;
@@ -2480,7 +2390,7 @@
 }
 
 .BGanimation .shape045:hover {
-  left: 33%;
+  left: 87%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -2491,14 +2401,12 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 6vh;
-  height: 6vh;
-  left: 11%;
+  left: 49%;
   background: #d3d3d3;
-  -webkit-animation-delay: -1s;
-          animation-delay: -1s;
-  -webkit-animation-duration: 47s;
-          animation-duration: 47s;
+  -webkit-animation-delay: 8s;
+          animation-delay: 8s;
+  -webkit-animation-duration: 29s;
+          animation-duration: 29s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 5s;
@@ -2506,7 +2414,7 @@
 }
 
 .BGanimation .shape046:hover {
-  left: 1%;
+  left: 39%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -2517,14 +2425,12 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 10vh;
-  height: 10vh;
-  left: 37%;
+  left: 23%;
   background: #d3d3d3;
-  -webkit-animation-delay: -8s;
-          animation-delay: -8s;
-  -webkit-animation-duration: 40s;
-          animation-duration: 40s;
+  -webkit-animation-delay: -11s;
+          animation-delay: -11s;
+  -webkit-animation-duration: 18s;
+          animation-duration: 18s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 5s;
@@ -2532,7 +2438,7 @@
 }
 
 .BGanimation .shape047:hover {
-  left: 27%;
+  left: 13%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -2543,14 +2449,12 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 13vh;
-  height: 13vh;
-  left: 14%;
+  left: 95%;
   background: #d3d3d3;
   -webkit-animation-delay: 17s;
           animation-delay: 17s;
-  -webkit-animation-duration: 42s;
-          animation-duration: 42s;
+  -webkit-animation-duration: 43s;
+          animation-duration: 43s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 5s;
@@ -2558,7 +2462,7 @@
 }
 
 .BGanimation .shape048:hover {
-  left: 4%;
+  left: 85%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -2569,14 +2473,12 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 15vh;
-  height: 15vh;
-  left: 95%;
+  left: 42%;
   background: #d3d3d3;
-  -webkit-animation-delay: -3s;
-          animation-delay: -3s;
-  -webkit-animation-duration: 49s;
-          animation-duration: 49s;
+  -webkit-animation-delay: -21s;
+          animation-delay: -21s;
+  -webkit-animation-duration: 54s;
+          animation-duration: 54s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 5s;
@@ -2584,7 +2486,7 @@
 }
 
 .BGanimation .shape049:hover {
-  left: 85%;
+  left: 32%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
@@ -2595,14 +2497,12 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 8vh;
-  height: 8vh;
-  left: 6%;
+  left: 25%;
   background: #d3d3d3;
-  -webkit-animation-delay: 17s;
-          animation-delay: 17s;
-  -webkit-animation-duration: 39s;
-          animation-duration: 39s;
+  -webkit-animation-delay: 12s;
+          animation-delay: 12s;
+  -webkit-animation-duration: 40s;
+          animation-duration: 40s;
   bottom: -150px;
   border-radius: 10%;
   -webkit-transition: 5s;
@@ -2610,14 +2510,14 @@
 }
 
 .BGanimation .shape050:hover {
-  left: -4%;
+  left: 15%;
   -webkit-transition: 2s;
   transition: 2s;
   cursor: pointer;
 }
 
 .BGanimation2 {
-  margin-top: -20vh;
+  margin-top: -13vh;
   position: absolute;
   width: 100%;
   overflow: hidden;
@@ -2628,14 +2528,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 12vh;
-  height: 12vh;
-  left: 57%;
+  width: 11vh;
+  height: 11vh;
+  left: 90%;
   background: #000000;
-  -webkit-animation-delay: 11s;
-          animation-delay: 11s;
-  -webkit-animation-duration: 17s;
-          animation-duration: 17s;
+  -webkit-animation-delay: -10s;
+          animation-delay: -10s;
+  -webkit-animation-duration: 49s;
+          animation-duration: 49s;
   bottom: -150px;
   -webkit-transition: 5s;
   transition: 5s;
@@ -2646,14 +2546,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 13vh;
-  height: 13vh;
-  left: 24%;
+  width: 10vh;
+  height: 10vh;
+  left: 41%;
   background: #000000;
-  -webkit-animation-delay: -49s;
-          animation-delay: -49s;
-  -webkit-animation-duration: 60s;
-          animation-duration: 60s;
+  -webkit-animation-delay: 12s;
+          animation-delay: 12s;
+  -webkit-animation-duration: 39s;
+          animation-duration: 39s;
   bottom: -150px;
   -webkit-transition: 5s;
   transition: 5s;
@@ -2664,14 +2564,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 7vh;
-  height: 7vh;
-  left: 54%;
+  width: 12vh;
+  height: 12vh;
+  left: 16%;
   background: #000000;
-  -webkit-animation-delay: -17s;
-          animation-delay: -17s;
-  -webkit-animation-duration: 47s;
-          animation-duration: 47s;
+  -webkit-animation-delay: -23s;
+          animation-delay: -23s;
+  -webkit-animation-duration: 24s;
+          animation-duration: 24s;
   bottom: -150px;
   -webkit-transition: 5s;
   transition: 5s;
@@ -2682,14 +2582,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 14vh;
-  height: 14vh;
-  left: 94%;
+  width: 15vh;
+  height: 15vh;
+  left: 25%;
   background: #000000;
-  -webkit-animation-delay: -42s;
-          animation-delay: -42s;
-  -webkit-animation-duration: 29s;
-          animation-duration: 29s;
+  -webkit-animation-delay: -2s;
+          animation-delay: -2s;
+  -webkit-animation-duration: 52s;
+          animation-duration: 52s;
   bottom: -150px;
   -webkit-transition: 5s;
   transition: 5s;
@@ -2702,12 +2602,12 @@
   display: block;
   width: 8vh;
   height: 8vh;
-  left: 4%;
+  left: 98%;
   background: #000000;
-  -webkit-animation-delay: -45s;
-          animation-delay: -45s;
-  -webkit-animation-duration: 17s;
-          animation-duration: 17s;
+  -webkit-animation-delay: -4s;
+          animation-delay: -4s;
+  -webkit-animation-duration: 19s;
+          animation-duration: 19s;
   bottom: -150px;
   -webkit-transition: 5s;
   transition: 5s;
@@ -2718,14 +2618,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 15vh;
-  height: 15vh;
-  left: 98%;
+  width: 8vh;
+  height: 8vh;
+  left: 45%;
   background: #000000;
-  -webkit-animation-delay: -32s;
-          animation-delay: -32s;
-  -webkit-animation-duration: 11s;
-          animation-duration: 11s;
+  -webkit-animation-delay: -41s;
+          animation-delay: -41s;
+  -webkit-animation-duration: 17s;
+          animation-duration: 17s;
   bottom: -150px;
   -webkit-transition: 5s;
   transition: 5s;
@@ -2736,14 +2636,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 6vh;
-  height: 6vh;
-  left: 87%;
+  width: 10vh;
+  height: 10vh;
+  left: 46%;
   background: #000000;
-  -webkit-animation-delay: -9s;
-          animation-delay: -9s;
-  -webkit-animation-duration: 58s;
-          animation-duration: 58s;
+  -webkit-animation-delay: -45s;
+          animation-delay: -45s;
+  -webkit-animation-duration: 37s;
+          animation-duration: 37s;
   bottom: -150px;
   -webkit-transition: 5s;
   transition: 5s;
@@ -2754,14 +2654,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 9vh;
-  height: 9vh;
-  left: 39%;
+  width: 11vh;
+  height: 11vh;
+  left: 76%;
   background: #000000;
-  -webkit-animation-delay: 10s;
-          animation-delay: 10s;
-  -webkit-animation-duration: 14s;
-          animation-duration: 14s;
+  -webkit-animation-delay: 8s;
+          animation-delay: 8s;
+  -webkit-animation-duration: 51s;
+          animation-duration: 51s;
   bottom: -150px;
   -webkit-transition: 5s;
   transition: 5s;
@@ -2772,14 +2672,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 8vh;
-  height: 8vh;
-  left: 8%;
+  width: 10vh;
+  height: 10vh;
+  left: 62%;
   background: #000000;
-  -webkit-animation-delay: -49s;
-          animation-delay: -49s;
-  -webkit-animation-duration: 15s;
-          animation-duration: 15s;
+  -webkit-animation-delay: -9s;
+          animation-delay: -9s;
+  -webkit-animation-duration: 34s;
+          animation-duration: 34s;
   bottom: -150px;
   -webkit-transition: 5s;
   transition: 5s;
@@ -2790,14 +2690,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 7vh;
-  height: 7vh;
-  left: 50%;
+  width: 9vh;
+  height: 9vh;
+  left: 70%;
   background: #000000;
-  -webkit-animation-delay: -5s;
-          animation-delay: -5s;
-  -webkit-animation-duration: 14s;
-          animation-duration: 14s;
+  -webkit-animation-delay: -33s;
+          animation-delay: -33s;
+  -webkit-animation-duration: 57s;
+          animation-duration: 57s;
   bottom: -150px;
   -webkit-transition: 5s;
   transition: 5s;
@@ -2808,14 +2708,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 8vh;
-  height: 8vh;
-  left: 83%;
+  width: 9vh;
+  height: 9vh;
+  left: 2%;
   background: #000000;
-  -webkit-animation-delay: -38s;
-          animation-delay: -38s;
-  -webkit-animation-duration: 58s;
-          animation-duration: 58s;
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+  -webkit-animation-duration: 47s;
+          animation-duration: 47s;
   bottom: -150px;
   -webkit-transition: 5s;
   transition: 5s;
@@ -2826,14 +2726,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 15vh;
-  height: 15vh;
-  left: 19%;
+  width: 13vh;
+  height: 13vh;
+  left: 10%;
   background: #000000;
-  -webkit-animation-delay: -32s;
-          animation-delay: -32s;
-  -webkit-animation-duration: 41s;
-          animation-duration: 41s;
+  -webkit-animation-delay: -30s;
+          animation-delay: -30s;
+  -webkit-animation-duration: 20s;
+          animation-duration: 20s;
   bottom: -150px;
   -webkit-transition: 5s;
   transition: 5s;
@@ -2844,14 +2744,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 6vh;
-  height: 6vh;
-  left: 75%;
+  width: 15vh;
+  height: 15vh;
+  left: 25%;
   background: #000000;
-  -webkit-animation-delay: -31s;
-          animation-delay: -31s;
-  -webkit-animation-duration: 50s;
-          animation-duration: 50s;
+  -webkit-animation-delay: -49s;
+          animation-delay: -49s;
+  -webkit-animation-duration: 28s;
+          animation-duration: 28s;
   bottom: -150px;
   -webkit-transition: 5s;
   transition: 5s;
@@ -2862,14 +2762,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 9vh;
-  height: 9vh;
-  left: 2%;
+  width: 13vh;
+  height: 13vh;
+  left: 40%;
   background: #000000;
-  -webkit-animation-delay: -21s;
-          animation-delay: -21s;
-  -webkit-animation-duration: 44s;
-          animation-duration: 44s;
+  -webkit-animation-delay: -15s;
+          animation-delay: -15s;
+  -webkit-animation-duration: 27s;
+          animation-duration: 27s;
   bottom: -150px;
   -webkit-transition: 5s;
   transition: 5s;
@@ -2880,14 +2780,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 11vh;
-  height: 11vh;
-  left: 13%;
+  width: 6vh;
+  height: 6vh;
+  left: 34%;
   background: #000000;
-  -webkit-animation-delay: -9s;
-          animation-delay: -9s;
-  -webkit-animation-duration: 38s;
-          animation-duration: 38s;
+  -webkit-animation-delay: -4s;
+          animation-delay: -4s;
+  -webkit-animation-duration: 40s;
+          animation-duration: 40s;
   bottom: -150px;
   -webkit-transition: 5s;
   transition: 5s;
@@ -2898,14 +2798,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 7vh;
-  height: 7vh;
-  left: 38%;
+  width: 6vh;
+  height: 6vh;
+  left: 88%;
   background: #000000;
-  -webkit-animation-delay: -20s;
-          animation-delay: -20s;
-  -webkit-animation-duration: 52s;
-          animation-duration: 52s;
+  -webkit-animation-delay: -46s;
+          animation-delay: -46s;
+  -webkit-animation-duration: 35s;
+          animation-duration: 35s;
   bottom: -150px;
   -webkit-transition: 5s;
   transition: 5s;
@@ -2916,14 +2816,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 15vh;
-  height: 15vh;
-  left: 59%;
+  width: 9vh;
+  height: 9vh;
+  left: 3%;
   background: #000000;
-  -webkit-animation-delay: 13s;
-          animation-delay: 13s;
-  -webkit-animation-duration: 45s;
-          animation-duration: 45s;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+  -webkit-animation-duration: 25s;
+          animation-duration: 25s;
   bottom: -150px;
   -webkit-transition: 5s;
   transition: 5s;
@@ -2934,14 +2834,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 13vh;
-  height: 13vh;
-  left: 68%;
+  width: 15vh;
+  height: 15vh;
+  left: 94%;
   background: #000000;
-  -webkit-animation-delay: -11s;
-          animation-delay: -11s;
-  -webkit-animation-duration: 49s;
-          animation-duration: 49s;
+  -webkit-animation-delay: -1s;
+          animation-delay: -1s;
+  -webkit-animation-duration: 60s;
+          animation-duration: 60s;
   bottom: -150px;
   -webkit-transition: 5s;
   transition: 5s;
@@ -2952,14 +2852,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 12vh;
-  height: 12vh;
-  left: 37%;
+  width: 10vh;
+  height: 10vh;
+  left: 31%;
   background: #000000;
-  -webkit-animation-delay: -15s;
-          animation-delay: -15s;
-  -webkit-animation-duration: 20s;
-          animation-duration: 20s;
+  -webkit-animation-delay: -32s;
+          animation-delay: -32s;
+  -webkit-animation-duration: 34s;
+          animation-duration: 34s;
   bottom: -150px;
   -webkit-transition: 5s;
   transition: 5s;
@@ -2970,14 +2870,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 7vh;
-  height: 7vh;
-  left: 31%;
+  width: 10vh;
+  height: 10vh;
+  left: 3%;
   background: #000000;
-  -webkit-animation-delay: 5s;
-          animation-delay: 5s;
-  -webkit-animation-duration: 11s;
-          animation-duration: 11s;
+  -webkit-animation-delay: -16s;
+          animation-delay: -16s;
+  -webkit-animation-duration: 50s;
+          animation-duration: 50s;
   bottom: -150px;
   -webkit-transition: 5s;
   transition: 5s;
@@ -2988,14 +2888,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 10vh;
-  height: 10vh;
-  left: 16%;
+  width: 15vh;
+  height: 15vh;
+  left: 21%;
   background: #000000;
-  -webkit-animation-delay: -11s;
-          animation-delay: -11s;
-  -webkit-animation-duration: 48s;
-          animation-duration: 48s;
+  -webkit-animation-delay: 18s;
+          animation-delay: 18s;
+  -webkit-animation-duration: 36s;
+          animation-duration: 36s;
   bottom: -150px;
   -webkit-transition: 5s;
   transition: 5s;
@@ -3006,14 +2906,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 7vh;
-  height: 7vh;
-  left: 14%;
+  width: 6vh;
+  height: 6vh;
+  left: 36%;
   background: #000000;
-  -webkit-animation-delay: -12s;
-          animation-delay: -12s;
-  -webkit-animation-duration: 31s;
-          animation-duration: 31s;
+  -webkit-animation-delay: -22s;
+          animation-delay: -22s;
+  -webkit-animation-duration: 17s;
+          animation-duration: 17s;
   bottom: -150px;
   -webkit-transition: 5s;
   transition: 5s;
@@ -3024,14 +2924,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 6vh;
-  height: 6vh;
-  left: 96%;
+  width: 14vh;
+  height: 14vh;
+  left: 4%;
   background: #000000;
-  -webkit-animation-delay: 7s;
-          animation-delay: 7s;
-  -webkit-animation-duration: 11s;
-          animation-duration: 11s;
+  -webkit-animation-delay: -41s;
+          animation-delay: -41s;
+  -webkit-animation-duration: 45s;
+          animation-duration: 45s;
   bottom: -150px;
   -webkit-transition: 5s;
   transition: 5s;
@@ -3042,14 +2942,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 13vh;
-  height: 13vh;
-  left: 22%;
+  width: 9vh;
+  height: 9vh;
+  left: 70%;
   background: #000000;
-  -webkit-animation-delay: -44s;
-          animation-delay: -44s;
-  -webkit-animation-duration: 52s;
-          animation-duration: 52s;
+  -webkit-animation-delay: -11s;
+          animation-delay: -11s;
+  -webkit-animation-duration: 13s;
+          animation-duration: 13s;
   bottom: -150px;
   -webkit-transition: 5s;
   transition: 5s;
@@ -3060,14 +2960,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 14vh;
-  height: 14vh;
-  left: 41%;
+  width: 7vh;
+  height: 7vh;
+  left: 57%;
   background: #000000;
-  -webkit-animation-delay: 18s;
-          animation-delay: 18s;
-  -webkit-animation-duration: 23s;
-          animation-duration: 23s;
+  -webkit-animation-delay: -41s;
+          animation-delay: -41s;
+  -webkit-animation-duration: 35s;
+          animation-duration: 35s;
   bottom: -150px;
   -webkit-transition: 5s;
   transition: 5s;
@@ -3078,14 +2978,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 13vh;
-  height: 13vh;
-  left: 87%;
+  width: 7vh;
+  height: 7vh;
+  left: 96%;
   background: #000000;
-  -webkit-animation-delay: -24s;
-          animation-delay: -24s;
-  -webkit-animation-duration: 55s;
-          animation-duration: 55s;
+  -webkit-animation-delay: -44s;
+          animation-delay: -44s;
+  -webkit-animation-duration: 24s;
+          animation-duration: 24s;
   bottom: -150px;
   -webkit-transition: 5s;
   transition: 5s;
@@ -3098,12 +2998,12 @@
   display: block;
   width: 7vh;
   height: 7vh;
-  left: 94%;
+  left: 38%;
   background: #000000;
-  -webkit-animation-delay: -13s;
-          animation-delay: -13s;
-  -webkit-animation-duration: 12s;
-          animation-duration: 12s;
+  -webkit-animation-delay: -26s;
+          animation-delay: -26s;
+  -webkit-animation-duration: 46s;
+          animation-duration: 46s;
   bottom: -150px;
   -webkit-transition: 5s;
   transition: 5s;
@@ -3114,14 +3014,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 8vh;
-  height: 8vh;
-  left: 23%;
+  width: 13vh;
+  height: 13vh;
+  left: 39%;
   background: #000000;
-  -webkit-animation-delay: -31s;
-          animation-delay: -31s;
-  -webkit-animation-duration: 11s;
-          animation-duration: 11s;
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+  -webkit-animation-duration: 49s;
+          animation-duration: 49s;
   bottom: -150px;
   -webkit-transition: 5s;
   transition: 5s;
@@ -3132,14 +3032,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 7vh;
-  height: 7vh;
-  left: 53%;
+  width: 8vh;
+  height: 8vh;
+  left: 42%;
   background: #000000;
-  -webkit-animation-delay: -47s;
-          animation-delay: -47s;
-  -webkit-animation-duration: 53s;
-          animation-duration: 53s;
+  -webkit-animation-delay: -16s;
+          animation-delay: -16s;
+  -webkit-animation-duration: 50s;
+          animation-duration: 50s;
   bottom: -150px;
   -webkit-transition: 5s;
   transition: 5s;
@@ -3150,14 +3050,14 @@
           animation: animate linear infinite;
   position: absolute;
   display: block;
-  width: 13vh;
-  height: 13vh;
-  left: 78%;
+  width: 10vh;
+  height: 10vh;
+  left: 76%;
   background: #000000;
-  -webkit-animation-delay: -41s;
-          animation-delay: -41s;
-  -webkit-animation-duration: 47s;
-          animation-duration: 47s;
+  -webkit-animation-delay: -45s;
+          animation-delay: -45s;
+  -webkit-animation-duration: 56s;
+          animation-duration: 56s;
   bottom: -150px;
   -webkit-transition: 5s;
   transition: 5s;
@@ -3186,5 +3086,12 @@
     -webkit-transform: translateY(-250vh) rotate(720deg);
             transform: translateY(-250vh) rotate(720deg);
     opacity: 0;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .projects .BGanimation {
+    div-width: 20px;
+    div-height: 20px;
   }
 }

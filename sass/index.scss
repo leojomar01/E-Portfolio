@@ -2,11 +2,12 @@ $line:#F7CCAC;
 $font:#826F66;
 $bg:#3A3845;
 $bg2:#C69B7B;
+$sizeUnits:1px;
 
 *{
     margin: 0;
     font-family:Fantasy;
-    font-size:2vh;
+    font-size:1rem;
     box-sizing: border-box;
     color: $font;
 }
@@ -19,13 +20,14 @@ html{
     main{
         >div{
             min-height:100vh;
-            padding-top: 20vh;
+            padding-top: 13vh;
+            height:100vh;
+
         }
         
         .welcome{
             display: grid;
             width: 100%;
-            height:100vh;
 
             .greet{
                 justify-self: center;
@@ -57,171 +59,96 @@ html{
         .about{
             border-top:  .2rem solid $line;
             display: grid;
-            height: 100vh;
-            div{
-                justify-self: center;
-            }
+           
             h1{
                 justify-self: center;
-                color: $font;
+                font-size:3rem;
+            }
+            .message{
+                padding-left:  20vw;
+                padding-right: 20vw;
+                p{
+                    font-size: 2rem;
+                    text-indent: 5rem;
+                }
+            }
+            h2{
+                font-size: 2.5rem;
+                justify-self: center;
             }
             .skills{
-                background-color: transparent;
-                backdrop-filter: blur(5px);
-                border-top: 1px solid rgba(255, 255, 255, 0.178);
-                border-left: 1px solid rgba(255, 255, 255, 0.178);
-                box-shadow: inset white .1rem .1rem .2rem;
-                transition: 1s;
-                border-radius: .3rem;
-                padding: 2rem;
-                display: flex;
-                justify-content: center;
-                flex-wrap: wrap;
-                gap: 1rem;
-                height: auto;
-                width: 50vw;
+                justify-self: center;
                 
-                h3{
-                    color: $font;
-                }
-                p{
-                    color: $bg2;
-                    border: .1rem $bg2 solid;
-                    font-size: 1.5rem;
-                    height: 3rem;
-                    padding:.3rem;
-                }
-            }
-        }
-        .projects{
-            border-top:  2px solid $line;
-            display: grid;
-            justify-content: center;
-            height: 200vh;
-            width: 100%;
-
-            .BGanimation2{
-                height:200vh;
-            }
-            .container{
-                display: flex;
-                gap: 3rem;
-                margin-bottom: 2rem;
-                
-            }
-
-            .card{
-                width: 23vw;
-                height: 60vh;
-                background-color: transparent;
-                backdrop-filter: blur(5px);
-                border-top: 3px solid rgba(255, 255, 255, 0.178);
-                border-left: 2px solid rgba(255, 255, 255, 0.178);
-                overflow: hidden;
-                box-shadow: inset white .2rem .2rem .5rem;
-                padding: 1rem;
-                transition: 1s;
-
-                &:hover{
-                    transform: scale(1.1);
-
-                }
-
-                h2{
-                    position: absolute;
-                    margin: 20px 0 0 10px;
-                    color: $font;
-                    transition: 2s;
-
-                }
-                &:hover h2{
-                    opacity: .9;
-                    color: #343337;
-                }
-                .content{
-                    width: 100%;
-                    height: 100%;
-                    display: grid;
-                    text-align: center;
+                .list{
+                    margin-left: 10vh;
+                    margin-right: 10vh;
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 1rem;
                     justify-content: center;
-                    padding: 5rem;
-                   
-                    .image{
-                        width:250px;
-                        height: 200px;
-                        border-radius: 20px;
-
-                        img{
-                            width: 100%;
-                            height: 100%;
-                            box-shadow: inset white 2px 2px 5px;
-                            box-shadow: white 1px 1px 5px;
-
-                            
-                        }
-                    }
-                    .link{
-                        margin-top: 1rem;
-                        justify-self: center;
-                        border-radius: 20px;
-                        display: grid;
-                        a{
-                            margin-bottom: 1rem;
-                            width: 5rem;
-                            height:1.5rem;
-                            color:$line;
-                            text-decoration: none;
-                            border: 1px solid;
-                            transition: .5s;
-
-                            &:hover{
-                                background-color: white;
-                                color: #3A3845;
-                            }
-                        }
+                    p{
+                        border: 1px solid ;
+                        padding: .5rem;
                     }
                 }
             }
-            .card .content{
-                transform: translateY(110px);
-                opacity: 0 ;
-                transition: .5s;
-            }
-            .card:hover .content{
-                transform: translateY(0px);
-                opacity: 1 ;
-            }
-            h1{
-                color: $font;
-            }
         }
+        
         .contact{
             border-top:  1px solid $line;
             display: grid;
-            padding: 5rem;
             h1{
                 justify-self: center;
                 color: $font;
             }
             .message{
                 justify-self: center;
+                padding-left: 5vw;
+                padding-right: 5vw;
                 h4{
                     color: $font;
                     font-size: 2rem;
+                    text-indent: 5rem;
                 }
             }
             .link{
                 justify-self: center;
+                display: grid;
+                grid-template-columns: repeat(4,1fr);
                 a{
                     margin: 2rem;
                     color: $font;
                     transition:  .5s;
                     i{
-                        font-size: 5rem;
+                        font-size: 3rem;
+                        &:hover{
+                            color: $line;
+                        }
                     }
-                    &:hover{
-                        color: $line;
-                    }
+                    
+                }
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width:450px) {
+
+    *{
+        font-size:.7rem;
+    }
+
+    .lightTheme{
+        main{
+            >div{
+                height:auto;
+            }
+            .welcome{
+                .greet{
+                    height: 20vh;
+                    width: 60vw;
                 }
             }
         }

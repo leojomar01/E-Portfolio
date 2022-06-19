@@ -4,42 +4,43 @@
 }
 
 .lightTheme header nav {
-  z-index: 5;
+  visibility: hidden;
+  z-index: 1;
   position: fixed;
-  top: 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
   width: 100%;
-  height: 10vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
   background-color: #C69B7B;
-  -webkit-transition: top 0.3s;
-  transition: top 0.3s;
+  top: 0;
 }
 
-.lightTheme header nav .logo {
-  height: 10vh;
-  z-index: 10;
-  padding: .3rem;
-}
-
-.lightTheme header nav .logo img {
-  height: 100%;
-}
-
-.lightTheme header nav .link {
+.lightTheme header nav a {
   font-size: 2rem;
-  float: left;
-  margin: .7rem;
-  color: #3A3845;
   text-decoration: none;
-  -webkit-transition: .3s;
-  transition: .3s;
+  padding: 10px;
+  color: #3A3845;
 }
 
-.lightTheme header nav .link:hover {
+.lightTheme header nav a:hover {
   color: #F7CCAC;
+}
+
+.lightTheme header nav img {
+  height: 10vh;
+}
+
+.lightTheme header nav .collapse {
+  -ms-grid-column-align: end;
+      justify-self: end;
+}
+
+.lightTheme header nav button {
+  width: 10vw;
+  -ms-grid-column-align: end;
+      justify-self: end;
+  margin-right: 10px;
 }
