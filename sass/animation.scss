@@ -57,7 +57,8 @@ $sizeUnit:1vh;
             animation: animate linear infinite;
             position: absolute;
             display: block;
-            
+            width: $size;
+            height: $size;
             left:$posLeft*1%;
             background: #d3d3d3;
             animation-delay: $delay;

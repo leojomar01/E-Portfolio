@@ -15,7 +15,7 @@
 }
 
 .projects .BGanimation2 {
-  height: 200vh;
+  height: 100vh;
 }
 
 .projects .container {
@@ -141,13 +141,13 @@
   }
   .projects .card {
     width: 70vw;
-    height: 60vh;
+    height: 50vh;
   }
 }
 
 @media screen and (max-width: 450px) {
   .projects .BGanimation2 {
-    height: 211vh;
+    height: 184vh;
   }
   .projects .BGanimation2 div {
     width: 30px;

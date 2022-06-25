@@ -4,7 +4,6 @@
 }
 
 .lightTheme header nav {
-  visibility: hidden;
   z-index: 1;
   position: fixed;
   display: -ms-grid;
