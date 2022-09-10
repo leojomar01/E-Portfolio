@@ -3,93 +3,97 @@ $font:#826F66;
 $bg:#3A3845;
 $bg2:#C69B7B;
 
+
 .projects{
-    border-top:  2px solid $line;
-    display: grid;
-    justify-content: center;
-    height: 100vh;
-    width: 100%;
+    border-top:  .2rem solid $line;
+
     h1{
         justify-self: center;
+        text-align: center;
     }
 
     .BGanimation2{  
         height:100vh;
     }
-    .container{
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
-        gap: 3rem;
-        margin-bottom: 2rem;
-        justify-content: center;
-    }
+}
+.owl-container{
+    padding: 3rem;
+    display: grid;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    font-size: 10vh;
+  
+    
 
-    .card{
-        width: 25vw;
-        height: 50vh;
-        background-color: transparent;
-        backdrop-filter: blur(5px);
-        border-top: 3px solid rgba(255, 255, 255, 0.178);
-        border-left: 2px solid rgba(255, 255, 255, 0.178);
-        overflow: hidden;
-        box-shadow: inset white .2rem .2rem .5rem;
-        padding: 1rem;
-        transition: 1s;
-        &:hover{
-            transform: scale(1.1);
-
-        }
-
-        h2{
-            position: absolute;
-            margin: 20px 0 0 10px;
-            color: $font;
-            transition: 2s;
-            font-size: 1rem;
-
-        }
-        &:hover h2{
-            opacity: .9;
-            color: #343337;
-        }
-        .content{
-            width: 100%;
-            height: 100%;
-            display: grid;
-            text-align: center;
-            justify-content: center;
-            padding: .5rem;
-           
-            .image{
-                width:100%;
-                border-radius: 20px;
-
-                img{
-                    width: 100%;
-                    height: 100%;
-                    box-shadow: inset white 2px 2px 5px;
-                    box-shadow: white 1px 1px 5px;
-
-                    
-                }
+    .item{
+        .card{
+            width: 25vw;
+            height: 50vh;
+            background-color: transparent;
+            backdrop-filter: blur(5px);
+            border-top: 3px solid rgba(255, 255, 255, 0.178);
+            border-left: 2px solid rgba(255, 255, 255, 0.178);
+            overflow: hidden;
+            box-shadow: inset white .2rem .2rem .5rem;
+            padding: 1rem;
+            transition: 1s;
+            &:hover{
+                transform: scale(1.1);
+    
             }
-            .link{
-                margin-top: 1rem;
-                justify-self: center;
-                border-radius: 20px;
+    
+            h2{
+                position: absolute;
+                margin: 20px 0 0 20px;
+                color: $font;
+                transition: 2s;
+                font-size: 3.5rem;
+    
+            }
+            &:hover h2{
+                opacity: .9;
+                color: #343337;
+            }
+            .content{
+                width: 100%;
+                height: 100%;
                 display: grid;
-                a{
-                    margin-bottom: 1rem;
-                    width: 5rem;
-                    height:1.5rem;
-                    color:$line;
-                    text-decoration: none;
-                    border: 1px solid;
-                    transition: .5s;
-
-                    &:hover{
-                        background-color: white;
-                        color: #3A3845;
+                grid-template-rows: 4fr 1fr;
+                text-align: center;
+                justify-content: center;
+                padding: .5rem;
+               
+                .image{
+                    width:100%;
+                    border-radius: 20px;
+    
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        box-shadow: inset white 2px 2px 5px;
+                        box-shadow: white 1px 1px 5px;
+    
+                        
+                    }
+                }
+                .link{
+                    margin-top: 1rem;
+                    justify-self: center;
+                    border-radius: 20px;
+                    a{
+                        margin-bottom: 1rem;
+                        width: 5rem;
+                        height:1.5rem;
+                        color:$line;
+                        text-decoration: none;
+                        border: 1px solid;
+                        transition: .5s;
+    
+                        &:hover{
+                            background-color: white;
+                            color: #3A3845;
+                        }
                     }
                 }
             }
@@ -112,13 +116,15 @@ $bg2:#C69B7B;
 
 @media screen and (max-width:450px) {
 
-    .projects{
-        .container{
-            grid-template-columns: repeat(1,1fr);
-        }
-        .card{
-            width: 70vw;
-            height: 50vh;
+    .owl-container{
+        .item{
+            .container{
+                grid-template-columns: repeat(1,1fr);
+            }
+            .card{
+                width: 80vw;
+                height: 50vh;
+            }
         }
     }
     

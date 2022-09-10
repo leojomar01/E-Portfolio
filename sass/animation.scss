@@ -1,4 +1,4 @@
-$sizeUnit:1vh;
+$sizeUnit:1vw;
 
 .welcome{
     width: 100%;
@@ -19,7 +19,7 @@ $sizeUnit:1vh;
     $x:1;
     @while $x<=50 {
         .shape#{$x}{
-            $size:random(10)+5*$sizeUnit;
+            $size:random(6)+2*$sizeUnit;
             $posLeft:random(100);
             $delay:random(70)-40+s;
             $duration:random(50)+10+s;
@@ -49,7 +49,7 @@ $sizeUnit:1vh;
     $x:1;
     @while $x<=50 {
         .shape0#{$x}{
-            $size:random(10)+5*$sizeUnit;
+            $size:random(6)+2*$sizeUnit;
             $posLeft:random(100);
             $delay:random(70)-40+s;
             $duration:random(50)+10+s;
@@ -87,7 +87,7 @@ $sizeUnit:1vh;
     $x:1;
     @while $x<=30 {
         .shape#{$x}{
-            $size:random(10)+5*$sizeUnit;
+            $size:random(5)+3*$sizeUnit;
             $posLeft:random(100);
             $delay:random(70)-50+s;
             $duration:random(50)+10+s;
