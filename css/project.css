@@ -54,7 +54,17 @@
   font-size: 3.5rem;
 }
 
-.owl-container .item .card:hover h2 {
+.owl-container .item .card h5 {
+  position: absolute;
+  bottom: 10%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.owl-container .item .card:hover h2, .owl-container .item .card:hover h5 {
   opacity: .9;
   color: #343337;
 }
@@ -141,7 +151,7 @@
 
 @media screen and (max-width: 450px) {
   .projects .BGanimation2 {
-    height: 184vh;
+    height: 100vh;
   }
   .projects .BGanimation2 div {
     width: 30px;
