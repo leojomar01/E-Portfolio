@@ -1,0 +1,33 @@
+.lightTheme header {
+  display: grid;
+}
+.lightTheme header nav {
+  z-index: 1;
+  position: fixed;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+  transition: 0.3s;
+  background-color: #C69B7B;
+  top: 0;
+}
+.lightTheme header nav a {
+  font-size: 2rem;
+  text-decoration: none;
+  padding: 10px;
+  color: #3A3845;
+}
+.lightTheme header nav a:hover {
+  color: #F7CCAC;
+}
+.lightTheme header nav img {
+  height: 10vh;
+}
+.lightTheme header nav .collapse {
+  justify-self: end;
+}
+.lightTheme header nav button {
+  width: 10vw;
+  justify-self: end;
+  margin-right: 10px;
+}/*# sourceMappingURL=header.css.map */

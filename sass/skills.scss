@@ -1,0 +1,80 @@
+.skillsSection{
+    display: flex;
+    border: 1px solid white;
+    flex-direction: column;
+    padding: 10vw;
+
+    h2{
+        text-align: center;
+        margin-bottom: 10vh;
+    }
+    .skills{
+
+        .list{
+            
+            p{
+                margin-left: 20%;
+                position: relative;
+                width: 30vw;
+
+
+                &::after{
+                    position: absolute;
+                    left: 75%;
+                    top: 50%;
+                    transform: translate(-50%,-50%);
+                    width: 100%;
+                    height: 1rem;
+                    border: 1px solid gray;
+                    content: "";
+                }
+                
+                &::before{
+                    position: absolute;
+                    left: 25%;
+                    top: 50%;
+                    transform: translate(0,-50%);
+                    height: 1rem;
+                    border: 1px solid gray;
+                    background-color: gray;
+                    content: "";
+                }
+
+                &:nth-child(1)::before{
+                    width: 85%;
+                }
+                &:nth-child(2)::before{
+                    width: 90%;
+                }
+                &:nth-child(3)::before{
+                    width: 80%;
+                }
+                &:nth-child(4)::before{
+                    width: 75%;
+                }
+                &:nth-child(5)::before{
+                    width: 55%;
+                }
+                &:nth-child(6)::before{
+                    width: 40%;
+                }
+                &:nth-child(7)::before{
+                    width: 70%;
+                }
+                &:nth-child(8)::before{
+                    width: 80%;
+                }
+                &:nth-child(9)::before{
+                    width: 30%;
+                }
+                &:nth-child(10)::before{
+                    width: 30%;
+                }
+                &:nth-child(11)::before{
+                    width: 50%;
+                }
+
+            }
+        }
+    }
+}

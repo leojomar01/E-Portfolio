@@ -1,0 +1,24 @@
+.hide {
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.hide.active {
+  opacity: 1;
+}
+
+.BGanimation2 {
+  opacity: 0;
+}
+
+.hide.active .BGanimation2 div {
+  border-radius: 50%;
+}
+
+.hide.active .BGanimation2 {
+  opacity: 1;
+}
+
+.projects.active .card h2 {
+  font-size: 3rem;
+}/*# sourceMappingURL=transition.css.map */

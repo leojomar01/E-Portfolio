@@ -1,0 +1,2331 @@
+.welcome {
+  width: 100%;
+  height: 100vh;
+}
+
+.addShapeBtn {
+  visibility: hidden;
+}
+
+.BGanimation {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.BGanimation .shape1 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 8vw;
+  height: 8vw;
+  left: 91%;
+  background: #d3d3d3;
+  animation-delay: 7s;
+  animation-duration: 60s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 2s;
+}
+.BGanimation .shape1:hover {
+  left: 101%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape2 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 3vw;
+  height: 3vw;
+  left: 55%;
+  background: #d3d3d3;
+  animation-delay: -28s;
+  animation-duration: 23s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 2s;
+}
+.BGanimation .shape2:hover {
+  left: 65%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape3 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 5vw;
+  height: 5vw;
+  left: 75%;
+  background: #d3d3d3;
+  animation-delay: -3s;
+  animation-duration: 20s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 2s;
+}
+.BGanimation .shape3:hover {
+  left: 85%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape4 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 5vw;
+  height: 5vw;
+  left: 50%;
+  background: #d3d3d3;
+  animation-delay: 19s;
+  animation-duration: 44s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 2s;
+}
+.BGanimation .shape4:hover {
+  left: 60%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape5 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 5vw;
+  height: 5vw;
+  left: 53%;
+  background: #d3d3d3;
+  animation-delay: 23s;
+  animation-duration: 35s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 2s;
+}
+.BGanimation .shape5:hover {
+  left: 63%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape6 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 4vw;
+  height: 4vw;
+  left: 84%;
+  background: #d3d3d3;
+  animation-delay: -34s;
+  animation-duration: 20s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 2s;
+}
+.BGanimation .shape6:hover {
+  left: 94%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape7 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 5vw;
+  height: 5vw;
+  left: 14%;
+  background: #d3d3d3;
+  animation-delay: -31s;
+  animation-duration: 25s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 2s;
+}
+.BGanimation .shape7:hover {
+  left: 24%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape8 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 6vw;
+  height: 6vw;
+  left: 78%;
+  background: #d3d3d3;
+  animation-delay: 17s;
+  animation-duration: 17s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 2s;
+}
+.BGanimation .shape8:hover {
+  left: 88%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape9 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 4vw;
+  height: 4vw;
+  left: 22%;
+  background: #d3d3d3;
+  animation-delay: 24s;
+  animation-duration: 11s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 2s;
+}
+.BGanimation .shape9:hover {
+  left: 32%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape10 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 6vw;
+  height: 6vw;
+  left: 25%;
+  background: #d3d3d3;
+  animation-delay: -1s;
+  animation-duration: 27s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 2s;
+}
+.BGanimation .shape10:hover {
+  left: 35%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape11 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 6vw;
+  height: 6vw;
+  left: 21%;
+  background: #d3d3d3;
+  animation-delay: -25s;
+  animation-duration: 49s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 2s;
+}
+.BGanimation .shape11:hover {
+  left: 31%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape12 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 7vw;
+  height: 7vw;
+  left: 20%;
+  background: #d3d3d3;
+  animation-delay: -19s;
+  animation-duration: 13s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 2s;
+}
+.BGanimation .shape12:hover {
+  left: 30%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape13 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 8vw;
+  height: 8vw;
+  left: 28%;
+  background: #d3d3d3;
+  animation-delay: -6s;
+  animation-duration: 60s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 2s;
+}
+.BGanimation .shape13:hover {
+  left: 38%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape14 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 5vw;
+  height: 5vw;
+  left: 68%;
+  background: #d3d3d3;
+  animation-delay: -32s;
+  animation-duration: 25s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 2s;
+}
+.BGanimation .shape14:hover {
+  left: 78%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape15 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 8vw;
+  height: 8vw;
+  left: 68%;
+  background: #d3d3d3;
+  animation-delay: -8s;
+  animation-duration: 45s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 2s;
+}
+.BGanimation .shape15:hover {
+  left: 78%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape16 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 4vw;
+  height: 4vw;
+  left: 5%;
+  background: #d3d3d3;
+  animation-delay: -33s;
+  animation-duration: 54s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 2s;
+}
+.BGanimation .shape16:hover {
+  left: 15%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape17 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 8vw;
+  height: 8vw;
+  left: 52%;
+  background: #d3d3d3;
+  animation-delay: 11s;
+  animation-duration: 34s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 2s;
+}
+.BGanimation .shape17:hover {
+  left: 62%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape18 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 5vw;
+  height: 5vw;
+  left: 13%;
+  background: #d3d3d3;
+  animation-delay: 3s;
+  animation-duration: 28s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 2s;
+}
+.BGanimation .shape18:hover {
+  left: 23%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape19 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 5vw;
+  height: 5vw;
+  left: 17%;
+  background: #d3d3d3;
+  animation-delay: -22s;
+  animation-duration: 53s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 2s;
+}
+.BGanimation .shape19:hover {
+  left: 27%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape20 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 4vw;
+  height: 4vw;
+  left: 9%;
+  background: #d3d3d3;
+  animation-delay: -21s;
+  animation-duration: 55s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 2s;
+}
+.BGanimation .shape20:hover {
+  left: 19%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape21 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 7vw;
+  height: 7vw;
+  left: 41%;
+  background: #d3d3d3;
+  animation-delay: 30s;
+  animation-duration: 17s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 2s;
+}
+.BGanimation .shape21:hover {
+  left: 51%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape22 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 3vw;
+  height: 3vw;
+  left: 61%;
+  background: #d3d3d3;
+  animation-delay: -26s;
+  animation-duration: 48s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 2s;
+}
+.BGanimation .shape22:hover {
+  left: 71%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape23 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 8vw;
+  height: 8vw;
+  left: 71%;
+  background: #d3d3d3;
+  animation-delay: 29s;
+  animation-duration: 54s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 2s;
+}
+.BGanimation .shape23:hover {
+  left: 81%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape24 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 6vw;
+  height: 6vw;
+  left: 6%;
+  background: #d3d3d3;
+  animation-delay: -8s;
+  animation-duration: 19s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 2s;
+}
+.BGanimation .shape24:hover {
+  left: 16%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape25 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 8vw;
+  height: 8vw;
+  left: 48%;
+  background: #d3d3d3;
+  animation-delay: -14s;
+  animation-duration: 14s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 2s;
+}
+.BGanimation .shape25:hover {
+  left: 58%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape26 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 8vw;
+  height: 8vw;
+  left: 1%;
+  background: #d3d3d3;
+  animation-delay: -18s;
+  animation-duration: 20s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 2s;
+}
+.BGanimation .shape26:hover {
+  left: 11%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape27 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 6vw;
+  height: 6vw;
+  left: 51%;
+  background: #d3d3d3;
+  animation-delay: -28s;
+  animation-duration: 35s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 2s;
+}
+.BGanimation .shape27:hover {
+  left: 61%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape28 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 3vw;
+  height: 3vw;
+  left: 19%;
+  background: #d3d3d3;
+  animation-delay: -39s;
+  animation-duration: 17s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 2s;
+}
+.BGanimation .shape28:hover {
+  left: 29%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape29 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 5vw;
+  height: 5vw;
+  left: 21%;
+  background: #d3d3d3;
+  animation-delay: -12s;
+  animation-duration: 60s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 2s;
+}
+.BGanimation .shape29:hover {
+  left: 31%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape30 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 3vw;
+  height: 3vw;
+  left: 64%;
+  background: #d3d3d3;
+  animation-delay: 9s;
+  animation-duration: 24s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 2s;
+}
+.BGanimation .shape30:hover {
+  left: 74%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape31 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 7vw;
+  height: 7vw;
+  left: 30%;
+  background: #d3d3d3;
+  animation-delay: -2s;
+  animation-duration: 23s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 2s;
+}
+.BGanimation .shape31:hover {
+  left: 40%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape32 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 3vw;
+  height: 3vw;
+  left: 42%;
+  background: #d3d3d3;
+  animation-delay: -34s;
+  animation-duration: 40s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 2s;
+}
+.BGanimation .shape32:hover {
+  left: 52%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape33 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 3vw;
+  height: 3vw;
+  left: 4%;
+  background: #d3d3d3;
+  animation-delay: -33s;
+  animation-duration: 18s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 2s;
+}
+.BGanimation .shape33:hover {
+  left: 14%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape34 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 8vw;
+  height: 8vw;
+  left: 34%;
+  background: #d3d3d3;
+  animation-delay: -31s;
+  animation-duration: 34s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 2s;
+}
+.BGanimation .shape34:hover {
+  left: 44%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape35 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 7vw;
+  height: 7vw;
+  left: 28%;
+  background: #d3d3d3;
+  animation-delay: -2s;
+  animation-duration: 49s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 2s;
+}
+.BGanimation .shape35:hover {
+  left: 38%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape36 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 7vw;
+  height: 7vw;
+  left: 56%;
+  background: #d3d3d3;
+  animation-delay: 16s;
+  animation-duration: 14s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 2s;
+}
+.BGanimation .shape36:hover {
+  left: 66%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape37 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 5vw;
+  height: 5vw;
+  left: 80%;
+  background: #d3d3d3;
+  animation-delay: 27s;
+  animation-duration: 28s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 2s;
+}
+.BGanimation .shape37:hover {
+  left: 90%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape38 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 5vw;
+  height: 5vw;
+  left: 63%;
+  background: #d3d3d3;
+  animation-delay: -35s;
+  animation-duration: 41s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 2s;
+}
+.BGanimation .shape38:hover {
+  left: 73%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape39 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 5vw;
+  height: 5vw;
+  left: 37%;
+  background: #d3d3d3;
+  animation-delay: -18s;
+  animation-duration: 56s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 2s;
+}
+.BGanimation .shape39:hover {
+  left: 47%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape40 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 7vw;
+  height: 7vw;
+  left: 16%;
+  background: #d3d3d3;
+  animation-delay: 1s;
+  animation-duration: 27s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 2s;
+}
+.BGanimation .shape40:hover {
+  left: 26%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape41 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 6vw;
+  height: 6vw;
+  left: 45%;
+  background: #d3d3d3;
+  animation-delay: -20s;
+  animation-duration: 48s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 2s;
+}
+.BGanimation .shape41:hover {
+  left: 55%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape42 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 3vw;
+  height: 3vw;
+  left: 93%;
+  background: #d3d3d3;
+  animation-delay: 5s;
+  animation-duration: 27s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 2s;
+}
+.BGanimation .shape42:hover {
+  left: 103%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape43 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 8vw;
+  height: 8vw;
+  left: 41%;
+  background: #d3d3d3;
+  animation-delay: 2s;
+  animation-duration: 50s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 2s;
+}
+.BGanimation .shape43:hover {
+  left: 51%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape44 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 6vw;
+  height: 6vw;
+  left: 43%;
+  background: #d3d3d3;
+  animation-delay: -34s;
+  animation-duration: 32s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 2s;
+}
+.BGanimation .shape44:hover {
+  left: 53%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape45 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 4vw;
+  height: 4vw;
+  left: 35%;
+  background: #d3d3d3;
+  animation-delay: 3s;
+  animation-duration: 58s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 2s;
+}
+.BGanimation .shape45:hover {
+  left: 45%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape46 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 4vw;
+  height: 4vw;
+  left: 70%;
+  background: #d3d3d3;
+  animation-delay: -36s;
+  animation-duration: 20s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 2s;
+}
+.BGanimation .shape46:hover {
+  left: 80%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape47 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 4vw;
+  height: 4vw;
+  left: 52%;
+  background: #d3d3d3;
+  animation-delay: -32s;
+  animation-duration: 16s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 2s;
+}
+.BGanimation .shape47:hover {
+  left: 62%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape48 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 6vw;
+  height: 6vw;
+  left: 48%;
+  background: #d3d3d3;
+  animation-delay: 10s;
+  animation-duration: 28s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 2s;
+}
+.BGanimation .shape48:hover {
+  left: 58%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape49 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 6vw;
+  height: 6vw;
+  left: 75%;
+  background: #d3d3d3;
+  animation-delay: 23s;
+  animation-duration: 59s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 2s;
+}
+.BGanimation .shape49:hover {
+  left: 85%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape50 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 3vw;
+  height: 3vw;
+  left: 79%;
+  background: #d3d3d3;
+  animation-delay: -27s;
+  animation-duration: 22s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 2s;
+}
+.BGanimation .shape50:hover {
+  left: 89%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape01 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 8vw;
+  height: 8vw;
+  left: 91%;
+  background: #d3d3d3;
+  animation-delay: 29s;
+  animation-duration: 51s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 5s;
+}
+.BGanimation .shape01:hover {
+  left: 81%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape02 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 5vw;
+  height: 5vw;
+  left: 31%;
+  background: #d3d3d3;
+  animation-delay: -16s;
+  animation-duration: 19s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 5s;
+}
+.BGanimation .shape02:hover {
+  left: 21%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape03 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 5vw;
+  height: 5vw;
+  left: 97%;
+  background: #d3d3d3;
+  animation-delay: -35s;
+  animation-duration: 58s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 5s;
+}
+.BGanimation .shape03:hover {
+  left: 87%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape04 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 8vw;
+  height: 8vw;
+  left: 91%;
+  background: #d3d3d3;
+  animation-delay: -10s;
+  animation-duration: 16s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 5s;
+}
+.BGanimation .shape04:hover {
+  left: 81%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape05 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 4vw;
+  height: 4vw;
+  left: 76%;
+  background: #d3d3d3;
+  animation-delay: -35s;
+  animation-duration: 34s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 5s;
+}
+.BGanimation .shape05:hover {
+  left: 66%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape06 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 3vw;
+  height: 3vw;
+  left: 75%;
+  background: #d3d3d3;
+  animation-delay: -13s;
+  animation-duration: 27s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 5s;
+}
+.BGanimation .shape06:hover {
+  left: 65%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape07 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 3vw;
+  height: 3vw;
+  left: 6%;
+  background: #d3d3d3;
+  animation-delay: -16s;
+  animation-duration: 20s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 5s;
+}
+.BGanimation .shape07:hover {
+  left: -4%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape08 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 3vw;
+  height: 3vw;
+  left: 69%;
+  background: #d3d3d3;
+  animation-delay: 13s;
+  animation-duration: 42s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 5s;
+}
+.BGanimation .shape08:hover {
+  left: 59%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape09 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 5vw;
+  height: 5vw;
+  left: 37%;
+  background: #d3d3d3;
+  animation-delay: -36s;
+  animation-duration: 19s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 5s;
+}
+.BGanimation .shape09:hover {
+  left: 27%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape010 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 3vw;
+  height: 3vw;
+  left: 82%;
+  background: #d3d3d3;
+  animation-delay: 29s;
+  animation-duration: 56s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 5s;
+}
+.BGanimation .shape010:hover {
+  left: 72%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape011 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 3vw;
+  height: 3vw;
+  left: 55%;
+  background: #d3d3d3;
+  animation-delay: 24s;
+  animation-duration: 58s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 5s;
+}
+.BGanimation .shape011:hover {
+  left: 45%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape012 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 5vw;
+  height: 5vw;
+  left: 49%;
+  background: #d3d3d3;
+  animation-delay: 26s;
+  animation-duration: 25s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 5s;
+}
+.BGanimation .shape012:hover {
+  left: 39%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape013 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 8vw;
+  height: 8vw;
+  left: 32%;
+  background: #d3d3d3;
+  animation-delay: -36s;
+  animation-duration: 33s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 5s;
+}
+.BGanimation .shape013:hover {
+  left: 22%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape014 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 8vw;
+  height: 8vw;
+  left: 47%;
+  background: #d3d3d3;
+  animation-delay: -3s;
+  animation-duration: 37s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 5s;
+}
+.BGanimation .shape014:hover {
+  left: 37%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape015 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 7vw;
+  height: 7vw;
+  left: 4%;
+  background: #d3d3d3;
+  animation-delay: -13s;
+  animation-duration: 28s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 5s;
+}
+.BGanimation .shape015:hover {
+  left: -6%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape016 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 6vw;
+  height: 6vw;
+  left: 38%;
+  background: #d3d3d3;
+  animation-delay: -15s;
+  animation-duration: 43s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 5s;
+}
+.BGanimation .shape016:hover {
+  left: 28%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape017 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 7vw;
+  height: 7vw;
+  left: 23%;
+  background: #d3d3d3;
+  animation-delay: -9s;
+  animation-duration: 44s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 5s;
+}
+.BGanimation .shape017:hover {
+  left: 13%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape018 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 5vw;
+  height: 5vw;
+  left: 16%;
+  background: #d3d3d3;
+  animation-delay: 28s;
+  animation-duration: 49s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 5s;
+}
+.BGanimation .shape018:hover {
+  left: 6%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape019 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 7vw;
+  height: 7vw;
+  left: 72%;
+  background: #d3d3d3;
+  animation-delay: -26s;
+  animation-duration: 14s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 5s;
+}
+.BGanimation .shape019:hover {
+  left: 62%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape020 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 4vw;
+  height: 4vw;
+  left: 82%;
+  background: #d3d3d3;
+  animation-delay: 21s;
+  animation-duration: 39s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 5s;
+}
+.BGanimation .shape020:hover {
+  left: 72%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape021 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 3vw;
+  height: 3vw;
+  left: 2%;
+  background: #d3d3d3;
+  animation-delay: -14s;
+  animation-duration: 38s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 5s;
+}
+.BGanimation .shape021:hover {
+  left: -8%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape022 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 7vw;
+  height: 7vw;
+  left: 17%;
+  background: #d3d3d3;
+  animation-delay: 17s;
+  animation-duration: 45s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 5s;
+}
+.BGanimation .shape022:hover {
+  left: 7%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape023 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 6vw;
+  height: 6vw;
+  left: 72%;
+  background: #d3d3d3;
+  animation-delay: -5s;
+  animation-duration: 24s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 5s;
+}
+.BGanimation .shape023:hover {
+  left: 62%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape024 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 8vw;
+  height: 8vw;
+  left: 9%;
+  background: #d3d3d3;
+  animation-delay: -16s;
+  animation-duration: 44s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 5s;
+}
+.BGanimation .shape024:hover {
+  left: -1%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape025 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 6vw;
+  height: 6vw;
+  left: 81%;
+  background: #d3d3d3;
+  animation-delay: -39s;
+  animation-duration: 58s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 5s;
+}
+.BGanimation .shape025:hover {
+  left: 71%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape026 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 5vw;
+  height: 5vw;
+  left: 52%;
+  background: #d3d3d3;
+  animation-delay: -8s;
+  animation-duration: 58s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 5s;
+}
+.BGanimation .shape026:hover {
+  left: 42%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape027 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 4vw;
+  height: 4vw;
+  left: 94%;
+  background: #d3d3d3;
+  animation-delay: 14s;
+  animation-duration: 46s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 5s;
+}
+.BGanimation .shape027:hover {
+  left: 84%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape028 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 6vw;
+  height: 6vw;
+  left: 70%;
+  background: #d3d3d3;
+  animation-delay: -21s;
+  animation-duration: 22s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 5s;
+}
+.BGanimation .shape028:hover {
+  left: 60%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape029 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 6vw;
+  height: 6vw;
+  left: 73%;
+  background: #d3d3d3;
+  animation-delay: 29s;
+  animation-duration: 38s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 5s;
+}
+.BGanimation .shape029:hover {
+  left: 63%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape030 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 4vw;
+  height: 4vw;
+  left: 90%;
+  background: #d3d3d3;
+  animation-delay: -18s;
+  animation-duration: 37s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 5s;
+}
+.BGanimation .shape030:hover {
+  left: 80%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape031 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 5vw;
+  height: 5vw;
+  left: 36%;
+  background: #d3d3d3;
+  animation-delay: 11s;
+  animation-duration: 18s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 5s;
+}
+.BGanimation .shape031:hover {
+  left: 26%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape032 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 8vw;
+  height: 8vw;
+  left: 80%;
+  background: #d3d3d3;
+  animation-delay: 21s;
+  animation-duration: 59s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 5s;
+}
+.BGanimation .shape032:hover {
+  left: 70%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape033 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 7vw;
+  height: 7vw;
+  left: 90%;
+  background: #d3d3d3;
+  animation-delay: -35s;
+  animation-duration: 21s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 5s;
+}
+.BGanimation .shape033:hover {
+  left: 80%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape034 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 8vw;
+  height: 8vw;
+  left: 67%;
+  background: #d3d3d3;
+  animation-delay: -39s;
+  animation-duration: 53s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 5s;
+}
+.BGanimation .shape034:hover {
+  left: 57%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape035 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 6vw;
+  height: 6vw;
+  left: 70%;
+  background: #d3d3d3;
+  animation-delay: 21s;
+  animation-duration: 37s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 5s;
+}
+.BGanimation .shape035:hover {
+  left: 60%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape036 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 7vw;
+  height: 7vw;
+  left: 85%;
+  background: #d3d3d3;
+  animation-delay: -31s;
+  animation-duration: 52s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 5s;
+}
+.BGanimation .shape036:hover {
+  left: 75%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape037 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 4vw;
+  height: 4vw;
+  left: 11%;
+  background: #d3d3d3;
+  animation-delay: 23s;
+  animation-duration: 29s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 5s;
+}
+.BGanimation .shape037:hover {
+  left: 1%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape038 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 7vw;
+  height: 7vw;
+  left: 72%;
+  background: #d3d3d3;
+  animation-delay: 24s;
+  animation-duration: 29s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 5s;
+}
+.BGanimation .shape038:hover {
+  left: 62%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape039 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 6vw;
+  height: 6vw;
+  left: 2%;
+  background: #d3d3d3;
+  animation-delay: -13s;
+  animation-duration: 35s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 5s;
+}
+.BGanimation .shape039:hover {
+  left: -8%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape040 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 5vw;
+  height: 5vw;
+  left: 45%;
+  background: #d3d3d3;
+  animation-delay: 19s;
+  animation-duration: 28s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 5s;
+}
+.BGanimation .shape040:hover {
+  left: 35%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape041 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 8vw;
+  height: 8vw;
+  left: 6%;
+  background: #d3d3d3;
+  animation-delay: -3s;
+  animation-duration: 13s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 5s;
+}
+.BGanimation .shape041:hover {
+  left: -4%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape042 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 5vw;
+  height: 5vw;
+  left: 67%;
+  background: #d3d3d3;
+  animation-delay: -18s;
+  animation-duration: 34s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 5s;
+}
+.BGanimation .shape042:hover {
+  left: 57%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape043 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 6vw;
+  height: 6vw;
+  left: 60%;
+  background: #d3d3d3;
+  animation-delay: -5s;
+  animation-duration: 22s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 5s;
+}
+.BGanimation .shape043:hover {
+  left: 50%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape044 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 7vw;
+  height: 7vw;
+  left: 2%;
+  background: #d3d3d3;
+  animation-delay: 25s;
+  animation-duration: 45s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 5s;
+}
+.BGanimation .shape044:hover {
+  left: -8%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape045 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 6vw;
+  height: 6vw;
+  left: 17%;
+  background: #d3d3d3;
+  animation-delay: -23s;
+  animation-duration: 40s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 5s;
+}
+.BGanimation .shape045:hover {
+  left: 7%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape046 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 8vw;
+  height: 8vw;
+  left: 1%;
+  background: #d3d3d3;
+  animation-delay: -15s;
+  animation-duration: 38s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 5s;
+}
+.BGanimation .shape046:hover {
+  left: -9%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape047 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 4vw;
+  height: 4vw;
+  left: 20%;
+  background: #d3d3d3;
+  animation-delay: -13s;
+  animation-duration: 11s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 5s;
+}
+.BGanimation .shape047:hover {
+  left: 10%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape048 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 8vw;
+  height: 8vw;
+  left: 74%;
+  background: #d3d3d3;
+  animation-delay: 8s;
+  animation-duration: 36s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 5s;
+}
+.BGanimation .shape048:hover {
+  left: 64%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape049 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 3vw;
+  height: 3vw;
+  left: 88%;
+  background: #d3d3d3;
+  animation-delay: -25s;
+  animation-duration: 32s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 5s;
+}
+.BGanimation .shape049:hover {
+  left: 78%;
+  transition: 2s;
+  cursor: pointer;
+}
+.BGanimation .shape050 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 3vw;
+  height: 3vw;
+  left: 86%;
+  background: #d3d3d3;
+  animation-delay: -9s;
+  animation-duration: 53s;
+  bottom: -150px;
+  border-radius: 10%;
+  transition: 5s;
+}
+.BGanimation .shape050:hover {
+  left: 76%;
+  transition: 2s;
+  cursor: pointer;
+}
+
+.BGanimation2 {
+  margin-top: -13vh;
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+}
+.BGanimation2 .shape1 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 6vw;
+  height: 6vw;
+  left: 43%;
+  background: #000000;
+  animation-delay: -10s;
+  animation-duration: 32s;
+  bottom: -150px;
+  transition: 5s;
+}
+.BGanimation2 .shape2 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 5vw;
+  height: 5vw;
+  left: 44%;
+  background: #000000;
+  animation-delay: 9s;
+  animation-duration: 39s;
+  bottom: -150px;
+  transition: 5s;
+}
+.BGanimation2 .shape3 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 7vw;
+  height: 7vw;
+  left: 99%;
+  background: #000000;
+  animation-delay: -30s;
+  animation-duration: 29s;
+  bottom: -150px;
+  transition: 5s;
+}
+.BGanimation2 .shape4 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 8vw;
+  height: 8vw;
+  left: 20%;
+  background: #000000;
+  animation-delay: 3s;
+  animation-duration: 25s;
+  bottom: -150px;
+  transition: 5s;
+}
+.BGanimation2 .shape5 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 8vw;
+  height: 8vw;
+  left: 46%;
+  background: #000000;
+  animation-delay: -46s;
+  animation-duration: 23s;
+  bottom: -150px;
+  transition: 5s;
+}
+.BGanimation2 .shape6 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 7vw;
+  height: 7vw;
+  left: 90%;
+  background: #000000;
+  animation-delay: -16s;
+  animation-duration: 24s;
+  bottom: -150px;
+  transition: 5s;
+}
+.BGanimation2 .shape7 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 7vw;
+  height: 7vw;
+  left: 53%;
+  background: #000000;
+  animation-delay: -25s;
+  animation-duration: 40s;
+  bottom: -150px;
+  transition: 5s;
+}
+.BGanimation2 .shape8 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 6vw;
+  height: 6vw;
+  left: 58%;
+  background: #000000;
+  animation-delay: 10s;
+  animation-duration: 41s;
+  bottom: -150px;
+  transition: 5s;
+}
+.BGanimation2 .shape9 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 6vw;
+  height: 6vw;
+  left: 51%;
+  background: #000000;
+  animation-delay: -38s;
+  animation-duration: 33s;
+  bottom: -150px;
+  transition: 5s;
+}
+.BGanimation2 .shape10 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 4vw;
+  height: 4vw;
+  left: 60%;
+  background: #000000;
+  animation-delay: 0s;
+  animation-duration: 58s;
+  bottom: -150px;
+  transition: 5s;
+}
+.BGanimation2 .shape11 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 4vw;
+  height: 4vw;
+  left: 68%;
+  background: #000000;
+  animation-delay: -44s;
+  animation-duration: 12s;
+  bottom: -150px;
+  transition: 5s;
+}
+.BGanimation2 .shape12 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 6vw;
+  height: 6vw;
+  left: 13%;
+  background: #000000;
+  animation-delay: 12s;
+  animation-duration: 29s;
+  bottom: -150px;
+  transition: 5s;
+}
+.BGanimation2 .shape13 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 8vw;
+  height: 8vw;
+  left: 11%;
+  background: #000000;
+  animation-delay: 7s;
+  animation-duration: 17s;
+  bottom: -150px;
+  transition: 5s;
+}
+.BGanimation2 .shape14 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 8vw;
+  height: 8vw;
+  left: 28%;
+  background: #000000;
+  animation-delay: -19s;
+  animation-duration: 12s;
+  bottom: -150px;
+  transition: 5s;
+}
+.BGanimation2 .shape15 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 4vw;
+  height: 4vw;
+  left: 81%;
+  background: #000000;
+  animation-delay: -16s;
+  animation-duration: 31s;
+  bottom: -150px;
+  transition: 5s;
+}
+.BGanimation2 .shape16 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 6vw;
+  height: 6vw;
+  left: 55%;
+  background: #000000;
+  animation-delay: -2s;
+  animation-duration: 40s;
+  bottom: -150px;
+  transition: 5s;
+}
+.BGanimation2 .shape17 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 4vw;
+  height: 4vw;
+  left: 95%;
+  background: #000000;
+  animation-delay: 3s;
+  animation-duration: 30s;
+  bottom: -150px;
+  transition: 5s;
+}
+.BGanimation2 .shape18 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 6vw;
+  height: 6vw;
+  left: 41%;
+  background: #000000;
+  animation-delay: -22s;
+  animation-duration: 50s;
+  bottom: -150px;
+  transition: 5s;
+}
+.BGanimation2 .shape19 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 7vw;
+  height: 7vw;
+  left: 28%;
+  background: #000000;
+  animation-delay: 6s;
+  animation-duration: 36s;
+  bottom: -150px;
+  transition: 5s;
+}
+.BGanimation2 .shape20 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 6vw;
+  height: 6vw;
+  left: 52%;
+  background: #000000;
+  animation-delay: -47s;
+  animation-duration: 21s;
+  bottom: -150px;
+  transition: 5s;
+}
+.BGanimation2 .shape21 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 6vw;
+  height: 6vw;
+  left: 77%;
+  background: #000000;
+  animation-delay: -38s;
+  animation-duration: 59s;
+  bottom: -150px;
+  transition: 5s;
+}
+.BGanimation2 .shape22 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 6vw;
+  height: 6vw;
+  left: 68%;
+  background: #000000;
+  animation-delay: 6s;
+  animation-duration: 51s;
+  bottom: -150px;
+  transition: 5s;
+}
+.BGanimation2 .shape23 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 7vw;
+  height: 7vw;
+  left: 2%;
+  background: #000000;
+  animation-delay: -44s;
+  animation-duration: 27s;
+  bottom: -150px;
+  transition: 5s;
+}
+.BGanimation2 .shape24 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 7vw;
+  height: 7vw;
+  left: 68%;
+  background: #000000;
+  animation-delay: -12s;
+  animation-duration: 27s;
+  bottom: -150px;
+  transition: 5s;
+}
+.BGanimation2 .shape25 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 8vw;
+  height: 8vw;
+  left: 59%;
+  background: #000000;
+  animation-delay: -28s;
+  animation-duration: 22s;
+  bottom: -150px;
+  transition: 5s;
+}
+.BGanimation2 .shape26 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 4vw;
+  height: 4vw;
+  left: 45%;
+  background: #000000;
+  animation-delay: 10s;
+  animation-duration: 26s;
+  bottom: -150px;
+  transition: 5s;
+}
+.BGanimation2 .shape27 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 6vw;
+  height: 6vw;
+  left: 19%;
+  background: #000000;
+  animation-delay: -23s;
+  animation-duration: 42s;
+  bottom: -150px;
+  transition: 5s;
+}
+.BGanimation2 .shape28 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 7vw;
+  height: 7vw;
+  left: 75%;
+  background: #000000;
+  animation-delay: -30s;
+  animation-duration: 48s;
+  bottom: -150px;
+  transition: 5s;
+}
+.BGanimation2 .shape29 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 6vw;
+  height: 6vw;
+  left: 85%;
+  background: #000000;
+  animation-delay: 11s;
+  animation-duration: 16s;
+  bottom: -150px;
+  transition: 5s;
+}
+.BGanimation2 .shape30 {
+  animation: animate linear infinite;
+  position: absolute;
+  display: block;
+  width: 5vw;
+  height: 5vw;
+  left: 31%;
+  background: #000000;
+  animation-delay: -3s;
+  animation-duration: 51s;
+  bottom: -150px;
+  transition: 5s;
+}
+
+@keyframes animate {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-250vh) rotate(720deg);
+    opacity: 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .projects .BGanimation {
+    div-width: 20px;
+    div-height: 20px;
+  }
+}/*# sourceMappingURL=animation.css.map */

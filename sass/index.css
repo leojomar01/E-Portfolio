@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  font-family: Fantasy;
+  font-size: 1rem;
+  box-sizing: border-box;
+  color: #826F66;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.lightTheme {
+  background-color: #3A3845;
+}
+.lightTheme main > div {
+  min-height: 100vh;
+  padding-top: 13vh;
+  height: 100vh;
+}
+.lightTheme main .welcome {
+  display: grid;
+  width: 100%;
+}
+.lightTheme main .welcome .greet {
+  justify-self: center;
+  align-self: center;
+  height: 30vh;
+  width: 30vw;
+  border-radius: 1rem;
+  background-color: #343337;
+  padding: 1rem;
+  border: 0.2rem solid black;
+  border-top: 0.2rem solid rgba(255, 255, 255, 0.178);
+  border-left: 0.2rem solid rgba(255, 255, 255, 0.178);
+  box-shadow: inset white 1rem 2rem 1rem;
+  box-shadow: #343337 0.2rem 0.2rem 1rem;
+  -webkit-backdrop-filter: blur(50px);
+          backdrop-filter: blur(50px);
+  display: grid;
+  opacity: 0.9;
+}
+.lightTheme main .welcome .greet:hover {
+  cursor: default;
+}
+.lightTheme main .welcome .greet h1 {
+  color: #cbcbcb;
+  justify-self: center;
+}
+.lightTheme main .about {
+  border-top: 0.2rem solid #F7CCAC;
+  display: grid;
+}
+.lightTheme main .about h1 {
+  justify-self: center;
+  font-size: 3rem;
+}
+.lightTheme main .about .message {
+  padding-left: 20vw;
+  padding-right: 20vw;
+}
+.lightTheme main .about .message p {
+  font-size: 2rem;
+  text-indent: 5rem;
+}
+.lightTheme main .about h2 {
+  font-size: 2.5rem;
+  justify-self: center;
+}
+.lightTheme main .about .skills {
+  justify-self: center;
+}
+.lightTheme main .about .skills .list {
+  margin-left: 10vh;
+  margin-right: 10vh;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+.lightTheme main .about .skills .list p {
+  border: 1px solid;
+  padding: 0.5rem;
+}
+.lightTheme main .contact {
+  border-top: 1px solid #F7CCAC;
+  display: grid;
+}
+.lightTheme main .contact h1 {
+  justify-self: center;
+  color: #826F66;
+}
+.lightTheme main .contact .message {
+  justify-self: center;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+.lightTheme main .contact .message h4 {
+  color: #826F66;
+  font-size: 2rem;
+  text-indent: 5rem;
+}
+.lightTheme main .contact .link {
+  justify-self: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.lightTheme main .contact .link a {
+  margin: 2rem;
+  color: #826F66;
+  transition: 0.5s;
+}
+.lightTheme main .contact .link a i {
+  font-size: 3rem;
+}
+.lightTheme main .contact .link a i:hover {
+  color: #F7CCAC;
+}
+
+@media screen and (max-width: 450px) {
+  * {
+    font-size: 0.7rem;
+  }
+  .lightTheme main > div {
+    height: auto;
+  }
+  .lightTheme main .welcome .greet {
+    height: 20vh;
+    width: 60vw;
+  }
+}/*# sourceMappingURL=index.css.map */

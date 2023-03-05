@@ -1,0 +1,120 @@
+.projects {
+  border-top: 0.2rem solid #F7CCAC;
+}
+.projects h1 {
+  justify-self: center;
+  text-align: center;
+}
+.projects .BGanimation2 {
+  height: 100vh;
+}
+
+.owl-container {
+  padding: 3rem;
+  display: grid;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  font-size: 10vh;
+}
+.owl-container .item .card {
+  width: 25vw;
+  height: 50vh;
+  background-color: transparent;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  border-top: 3px solid rgba(255, 255, 255, 0.178);
+  border-left: 2px solid rgba(255, 255, 255, 0.178);
+  overflow: hidden;
+  box-shadow: inset white 0.2rem 0.2rem 0.5rem;
+  padding: 1rem;
+  transition: 1s;
+}
+.owl-container .item .card:hover {
+  transform: scale(1.1);
+}
+.owl-container .item .card h2 {
+  position: absolute;
+  margin: 20px 0 0 20px;
+  color: #826F66;
+  transition: 2s;
+  font-size: 3.5rem;
+}
+.owl-container .item .card h5 {
+  position: absolute;
+  bottom: 10%;
+  align-self: center;
+  transition: 2s;
+}
+.owl-container .item .card:hover h2, .owl-container .item .card:hover h5 {
+  opacity: 0.9;
+  color: #343337;
+}
+.owl-container .item .card .content {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 4fr 1fr;
+  text-align: center;
+  justify-content: center;
+  padding: 0.5rem;
+}
+.owl-container .item .card .content .image {
+  width: 100%;
+  border-radius: 20px;
+}
+.owl-container .item .card .content .image img {
+  width: 100%;
+  height: 100%;
+  box-shadow: inset white 2px 2px 5px;
+  box-shadow: white 1px 1px 5px;
+}
+.owl-container .item .card .content .link {
+  margin-top: 1rem;
+  justify-self: center;
+  border-radius: 20px;
+}
+.owl-container .item .card .content .link a {
+  margin-bottom: 1rem;
+  width: 5rem;
+  height: 1.5rem;
+  color: #F7CCAC;
+  text-decoration: none;
+  border: 1px solid;
+  transition: 0.5s;
+}
+.owl-container .item .card .content .link a:hover {
+  background-color: white;
+  color: #3A3845;
+}
+.owl-container .card .content {
+  transform: translateY(110px);
+  opacity: 0;
+  transition: 0.5s;
+}
+.owl-container .card:hover .content {
+  transform: translateY(0px);
+  opacity: 1;
+}
+.owl-container h1 {
+  color: #826F66;
+}
+
+@media screen and (max-width: 450px) {
+  .owl-container .item .container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .owl-container .item .card {
+    width: 80vw;
+    height: 50vh;
+  }
+}
+@media screen and (max-width: 450px) {
+  .projects .BGanimation2 {
+    height: 100vh;
+  }
+  .projects .BGanimation2 div {
+    width: 30px;
+    height: 30px;
+  }
+}/*# sourceMappingURL=project.css.map */
